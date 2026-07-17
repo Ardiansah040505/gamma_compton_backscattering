@@ -47,7 +47,7 @@ void DetectorConstruction::SetScanPosition(
     fScanY = y;
     if(fPipePV)
     {
-        fPipePV->SetTranslation(G4ThreeVector(fScanX * cm, fScanY * cm, 37.0 * cm));
+        fPipePV->SetTranslation(G4ThreeVector(fScanX * mm, fScanY * mm, 37.0 * cm));
     }
 }
 
@@ -198,12 +198,13 @@ G4VPhysicalVolume* DetectorConstruction::ConstructWorld()
     // Distance from detector face (at Z = 10*cm) to pipe outer wall (Z = 37 - 24 = 13*cm) is 3*cm
     fPipePV = new G4PVPlacement(
         rotPipe,
-        G4ThreeVector(fScanX*cm, fScanY*cm, 37*cm),
+        G4ThreeVector(fScanX*mm, fScanY*mm, 37.0*cm),
         logicPipe,
         "PipePV",
         logicWorld,
         false,
-        0
+        0,
+        true // checkOverlaps
     );
 
     // =====================
@@ -241,7 +242,8 @@ G4VPhysicalVolume* DetectorConstruction::ConstructWorld()
         "VoidPV",
         logicPipe,
         false,
-        0
+        0,
+        true // checkOverlaps
     );
 
     auto voidVis =
@@ -333,51 +335,48 @@ G4VPhysicalVolume* DetectorConstruction::ConstructWorld()
     );
 
     // =====================
-    // DETECTOR ARRAY (TETAP DI PUSAT 0,0,0)
+    // DETECTOR ARRAY (PLANAR ARRAY / FACING +Z)
     // =====================
     G4int Ndet = 6;
-
-    G4double r = 20.0 * cm;
+    G4double z_det = -5.0 * cm; // Top face of the array is at Z = 5.0 * cm (below the pipe bottom at Z = 13.0 * cm)
+    G4double spacingX = 24.0 * cm;
+    G4double spacingY = 24.0 * cm;
 
     for(G4int i = 0; i < Ndet; i++)
     {
-        G4double phi =
-            i * 360.0*deg / Ndet;
+        // Arrange 6 detectors in a 2x3 grid:
+        // row 0: Y = -spacingY/2, col 0,1,2: X = -spacingX, 0, spacingX
+        // row 1: Y = spacingY/2, col 0,1,2: X = -spacingX, 0, spacingX
+        G4int row = i / 3;
+        G4int col = i % 3;
 
-        G4double x =
-            r * std::cos(phi);
+        G4double x = (col - 1) * spacingX;
+        G4double y = (row - 0.5) * spacingY;
+        G4ThreeVector pos(x, y, z_det);
 
-        G4double y =
-            r * std::sin(phi);
-
-        G4ThreeVector pos(x,y,0);
-
-        auto rot =
-            new G4RotationMatrix();
-
-        rot->rotateZ(phi);
-
-        // Place detector
+        // Place detector with nullptr rotation (parallel/planar, facing +Z)
         new G4PVPlacement(
-            rot,
+            nullptr,
             pos,
             logicNaI,
             "NaIPV",
             logicWorld,
             false,
-            i
+            i,
+            true // checkOverlaps
         );
 
         // Place Lead Collimator (wrapped around detector, shifted by -0.5 cm in Z so detector sits in the cup)
         G4ThreeVector collPos = pos - G4ThreeVector(0, 0, 0.5 * cm);
         new G4PVPlacement(
-            rot,
+            nullptr,
             collPos,
             logicCollimator,
             "CollimatorPV",
             logicWorld,
             false,
-            i
+            i,
+            true // checkOverlaps
         );
     }
 

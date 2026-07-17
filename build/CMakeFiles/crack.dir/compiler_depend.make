@@ -4507,26 +4507,12 @@ crack: /home/ryan-diferensial/Software/geant4-v11.4.0-install/lib/libG4FR.so \
   /usr/lib/libEGL.so.1 \
   /usr/lib/libGL.so \
   /usr/lib/libGLX.so.0 \
-  /usr/lib/libGLdispatch.so.0 \
-  /usr/lib/libICE.so.6 \
   /usr/lib/libOpenGL.so.0 \
   /usr/lib/libQt6Core.so.6.11.1 \
   /usr/lib/libQt6DBus.so.6 \
   /usr/lib/libQt6Gui.so.6.11.1 \
-  /usr/lib/libQt6OpenGL.so.6 \
-  /usr/lib/libQt6OpenGLWidgets.so.6 \
   /usr/lib/libQt6Widgets.so.6.11.1 \
-  /usr/lib/libSM.so.6 \
-  /usr/lib/libX11.so.6 \
-  /usr/lib/libXau.so.6 \
-  /usr/lib/libXdmcp.so.6 \
-  /usr/lib/libXext.so.6 \
-  /usr/lib/libXmu.so.6 \
-  /usr/lib/libXt.so.6 \
   /usr/lib/libb2.so.1 \
-  /usr/lib/libbrotlicommon.so.1 \
-  /usr/lib/libbrotlidec.so.1 \
-  /usr/lib/libbz2.so.1.0 \
   /usr/lib/libc.so.6 \
   /usr/lib/libc_nonshared.a \
   /usr/lib/libdbus-1.so.3 \
@@ -4535,38 +4521,19 @@ crack: /home/ryan-diferensial/Software/geant4-v11.4.0-install/lib/libG4FR.so \
   /usr/lib/libfontconfig.so.1 \
   /usr/lib/libfreetype.so.6 \
   /usr/lib/libglib-2.0.so.0 \
-  /usr/lib/libgomp.so.1 \
-  /usr/lib/libgraphite2.so.3 \
   /usr/lib/libharfbuzz.so.0 \
-  /usr/lib/libicudata.so.78 \
   /usr/lib/libicui18n.so.78 \
   /usr/lib/libicuuc.so.78 \
   /usr/lib/libm.so.6 \
   /usr/lib/libmd4c.so.0 \
   /usr/lib/libmvec.so.1 \
   /usr/lib/libpcre2-16.so.0 \
-  /usr/lib/libpcre2-8.so.0 \
   /usr/lib/libpng16.so.16 \
   /usr/lib/libsystemd.so.0 \
   /usr/lib/liburing.so.2 \
-  /usr/lib/libuuid.so.1 \
-  /usr/lib/libxcb.so.1 \
   /usr/lib/libxkbcommon.so.0 \
   /usr/lib/libz.so.1 \
   /usr/lib/libzstd.so.1 \
-  /usr/lib32/libGLdispatch.so.0 \
-  /usr/lib32/libX11.so.6 \
-  /usr/lib32/libXau.so.6 \
-  /usr/lib32/libXdmcp.so.6 \
-  /usr/lib32/libXext.so.6 \
-  /usr/lib32/libbrotlicommon.so.1 \
-  /usr/lib32/libbrotlidec.so.1 \
-  /usr/lib32/libbz2.so.1.0 \
-  /usr/lib32/libgomp.so.1 \
-  /usr/lib32/libicudata.so.78 \
-  /usr/lib32/libpcre2-8.so.0 \
-  /usr/lib32/libuuid.so.1 \
-  /usr/lib32/libxcb.so.1 \
   CMakeFiles/crack.dir/main.cc.o \
   CMakeFiles/crack.dir/src/ActionInitialization.cc.o \
   CMakeFiles/crack.dir/src/DetectorConstruction.cc.o \
@@ -4588,33 +4555,13 @@ CMakeFiles/crack.dir/src/ActionInitialization.cc.o:
 
 CMakeFiles/crack.dir/main.cc.o:
 
-/usr/lib32/libuuid.so.1:
-
-/usr/lib32/libpcre2-8.so.0:
-
-/usr/lib32/libbz2.so.1.0:
-
-/usr/lib32/libXext.so.6:
-
-/usr/lib32/libXau.so.6:
-
-/usr/lib32/libX11.so.6:
-
 /usr/lib/libz.so.1:
-
-/usr/lib/libxcb.so.1:
 
 /usr/lib/liburing.so.2:
 
 /usr/lib/libpng16.so.16:
 
-/usr/lib/libpcre2-8.so.0:
-
 /usr/lib/libicui18n.so.78:
-
-/usr/lib/libicudata.so.78:
-
-/usr/lib/libgomp.so.1:
 
 /usr/lib/libglib-2.0.so.0:
 
@@ -4622,29 +4569,13 @@ CMakeFiles/crack.dir/main.cc.o:
 
 /usr/lib/libc_nonshared.a:
 
-/usr/lib/libbz2.so.1.0:
-
-/usr/lib/libbrotlidec.so.1:
-
-/usr/lib/libXmu.so.6:
-
-/usr/lib/libXau.so.6:
-
-/usr/lib/libX11.so.6:
-
 /usr/lib/libQt6Widgets.so.6.11.1:
-
-/usr/lib/libQt6OpenGL.so.6:
 
 /usr/lib/libQt6Gui.so.6.11.1:
 
 /usr/lib/libQt6Core.so.6.11.1:
 
 /usr/lib/libOpenGL.so.0:
-
-/usr/lib/libICE.so.6:
-
-/usr/lib/libGLdispatch.so.0:
 
 /usr/lib/libGLX.so.0:
 
@@ -4713,8 +4644,6 @@ CMakeFiles/crack.dir/src/RunAction.cc.o:
 /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VSDFilter.hh:
 
 /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4SensitiveVolumeList.hh:
-
-/usr/lib32/libXdmcp.so.6:
 
 /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4SDStructure.hh:
 
@@ -4808,8 +4737,6 @@ CMakeFiles/crack.dir/src/ScanConfig.cc.o:
 
 /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/ctype_base.h:
 
-/usr/lib32/libicudata.so.78:
-
 /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/cpu_defines.h:
 
 /usr/lib/libpcre2-16.so.0:
@@ -4854,8 +4781,6 @@ CMakeFiles/crack.dir/src/ScanConfig.cc.o:
 
 /usr/include/c++/16.1.1/tr1/bessel_function.tcc:
 
-/usr/lib32/libxcb.so.1:
-
 /usr/include/c++/16.1.1/thread:
 
 /usr/lib/libharfbuzz.so.0:
@@ -4872,8 +4797,6 @@ CMakeFiles/crack.dir/src/ScanConfig.cc.o:
 
 /usr/include/c++/16.1.1/pstl/pstl_config.h:
 
-/usr/lib/libXt.so.6:
-
 /usr/include/c++/16.1.1/pstl/glue_algorithm_defs.h:
 
 /usr/include/c++/16.1.1/pstl/execution_defs.h:
@@ -4885,8 +4808,6 @@ CMakeFiles/crack.dir/src/ScanConfig.cc.o:
 /usr/include/c++/16.1.1/memory:
 
 /usr/include/c++/16.1.1/map:
-
-/usr/lib32/libgomp.so.1:
 
 /usr/include/c++/16.1.1/locale:
 
@@ -5023,8 +4944,6 @@ CMakeFiles/crack.dir/src/PrimaryGeneratorAction.cc.o:
 /usr/include/sys/types.h:
 
 /usr/include/c++/16.1.1/bits/ostream_insert.h:
-
-/usr/lib/libuuid.so.1:
 
 /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4String.hh:
 
@@ -5366,8 +5285,6 @@ CMakeFiles/crack.dir/src/PrimaryGeneratorAction.cc.o:
 
 /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Random/RandPoisson.icc:
 
-/usr/lib32/libbrotlidec.so.1:
-
 /usr/include/stdlib.h:
 
 /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4RegularNavigation.hh:
@@ -5423,8 +5340,6 @@ CMakeFiles/crack.dir/src/PrimaryGeneratorAction.cc.o:
 /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4GeomSplitter.hh:
 
 /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Geometry/Transform3D.icc:
-
-/usr/lib32/libGLdispatch.so.0:
 
 /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4UImessenger.hh:
 
@@ -5486,8 +5401,6 @@ CMakeFiles/crack.dir/src/PrimaryGeneratorAction.cc.o:
 
 /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/tls.hh:
 
-/usr/lib/libXdmcp.so.6:
-
 /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Geometry/Vector3D.h:
 
 /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VScoreWriter.hh:
@@ -5548,8 +5461,6 @@ CMakeFiles/crack.dir/src/PrimaryGeneratorAction.cc.o:
 
 /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Geometry/Point3D.h:
 
-/usr/lib/libgraphite2.so.3:
-
 /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4AffineTransform.icc:
 
 /usr/include/bits/types/struct_tm.h:
@@ -5579,8 +5490,6 @@ CMakeFiles/crack.dir/src/PrimaryGeneratorAction.cc.o:
 /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4LogicalVolume.hh:
 
 /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4PhysicsVector.icc:
-
-/usr/lib/libQt6OpenGLWidgets.so.6:
 
 /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4UIsession.hh:
 
@@ -5721,8 +5630,6 @@ CMakeFiles/crack.dir/src/PrimaryGeneratorAction.cc.o:
 /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4GeneralParticleSourceMessenger.hh:
 
 /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4DigiFilterFactories.hh:
-
-/usr/lib/libbrotlicommon.so.1:
 
 /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4Sphere.hh:
 
@@ -6044,8 +5951,6 @@ CMakeFiles/crack.dir/src/PhysicsList.cc.o:
 
 /usr/include/bits/types/timer_t.h:
 
-/usr/lib32/libbrotlicommon.so.1:
-
 /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Random/RandGauss.icc:
 
 /usr/include/c++/16.1.1/bits/node_handle.h:
@@ -6053,8 +5958,6 @@ CMakeFiles/crack.dir/src/PhysicsList.cc.o:
 /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VPhysicalVolume.hh:
 
 /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4ios.hh:
-
-/usr/lib/libSM.so.6:
 
 /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VPhysicalVolume.icc:
 
@@ -6123,8 +6026,6 @@ CMakeFiles/crack.dir/src/PhysicsList.cc.o:
 /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4coutDestination.hh:
 
 /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4Vector3D.hh:
-
-/usr/lib/libXext.so.6:
 
 /usr/include/c++/16.1.1/bits/std_function.h:
 
