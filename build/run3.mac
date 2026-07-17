@@ -1,0 +1,34 @@
+/control/verbose 1
+/run/verbose 1
+/event/verbose 0
+/tracking/verbose 0
+
+# ======================================
+# SINGLE THREAD
+# ======================================
+
+/run/numberOfThreads 1
+
+/run/initialize
+
+# ======================================
+# GAMMA SOURCE
+# ======================================
+
+/gps/particle gamma
+
+/gps/ene/type Mono
+
+/gps/ene/mono 662 keV
+
+# ======================================
+# OPTIONAL
+# ======================================
+
+/process/had/rdm/thresholdForVeryLongDecayTime 1.0e+60 year
+
+# ======================================
+# TOTAL EVENT
+# ======================================
+
+/run/beamOn 1000000000

@@ -1,0 +1,3 @@
+/home/ryan-diferensial/Learning_code/gcb_ver/gcb_ver1/build/CMakeFiles/crack.dir
+/home/ryan-diferensial/Learning_code/gcb_ver/gcb_ver1/build/CMakeFiles/edit_cache.dir
+/home/ryan-diferensial/Learning_code/gcb_ver/gcb_ver1/build/CMakeFiles/rebuild_cache.dir

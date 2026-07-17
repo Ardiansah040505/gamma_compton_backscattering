@@ -1,0 +1,29 @@
+/control/verbose 1
+/run/verbose 1
+/event/verbose 0
+/tracking/verbose 0
+
+/run/numberOfThreads 1
+
+/run/initialize
+
+/gps/particle gamma
+
+/gps/ene/type Mono
+/gps/ene/mono 662 keV
+
+/process/had/rdm/thresholdForVeryLongDecayTime 1.0e+60 year/control/verbose 1
+/run/verbose 1
+/event/verbose 0
+/tracking/verbose 0
+
+/run/numberOfThreads 1
+
+/run/initialize
+
+/gps/particle gamma
+
+/gps/ene/type Mono
+/gps/ene/mono 662 keV
+
+/process/had/rdm/thresholdForVeryLongDecayTime 1.0e+60 year
