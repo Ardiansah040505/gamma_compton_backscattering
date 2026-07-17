@@ -153,12 +153,12 @@ int main(int argc, char** argv)
             // 1. Update position in DetectorConstruction
             detConstruction->SetScanPosition(p.x, p.y);
 
-            // 2. Notify run manager that geometry has changed
-            runManager->GeometryHasBeenModified();
-
-            // 3. Set the coordinates in ScanConfig for generator/run actions
+            // 2. Set the coordinates in ScanConfig for generator/run actions
             ScanConfig::scanX = p.x;
             ScanConfig::scanY = p.y;
+
+            // 3. Notify run manager that geometry has changed (crucial: after shift, right before beamOn)
+            G4RunManager::GetRunManager()->GeometryHasBeenModified();
 
             // 4. Run the beam for this point
             runManager->BeamOn(EVENTS_PER_POINT);

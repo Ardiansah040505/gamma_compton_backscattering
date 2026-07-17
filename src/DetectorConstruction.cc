@@ -37,7 +37,7 @@ DetectorConstruction::~DetectorConstruction()
 {}
 
 // =====================
-// Optional (sudah tidak dipakai)
+// Set Scan Position
 // =====================
 void DetectorConstruction::SetScanPosition(
     double x,
@@ -47,7 +47,7 @@ void DetectorConstruction::SetScanPosition(
     fScanY = y;
     if(fPipePV)
     {
-        fPipePV->SetTranslation(G4ThreeVector(fScanX * mm, fScanY * mm, 37.0 * cm));
+        fPipePV->SetTranslation(G4ThreeVector(x * mm, y * mm, 37.0 * cm));
     }
 }
 
