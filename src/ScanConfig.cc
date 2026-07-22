@@ -14,8 +14,8 @@ void InitScanPoints()
 {
     scanPoints.clear();
 
-    const int Nx = 50;
-    const int Ny = 50;
+    const int Nx = 501;
+    const int Ny = 501;
 
     scanPoints.reserve(Nx * Ny);
 

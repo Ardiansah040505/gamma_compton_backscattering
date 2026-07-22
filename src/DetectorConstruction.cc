@@ -47,7 +47,7 @@ void DetectorConstruction::SetScanPosition(
     fScanY = y;
     if(fPipePV)
     {
-        fPipePV->SetTranslation(G4ThreeVector(x * mm, y * mm, 37.0 * cm));
+        fPipePV->SetTranslation(G4ThreeVector(x * cm, y * cm, 37.0 * cm));
     }
 }
 
@@ -90,9 +90,9 @@ G4VPhysicalVolume* DetectorConstruction::ConstructWorld()
     auto solidWorld =
         new G4Box(
             "WorldSolid",
-            70*cm,
-            70*cm,
-            70*cm
+            150*cm,
+            150*cm,
+            150*cm
         );
 
     auto logicWorld =
@@ -183,7 +183,7 @@ G4VPhysicalVolume* DetectorConstruction::ConstructWorld()
             G4Colour::Blue()
         );
 
-    pipeVis->SetForceSolid(true);
+    pipeVis->SetForceWireframe(true);
 
     logicPipe->SetVisAttributes(
         pipeVis
@@ -217,9 +217,9 @@ G4VPhysicalVolume* DetectorConstruction::ConstructWorld()
     auto solidVoid =
         new G4Box(
             "VoidSolid",
-            0.5*cm,   // half-length X
-            3.0*cm,    // half-length Y (tipis → garis horizontal)
-            20.0*cm     // half-thickness Z → total tebal 1 cm
+            0.5*cm,
+            1.0*cm,
+            20.0*cm
         );
 
     auto logicVoid =
@@ -231,7 +231,7 @@ G4VPhysicalVolume* DetectorConstruction::ConstructWorld()
 
     G4ThreeVector defectPos(
         0,
-        21*cm,
+        22.0*cm,
         0
     );
 
@@ -367,17 +367,17 @@ G4VPhysicalVolume* DetectorConstruction::ConstructWorld()
         );
 
         // Place Lead Collimator (wrapped around detector, shifted by -0.5 cm in Z so detector sits in the cup)
-        G4ThreeVector collPos = pos - G4ThreeVector(0, 0, 0.5 * cm);
-        new G4PVPlacement(
-            nullptr,
-            collPos,
-            logicCollimator,
-            "CollimatorPV",
-            logicWorld,
-            false,
-            i,
-            true // checkOverlaps
-        );
+        // G4ThreeVector collPos = pos - G4ThreeVector(0, 0, 0.5 * cm);
+        // new G4PVPlacement(
+        //     nullptr,
+        //     collPos,
+        //     logicCollimator,
+        //     "CollimatorPV",
+        //     logicWorld,
+        //     false,
+        //     i,
+        //     true // checkOverlaps
+        // );
     }
 
     return physWorld;
