@@ -20,6 +20,11 @@
 /gps/ene/type Mono
 
 /gps/ene/mono 662 keV
+/gps/direction 0 0 1
+/gps/ang/type iso
+/gps/ang/mintheta 0 deg
+/gps/ang/maxtheta 15 deg
+
 
 # ======================================
 # OPTIONAL
