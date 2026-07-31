@@ -19,6 +19,8 @@ void EventAction::BeginOfEventAction(
     fDetectorCounts.clear();
 
     fDetectorEdep.clear();
+
+    fDetectorFlux.clear();
 }
 
 // =========================================
@@ -29,6 +31,12 @@ void EventAction::AddHit(
     fDetectorCounts[detectorID]++;
 
     fDetectorEdep[detectorID] += edep;
+}
+
+// =========================================
+void EventAction::AddFlux(G4int detectorID)
+{
+    fDetectorFlux[detectorID]++;
 }
 
 // =========================================
@@ -56,8 +64,8 @@ void EventAction::EndOfEventAction(
         detectorID++)
     {
         G4int counts = 0;
-
         G4double edep = 0.0;
+        G4int flux = 0;
 
         if(fDetectorCounts.count(detectorID))
         {
@@ -68,11 +76,18 @@ void EventAction::EndOfEventAction(
                 fDetectorEdep[detectorID];
         }
 
+        if(fDetectorFlux.count(detectorID))
+        {
+            flux =
+                fDetectorFlux[detectorID];
+        }
+
         runAction->AddDetectorData(
             eventID,
             detectorID,
             counts,
-            edep
+            edep,
+            flux
         );
     }
 }

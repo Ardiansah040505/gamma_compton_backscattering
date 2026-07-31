@@ -27,15 +27,6 @@ G4bool SensitiveDetector::ProcessHits(
     G4TouchableHistory*)
 {
     // ===============================
-    // ENERGY DEPOSIT
-    // ===============================
-    G4double edep =
-        step->GetTotalEnergyDeposit();
-
-    if(edep <= 0)
-        return false;
-
-    // ===============================
     // DETECTOR ID
     // ===============================
     auto touchable =
@@ -44,6 +35,30 @@ G4bool SensitiveDetector::ProcessHits(
 
     G4int detectorID =
         touchable->GetCopyNumber();
+
+    // ===============================
+    // FLUX MEASUREMENT (Boundary crossing)
+    // ===============================
+    if (step->GetPreStepPoint()->GetStepStatus() == fGeomBoundary)
+    {
+        auto eventAction =
+            static_cast<EventAction*>(
+                G4EventManager::GetEventManager()
+                ->GetUserEventAction());
+        if (eventAction)
+        {
+            eventAction->AddFlux(detectorID);
+        }
+    }
+
+    // ===============================
+    // ENERGY DEPOSIT
+    // ===============================
+    G4double edep =
+        step->GetTotalEnergyDeposit();
+
+    if(edep <= 0)
+        return false;
 
     // ===============================
     // PARTICLE ENERGY

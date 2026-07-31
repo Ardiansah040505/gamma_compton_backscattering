@@ -26,7 +26,8 @@
 DetectorConstruction::DetectorConstruction()
 : G4VUserDetectorConstruction(),
   fScanX(0),
-  fScanY(0)
+  fScanY(0),
+  fSourcePV(nullptr)
 {}
 
 // =====================
@@ -36,7 +37,7 @@ DetectorConstruction::~DetectorConstruction()
 {}
 
 // =====================
-// Optional (sudah tidak dipakai)
+// SetScanPosition
 // =====================
 void DetectorConstruction::SetScanPosition(
     double x,
@@ -44,6 +45,21 @@ void DetectorConstruction::SetScanPosition(
 {
     fScanX = x;
     fScanY = y;
+
+    // Update detectors positions (detector ring moves together with the source)
+    G4double r = 20.0 * cm;
+    for(size_t i = 0; i < fDetectorPVs.size(); i++)
+    {
+        G4double phi = i * 360.0*deg / fDetectorPVs.size();
+        G4double dx = r * std::cos(phi);
+        G4double dy = r * std::sin(phi);
+        fDetectorPVs[i]->SetTranslation(G4ThreeVector(fScanX * cm + dx, fScanY * cm + dy, 0));
+    }
+
+    // Update source visual position
+    if (fSourcePV) {
+        fSourcePV->SetTranslation(G4ThreeVector(fScanX * cm, fScanY * cm, 0));
+    }
 }
 
 // =====================
@@ -142,7 +158,7 @@ G4VPhysicalVolume* DetectorConstruction::ConstructWorld()
 
     // SOURCE VISUAL TETAP
     // Partikel asli bergerak di PrimaryGeneratorAction
-    new G4PVPlacement(
+    fSourcePV = new G4PVPlacement(
         nullptr,
         G4ThreeVector(0,0,0),
         logicSource,
@@ -303,7 +319,7 @@ G4VPhysicalVolume* DetectorConstruction::ConstructWorld()
 
         rot->rotateZ(phi);
 
-        new G4PVPlacement(
+        auto detPV = new G4PVPlacement(
             rot,
             pos,
             logicNaI,
@@ -312,6 +328,7 @@ G4VPhysicalVolume* DetectorConstruction::ConstructWorld()
             false,
             i
         );
+        fDetectorPVs.push_back(detPV);
     }
 
     return physWorld;

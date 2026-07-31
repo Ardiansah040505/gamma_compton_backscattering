@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NPROC=32
+NPROC=20
 TOTAL_POINTS=2500
 
 CHUNK=$(( (TOTAL_POINTS + NPROC - 1) / NPROC ))

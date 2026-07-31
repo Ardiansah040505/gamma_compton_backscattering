@@ -4,6 +4,7 @@
 #include "G4VUserDetectorConstruction.hh"
 #include "G4VPhysicalVolume.hh"
 #include "G4Material.hh"
+#include <vector>
 
 class G4LogicalVolume;
 class G4VPhysicalVolume;
@@ -35,6 +36,9 @@ private:
     G4Material* fCesium;
     G4Material* fNaiTI;
     G4Material* fAl;
+
+    std::vector<G4VPhysicalVolume*> fDetectorPVs;
+    G4VPhysicalVolume* fSourcePV;
 };
 
 #endif

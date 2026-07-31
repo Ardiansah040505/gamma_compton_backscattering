@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /data/mahasiswa/ardian/detector_2/gcb_hor/gcb_hor3
+CMAKE_SOURCE_DIR = /data/mahasiswa/ardian/gcb_project/gcb_hor/gcb_hor3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /data/mahasiswa/ardian/detector_2/gcb_hor/gcb_hor3/build
+CMAKE_BINARY_DIR = /data/mahasiswa/ardian/gcb_project/gcb_hor/gcb_hor3/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -85,14 +85,14 @@ clean: CMakeFiles/crack.dir/clean
 CMakeFiles/crack.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/crack.dir/build.make CMakeFiles/crack.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/crack.dir/build.make CMakeFiles/crack.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/data/mahasiswa/ardian/detector_2/gcb_hor/gcb_hor3/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target crack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/data/mahasiswa/ardian/gcb_project/gcb_hor/gcb_hor3/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target crack"
 .PHONY : CMakeFiles/crack.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/crack.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /data/mahasiswa/ardian/detector_2/gcb_hor/gcb_hor3/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/mahasiswa/ardian/gcb_project/gcb_hor/gcb_hor3/build/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/crack.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /data/mahasiswa/ardian/detector_2/gcb_hor/gcb_hor3/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/mahasiswa/ardian/gcb_project/gcb_hor/gcb_hor3/build/CMakeFiles 0
 .PHONY : CMakeFiles/crack.dir/rule
 
 # Convenience name for target.
@@ -102,7 +102,7 @@ crack: CMakeFiles/crack.dir/rule
 # codegen rule for target.
 CMakeFiles/crack.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/crack.dir/build.make CMakeFiles/crack.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/data/mahasiswa/ardian/detector_2/gcb_hor/gcb_hor3/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Finished codegen for target crack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/data/mahasiswa/ardian/gcb_project/gcb_hor/gcb_hor3/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Finished codegen for target crack"
 .PHONY : CMakeFiles/crack.dir/codegen
 
 # clean rule for target.

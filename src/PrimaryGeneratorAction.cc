@@ -9,10 +9,8 @@
 #include "ScanConfig.hh"
 
 // ======================================================
-// EVENTS PER SCAN POINT
+// EVENTS PER SCAN POINT (unused since controlled by loop in main)
 // ======================================================
-
-const long EVENTS_PER_POINT = 400000;
 
 // ======================================================
 // CONSTRUCTOR
@@ -55,53 +53,18 @@ void PrimaryGeneratorAction::SetScanPosition(
 void PrimaryGeneratorAction::GeneratePrimaries(
     G4Event* event)
 {
-    static long globalEventCounter = 0;
-
-    // ==========================================
-    // KONVERSI EVENT -> SCAN POINT LOKAL
-    // ==========================================
-
-    long localPoint =
-        globalEventCounter / EVENTS_PER_POINT;
-
-    long pointIndex =
-        gStartPoint + localPoint;
-
-    globalEventCounter++;
-
-    // ==========================================
-    // HENTIKAN JIKA SUDAH LEWAT RANGE
-    // ==========================================
-
-    if(gEndPoint >= 0 &&
-       pointIndex > gEndPoint)
-    {
-        G4cout
-            << "====================================\n"
-            << "SCAN RANGE SELESAI\n"
-            << "STOP AT POINT "
-            << pointIndex
-            << "\n"
-            << "====================================\n";
-
-        G4RunManager::GetRunManager()
-            ->AbortRun(true);
-
-        return;
-    }
-
     // ==========================================
     // VALIDASI
     // ==========================================
 
-    if(pointIndex < 0 ||
-       pointIndex >= (long)scanPoints.size())
+    if(gCurrentPoint < 0 ||
+       gCurrentPoint >= (int)scanPoints.size())
     {
         G4Exception(
             "GeneratePrimaries",
             "InvalidPointIndex",
             FatalException,
-            "pointIndex melebihi jumlah scanPoints"
+            "gCurrentPoint melebihi jumlah scanPoints"
         );
     }
 
@@ -110,7 +73,7 @@ void PrimaryGeneratorAction::GeneratePrimaries(
     // ==========================================
 
     ScanPoint p =
-        scanPoints[pointIndex];
+        scanPoints[gCurrentPoint];
 
     // ==========================================
     // SIMPAN POSISI AKTIF
@@ -142,27 +105,15 @@ void PrimaryGeneratorAction::GeneratePrimaries(
     // DEBUG OUTPUT
     // ==========================================
 
-    if(globalEventCounter % EVENTS_PER_POINT == 0)
+    static int lastPoint = -1;
+    if(gCurrentPoint != lastPoint)
     {
         G4cout << "====================================\n";
-
-        G4cout << "SCAN POINT = "
-               << pointIndex
-               << "\n";
-
-        G4cout << "X = "
-               << p.x
-               << " cm\n";
-
-        G4cout << "Y = "
-               << p.y
-               << " cm\n";
-
-        G4cout << "EVENT START = "
-               << globalEventCounter
-               << "\n";
-
+        G4cout << "SCAN POINT = " << gCurrentPoint << "\n";
+        G4cout << "X = " << p.x << " cm\n";
+        G4cout << "Y = " << p.y << " cm\n";
         G4cout << "====================================\n";
+        lastPoint = gCurrentPoint;
     }
 
     // ==========================================

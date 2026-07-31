@@ -30,7 +30,8 @@ public:
         long eventID,
         int detectorID,
         int counts,
-        double edep
+        double edep,
+        int flux
     );
 
 private:
@@ -42,6 +43,7 @@ private:
     {
         long counts = 0;
         double edep = 0.0;
+        long flux = 0;
     };
 
     // ======================================

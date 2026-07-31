@@ -10,6 +10,31 @@
 #include "ScanConfig.hh"
 
 #include "G4ScoringManager.hh"
+#include <fstream>
+#include <string>
+
+void ExecuteMacroWithoutBeamOn(const G4String& filename, G4UImanager* uiManager)
+{
+    std::ifstream file(filename);
+    if (!file.is_open())
+    {
+        G4cerr << "Error opening macro file: " << filename << G4endl;
+        return;
+    }
+    std::string line;
+    while (std::getline(file, line))
+    {
+        // Skip comment lines and beamOn command
+        if (line.rfind("/run/beamOn", 0) == 0)
+        {
+            continue;
+        }
+        if (!line.empty() && line[0] != '#')
+        {
+            uiManager->ApplyCommand(line);
+        }
+    }
+}
 
 int main(int argc, char** argv)
 {
@@ -23,7 +48,6 @@ int main(int argc, char** argv)
     {
         gStartPoint = atoi(argv[2]);
         gEndPoint = atoi(argv[3]);
-
     }
     else
     {
@@ -61,8 +85,8 @@ int main(int argc, char** argv)
     // INITIALIZATION
     // =====================================
 
-    runManager->SetUserInitialization(
-        new DetectorConstruction());
+    auto detectorConstruction = new DetectorConstruction();
+    runManager->SetUserInitialization(detectorConstruction);
 
     runManager->SetUserInitialization(
         new PhysicsList());
@@ -104,15 +128,25 @@ int main(int argc, char** argv)
             return 1;
         }
 
-        G4String command =
-            "/control/execute ";
+        G4String filename = argv[1];
+        ExecuteMacroWithoutBeamOn(filename, uiManager);
 
-        G4String filename =
-            argv[1];
+        // Run the scan loop in C++
+        for (int pointIndex = gStartPoint; pointIndex <= gEndPoint; pointIndex++)
+        {
+            if (pointIndex >= (int)scanPoints.size()) break;
 
-        uiManager->ApplyCommand(
-            command + filename
-        );
+            gCurrentPoint = pointIndex;
+
+            // 1. Move detectors and source visual in DetectorConstruction
+            detectorConstruction->SetScanPosition(scanPoints[pointIndex].x, scanPoints[pointIndex].y);
+
+            // 2. Notify Geant4 geometry changed
+            runManager->GeometryHasBeenModified();
+
+            // 3. Run 100,000 events for this position
+            runManager->BeamOn(100000);
+        }
     }
     else
     {

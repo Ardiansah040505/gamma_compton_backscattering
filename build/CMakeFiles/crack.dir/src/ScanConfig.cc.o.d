@@ -1,7 +1,7 @@
 CMakeFiles/crack.dir/src/ScanConfig.cc.o: \
- /data/mahasiswa/ardian/detector_2/gcb_hor/gcb_hor3/src/ScanConfig.cc \
+ /data/mahasiswa/ardian/gcb_project/gcb_hor/gcb_hor3/src/ScanConfig.cc \
  /usr/include/stdc-predef.h \
- /data/mahasiswa/ardian/detector_2/gcb_hor/gcb_hor3/include/ScanConfig.hh \
+ /data/mahasiswa/ardian/gcb_project/gcb_hor/gcb_hor3/include/ScanConfig.hh \
  /usr/include/c++/14/vector /usr/include/c++/14/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/os_defines.h \

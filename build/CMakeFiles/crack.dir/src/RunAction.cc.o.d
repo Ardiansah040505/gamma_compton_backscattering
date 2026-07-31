@@ -1,10 +1,10 @@
 CMakeFiles/crack.dir/src/RunAction.cc.o: \
- /data/mahasiswa/ardian/detector_2/gcb_hor/gcb_hor3/src/RunAction.cc \
+ /data/mahasiswa/ardian/gcb_project/gcb_hor/gcb_hor3/src/RunAction.cc \
  /usr/include/stdc-predef.h \
- /data/mahasiswa/ardian/detector_2/gcb_hor/gcb_hor3/include/RunAction.hh \
- /opt/geant4/11.4.0/include/Geant4/G4UserRunAction.hh \
- /opt/geant4/11.4.0/include/Geant4/G4Types.hh \
- /opt/geant4/11.4.0/include/Geant4/G4GlobalConfig.hh \
+ /data/mahasiswa/ardian/gcb_project/gcb_hor/gcb_hor3/include/RunAction.hh \
+ /software/geant4/include/Geant4/G4UserRunAction.hh \
+ /software/geant4/include/Geant4/G4Types.hh \
+ /software/geant4/include/Geant4/G4GlobalConfig.hh \
  /usr/include/c++/14/complex \
  /usr/include/x86_64-linux-gnu/c++/14/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/os_defines.h \
@@ -189,9 +189,9 @@ CMakeFiles/crack.dir/src/RunAction.cc.o: \
  /usr/include/c++/14/bits/ostream.tcc \
  /usr/include/c++/14/bits/istream.tcc \
  /usr/include/c++/14/bits/sstream.tcc \
- /opt/geant4/11.4.0/include/Geant4/tls.hh \
- /opt/geant4/11.4.0/include/Geant4/globals.hh \
- /opt/geant4/11.4.0/include/Geant4/G4ios.hh /usr/include/c++/14/iostream \
+ /software/geant4/include/Geant4/tls.hh \
+ /software/geant4/include/Geant4/globals.hh \
+ /software/geant4/include/Geant4/G4ios.hh /usr/include/c++/14/iostream \
  /usr/include/c++/14/algorithm /usr/include/c++/14/bits/stl_algo.h \
  /usr/include/c++/14/bits/algorithmfwd.h \
  /usr/include/c++/14/bits/stl_heap.h \
@@ -199,11 +199,10 @@ CMakeFiles/crack.dir/src/RunAction.cc.o: \
  /usr/include/c++/14/bits/stl_tempbuf.h \
  /usr/include/c++/14/pstl/glue_algorithm_defs.h \
  /usr/include/c++/14/pstl/execution_defs.h \
- /opt/geant4/11.4.0/include/Geant4/G4String.hh \
- /usr/include/c++/14/cstring /usr/include/string.h /usr/include/strings.h \
- /opt/geant4/11.4.0/include/Geant4/G4String.icc \
- /opt/geant4/11.4.0/include/Geant4/templates.hh \
- /usr/include/c++/14/climits \
+ /software/geant4/include/Geant4/G4String.hh /usr/include/c++/14/cstring \
+ /usr/include/string.h /usr/include/strings.h \
+ /software/geant4/include/Geant4/G4String.icc \
+ /software/geant4/include/Geant4/templates.hh /usr/include/c++/14/climits \
  /usr/lib/gcc/x86_64-linux-gnu/14/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/14/include/syslimits.h \
  /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
@@ -212,9 +211,9 @@ CMakeFiles/crack.dir/src/RunAction.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
- /opt/geant4/11.4.0/include/Geant4/G4Exception.hh \
- /opt/geant4/11.4.0/include/Geant4/G4ExceptionSeverity.hh \
- /opt/geant4/11.4.0/include/Geant4/G4EnvironmentUtils.hh \
+ /software/geant4/include/Geant4/G4Exception.hh \
+ /software/geant4/include/Geant4/G4ExceptionSeverity.hh \
+ /software/geant4/include/Geant4/G4EnvironmentUtils.hh \
  /usr/include/c++/14/iomanip /usr/include/c++/14/locale \
  /usr/include/c++/14/bits/locale_facets_nonio.h /usr/include/c++/14/ctime \
  /usr/include/x86_64-linux-gnu/c++/14/bits/time_members.h \
@@ -241,10 +240,10 @@ CMakeFiles/crack.dir/src/RunAction.cc.o: \
  /usr/include/x86_64-linux-gnu/c++/14/bits/c++io.h \
  /usr/include/c++/14/bits/fstream.tcc /usr/include/c++/14/utility \
  /usr/include/c++/14/bits/stl_relops.h \
- /opt/geant4/11.4.0/include/Geant4/G4Run.hh \
- /opt/geant4/11.4.0/include/Geant4/globals.hh /usr/include/c++/14/vector \
+ /software/geant4/include/Geant4/G4Run.hh \
+ /software/geant4/include/Geant4/globals.hh /usr/include/c++/14/vector \
  /usr/include/c++/14/bits/stl_uninitialized.h \
  /usr/include/c++/14/bits/stl_vector.h \
  /usr/include/c++/14/bits/stl_bvector.h \
  /usr/include/c++/14/bits/vector.tcc \
- /data/mahasiswa/ardian/detector_2/gcb_hor/gcb_hor3/include/ScanConfig.hh
+ /data/mahasiswa/ardian/gcb_project/gcb_hor/gcb_hor3/include/ScanConfig.hh

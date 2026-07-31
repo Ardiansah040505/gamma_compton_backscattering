@@ -30,7 +30,7 @@ public:
     );
 
     //Gamma Flux
-    //void AddGammaFlux();
+    void AddFlux(G4int detectorID);
 
 private:
 
@@ -41,7 +41,7 @@ private:
 
     std::map<G4int, G4double> fDetectorEdep;
 
-    //G4int fGammaFlux;
+    std::map<G4int, G4int> fDetectorFlux;
 };
 
 #endif
