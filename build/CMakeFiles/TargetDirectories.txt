@@ -1,0 +1,3 @@
+/data/mahasiswa/ardian/detector_2/gcb_hor/gcb_hor3/build/CMakeFiles/crack.dir
+/data/mahasiswa/ardian/detector_2/gcb_hor/gcb_hor3/build/CMakeFiles/edit_cache.dir
+/data/mahasiswa/ardian/detector_2/gcb_hor/gcb_hor3/build/CMakeFiles/rebuild_cache.dir

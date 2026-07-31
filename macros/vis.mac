@@ -1,0 +1,46 @@
+# ===============================
+# Visualization setup
+# ===============================
+/control/verbose 1
+/run/verbose 1
+/event/verbose 0
+/tracking/verbose 0
+
+# Initialize geometry
+/run/initialize
+
+# Open OpenGL viewer
+/vis/open OGL 800x800-0+0
+
+/gps/particle ion
+/gps/ion 55 137
+
+/gps/pos/type Point
+/gps/pos/centre 0 0 1.55 cm
+
+/gps/ene/type Mono
+/gps/ene/mono 0 eV
+
+/process/had/rdm/thresholdForVeryLongDecayTime 1.0e+60 year
+
+# Draw geometry
+/vis/drawVolume
+
+# Set viewpoint
+/vis/viewer/set/viewpointThetaPhi 70 20
+/vis/viewer/zoom 1.2
+/vis/viewer/set/style surface
+/vis/viewer/set/lineSegmentsPerCircle 100
+
+# Add axes
+/vis/scene/add/axes 0 0 0 10 cm
+
+# Trajectories
+/vis/scene/add/trajectories smooth
+/vis/modeling/trajectories/create/drawByCharge
+/vis/modeling/trajectories/drawByCharge-0/set gamma yellow
+
+# Hits
+/vis/scene/add/hits
+
+# Refresh

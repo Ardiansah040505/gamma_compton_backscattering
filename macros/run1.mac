@@ -1,0 +1,62 @@
+/control/verbose 1
+/run/verbose 1
+/event/verbose 0
+/tracking/verbose 0
+
+# =====================================
+# DEBUG DULU SINGLE THREAD
+# =====================================
+
+/run/numberOfThreads 8
+
+/run/initialize
+
+# =====================================
+# SOURCE
+# =====================================
+
+/gps/particle gamma
+/gps/ene/type Mono
+/gps/ene/mono 662 keV
+
+/process/had/rdm/thresholdForVeryLongDecayTime 1.0e+60 year
+
+# =====================================
+# GAMMA FLUX MESH
+# =====================================
+
+/score/create/boxMesh gammaMesh
+
+# boxSize = HALF SIZE
+# total area = 100 x 100 cm
+
+/score/mesh/boxSize 50 50 1 cm
+
+# mulai kecil dulu untuk validasi
+/score/mesh/nBin 10 10 1
+
+# posisi mesh
+# sesuaikan dengan area pipe/source
+
+/score/mesh/translate/xyz 0 0 70 cm
+
+# scorer flux
+
+/score/quantity/cellFlux gammaFlux
+
+# filter gamma
+/score/filter/particle gamma gamma
+
+/score/close
+
+# =====================================
+# TEST RUN KECIL DULU
+# =====================================
+
+/run/beamOn 100000000
+
+# =====================================
+# EXPORT
+# =====================================
+
+/score/dumpQuantityToFile gammaMesh gammaFlux flux
