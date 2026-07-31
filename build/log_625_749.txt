@@ -1383,3 +1383,5004 @@ Index : 3     used in the geometry : Yes
 ==================================================================
 
 ### Run 18 starts.
+====================================
+RUN FOR POINT 643 STARTED
+====================================
+====================================
+SCAN POINT = 643
+X = -25.5102 cm
+Y = 37.7551 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.580000s Real=1.575551s Sys=0.000000s [Cpu=100.3%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 19 starts.
+====================================
+RUN FOR POINT 644 STARTED
+====================================
+====================================
+SCAN POINT = 644
+X = -25.5102 cm
+Y = 39.7959 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.520000s Real=1.526217s Sys=0.000000s [Cpu=99.6%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 20 starts.
+====================================
+RUN FOR POINT 645 STARTED
+====================================
+====================================
+SCAN POINT = 645
+X = -25.5102 cm
+Y = 41.8367 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.520000s Real=1.514244s Sys=0.000000s [Cpu=100.4%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 21 starts.
+====================================
+RUN FOR POINT 646 STARTED
+====================================
+====================================
+SCAN POINT = 646
+X = -25.5102 cm
+Y = 43.8776 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.590000s Real=1.593473s Sys=0.000000s [Cpu=99.8%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 22 starts.
+====================================
+RUN FOR POINT 647 STARTED
+====================================
+====================================
+SCAN POINT = 647
+X = -25.5102 cm
+Y = 45.9184 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.600000s Real=1.596122s Sys=0.000000s [Cpu=100.2%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 23 starts.
+====================================
+RUN FOR POINT 648 STARTED
+====================================
+====================================
+SCAN POINT = 648
+X = -25.5102 cm
+Y = 47.9592 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.540000s Real=1.536853s Sys=0.000000s [Cpu=100.2%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 24 starts.
+====================================
+RUN FOR POINT 649 STARTED
+====================================
+====================================
+SCAN POINT = 649
+X = -25.5102 cm
+Y = 50 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.520000s Real=1.523384s Sys=0.000000s [Cpu=99.8%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 25 starts.
+====================================
+RUN FOR POINT 650 STARTED
+====================================
+====================================
+SCAN POINT = 650
+X = -23.4694 cm
+Y = -50 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.520000s Real=1.519249s Sys=0.000000s [Cpu=100.0%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 26 starts.
+====================================
+RUN FOR POINT 651 STARTED
+====================================
+====================================
+SCAN POINT = 651
+X = -23.4694 cm
+Y = -47.9592 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.510000s Real=1.512870s Sys=0.000000s [Cpu=99.8%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 27 starts.
+====================================
+RUN FOR POINT 652 STARTED
+====================================
+====================================
+SCAN POINT = 652
+X = -23.4694 cm
+Y = -45.9184 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.610000s Real=1.610740s Sys=0.000000s [Cpu=100.0%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 28 starts.
+====================================
+RUN FOR POINT 653 STARTED
+====================================
+====================================
+SCAN POINT = 653
+X = -23.4694 cm
+Y = -43.8776 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.580000s Real=1.583250s Sys=0.000000s [Cpu=99.8%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 29 starts.
+====================================
+RUN FOR POINT 654 STARTED
+====================================
+====================================
+SCAN POINT = 654
+X = -23.4694 cm
+Y = -41.8367 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.530000s Real=1.530957s Sys=0.000000s [Cpu=99.9%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 30 starts.
+====================================
+RUN FOR POINT 655 STARTED
+====================================
+====================================
+SCAN POINT = 655
+X = -23.4694 cm
+Y = -39.7959 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.540000s Real=1.532275s Sys=0.000000s [Cpu=100.5%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 31 starts.
+====================================
+RUN FOR POINT 656 STARTED
+====================================
+====================================
+SCAN POINT = 656
+X = -23.4694 cm
+Y = -37.7551 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.570000s Real=1.577418s Sys=0.000000s [Cpu=99.5%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 32 starts.
+====================================
+RUN FOR POINT 657 STARTED
+====================================
+====================================
+SCAN POINT = 657
+X = -23.4694 cm
+Y = -35.7143 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.610000s Real=1.608956s Sys=0.000000s [Cpu=100.1%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 33 starts.
+====================================
+RUN FOR POINT 658 STARTED
+====================================
+====================================
+SCAN POINT = 658
+X = -23.4694 cm
+Y = -33.6735 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.580000s Real=1.578414s Sys=0.000000s [Cpu=100.1%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 34 starts.
+====================================
+RUN FOR POINT 659 STARTED
+====================================
+====================================
+SCAN POINT = 659
+X = -23.4694 cm
+Y = -31.6327 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.600000s Real=1.600797s Sys=0.000000s [Cpu=100.0%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 35 starts.
+====================================
+RUN FOR POINT 660 STARTED
+====================================
+====================================
+SCAN POINT = 660
+X = -23.4694 cm
+Y = -29.5918 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.540000s Real=1.534493s Sys=0.000000s [Cpu=100.4%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 36 starts.
+====================================
+RUN FOR POINT 661 STARTED
+====================================
+====================================
+SCAN POINT = 661
+X = -23.4694 cm
+Y = -27.551 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.530000s Real=1.535036s Sys=0.000000s [Cpu=99.7%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 37 starts.
+====================================
+RUN FOR POINT 662 STARTED
+====================================
+====================================
+SCAN POINT = 662
+X = -23.4694 cm
+Y = -25.5102 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.590000s Real=1.585426s Sys=0.000000s [Cpu=100.3%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 38 starts.
+====================================
+RUN FOR POINT 663 STARTED
+====================================
+====================================
+SCAN POINT = 663
+X = -23.4694 cm
+Y = -23.4694 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.600000s Real=1.605889s Sys=0.000000s [Cpu=99.6%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 39 starts.
+====================================
+RUN FOR POINT 664 STARTED
+====================================
+====================================
+SCAN POINT = 664
+X = -23.4694 cm
+Y = -21.4286 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.610000s Real=1.602611s Sys=0.000000s [Cpu=100.5%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 40 starts.
+====================================
+RUN FOR POINT 665 STARTED
+====================================
+====================================
+SCAN POINT = 665
+X = -23.4694 cm
+Y = -19.3878 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.530000s Real=1.531666s Sys=0.000000s [Cpu=99.9%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 41 starts.
+====================================
+RUN FOR POINT 666 STARTED
+====================================
+====================================
+SCAN POINT = 666
+X = -23.4694 cm
+Y = -17.3469 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.520000s Real=1.521022s Sys=0.000000s [Cpu=99.9%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 42 starts.
+====================================
+RUN FOR POINT 667 STARTED
+====================================
+====================================
+SCAN POINT = 667
+X = -23.4694 cm
+Y = -15.3061 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.530000s Real=1.524892s Sys=0.000000s [Cpu=100.3%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 43 starts.
+====================================
+RUN FOR POINT 668 STARTED
+====================================
+====================================
+SCAN POINT = 668
+X = -23.4694 cm
+Y = -13.2653 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.570000s Real=1.573890s Sys=0.000000s [Cpu=99.8%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 44 starts.
+====================================
+RUN FOR POINT 669 STARTED
+====================================
+====================================
+SCAN POINT = 669
+X = -23.4694 cm
+Y = -11.2245 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.600000s Real=1.599874s Sys=0.000000s [Cpu=100.0%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 45 starts.
+====================================
+RUN FOR POINT 670 STARTED
+====================================
+====================================
+SCAN POINT = 670
+X = -23.4694 cm
+Y = -9.18367 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.600000s Real=1.592508s Sys=0.000000s [Cpu=100.5%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 46 starts.
+====================================
+RUN FOR POINT 671 STARTED
+====================================
+====================================
+SCAN POINT = 671
+X = -23.4694 cm
+Y = -7.14286 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.510000s Real=1.513459s Sys=0.000000s [Cpu=99.8%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 47 starts.
+====================================
+RUN FOR POINT 672 STARTED
+====================================
+====================================
+SCAN POINT = 672
+X = -23.4694 cm
+Y = -5.10204 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.510000s Real=1.513940s Sys=0.000000s [Cpu=99.7%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 48 starts.
+====================================
+RUN FOR POINT 673 STARTED
+====================================
+====================================
+SCAN POINT = 673
+X = -23.4694 cm
+Y = -3.06122 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.580000s Real=1.588546s Sys=0.000000s [Cpu=99.5%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 49 starts.
+====================================
+RUN FOR POINT 674 STARTED
+====================================
+====================================
+SCAN POINT = 674
+X = -23.4694 cm
+Y = -1.02041 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.600000s Real=1.605028s Sys=0.000000s [Cpu=99.7%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 50 starts.
+====================================
+RUN FOR POINT 675 STARTED
+====================================
+====================================
+SCAN POINT = 675
+X = -23.4694 cm
+Y = 1.02041 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.600000s Real=1.596312s Sys=0.000000s [Cpu=100.2%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 51 starts.
+====================================
+RUN FOR POINT 676 STARTED
+====================================
+====================================
+SCAN POINT = 676
+X = -23.4694 cm
+Y = 3.06122 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.570000s Real=1.576868s Sys=0.000000s [Cpu=99.6%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 52 starts.
+====================================
+RUN FOR POINT 677 STARTED
+====================================
+====================================
+SCAN POINT = 677
+X = -23.4694 cm
+Y = 5.10204 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.530000s Real=1.531642s Sys=0.000000s [Cpu=99.9%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 53 starts.
+====================================
+RUN FOR POINT 678 STARTED
+====================================
+====================================
+SCAN POINT = 678
+X = -23.4694 cm
+Y = 7.14286 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.510000s Real=1.517431s Sys=0.000000s [Cpu=99.5%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 54 starts.
+====================================
+RUN FOR POINT 679 STARTED
+====================================
+====================================
+SCAN POINT = 679
+X = -23.4694 cm
+Y = 9.18367 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.580000s Real=1.575115s Sys=0.000000s [Cpu=100.3%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 55 starts.
+====================================
+RUN FOR POINT 680 STARTED
+====================================
+====================================
+SCAN POINT = 680
+X = -23.4694 cm
+Y = 11.2245 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.610000s Real=1.606690s Sys=0.000000s [Cpu=100.2%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 56 starts.
+====================================
+RUN FOR POINT 681 STARTED
+====================================
+====================================
+SCAN POINT = 681
+X = -23.4694 cm
+Y = 13.2653 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.580000s Real=1.579838s Sys=0.000000s [Cpu=100.0%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 57 starts.
+====================================
+RUN FOR POINT 682 STARTED
+====================================
+====================================
+SCAN POINT = 682
+X = -23.4694 cm
+Y = 15.3061 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.530000s Real=1.536807s Sys=0.000000s [Cpu=99.6%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 58 starts.
+====================================
+RUN FOR POINT 683 STARTED
+====================================
+====================================
+SCAN POINT = 683
+X = -23.4694 cm
+Y = 17.3469 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.530000s Real=1.530491s Sys=0.000000s [Cpu=100.0%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 59 starts.
+====================================
+RUN FOR POINT 684 STARTED
+====================================
+====================================
+SCAN POINT = 684
+X = -23.4694 cm
+Y = 19.3878 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.530000s Real=1.529872s Sys=0.000000s [Cpu=100.0%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 60 starts.
+====================================
+RUN FOR POINT 685 STARTED
+====================================
+====================================
+SCAN POINT = 685
+X = -23.4694 cm
+Y = 21.4286 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.610000s Real=1.612716s Sys=0.000000s [Cpu=99.8%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 61 starts.
+====================================
+RUN FOR POINT 686 STARTED
+====================================
+====================================
+SCAN POINT = 686
+X = -23.4694 cm
+Y = 23.4694 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.610000s Real=1.611517s Sys=0.000000s [Cpu=99.9%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 62 starts.
+====================================
+RUN FOR POINT 687 STARTED
+====================================
+====================================
+SCAN POINT = 687
+X = -23.4694 cm
+Y = 25.5102 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.590000s Real=1.583616s Sys=0.000000s [Cpu=100.4%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 63 starts.
+====================================
+RUN FOR POINT 688 STARTED
+====================================
+====================================
+SCAN POINT = 688
+X = -23.4694 cm
+Y = 27.551 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.530000s Real=1.538275s Sys=0.000000s [Cpu=99.5%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 64 starts.
+====================================
+RUN FOR POINT 689 STARTED
+====================================
+====================================
+SCAN POINT = 689
+X = -23.4694 cm
+Y = 29.5918 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.530000s Real=1.539259s Sys=0.000000s [Cpu=99.4%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 65 starts.
+====================================
+RUN FOR POINT 690 STARTED
+====================================
+====================================
+SCAN POINT = 690
+X = -23.4694 cm
+Y = 31.6327 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.610000s Real=1.609941s Sys=0.000000s [Cpu=100.0%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 66 starts.
+====================================
+RUN FOR POINT 691 STARTED
+====================================
+====================================
+SCAN POINT = 691
+X = -23.4694 cm
+Y = 33.6735 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.580000s Real=1.588603s Sys=0.000000s [Cpu=99.5%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 67 starts.
+====================================
+RUN FOR POINT 692 STARTED
+====================================
+====================================
+SCAN POINT = 692
+X = -23.4694 cm
+Y = 35.7143 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.580000s Real=1.574935s Sys=0.000000s [Cpu=100.3%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 68 starts.
+====================================
+RUN FOR POINT 693 STARTED
+====================================
+====================================
+SCAN POINT = 693
+X = -23.4694 cm
+Y = 37.7551 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.550000s Real=1.557594s Sys=0.000000s [Cpu=99.5%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 69 starts.
+====================================
+RUN FOR POINT 694 STARTED
+====================================
+====================================
+SCAN POINT = 694
+X = -23.4694 cm
+Y = 39.7959 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.510000s Real=1.515735s Sys=0.000000s [Cpu=99.6%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 70 starts.
+====================================
+RUN FOR POINT 695 STARTED
+====================================
+====================================
+SCAN POINT = 695
+X = -23.4694 cm
+Y = 41.8367 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.520000s Real=1.513412s Sys=0.000000s [Cpu=100.4%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 71 starts.
+====================================
+RUN FOR POINT 696 STARTED
+====================================
+====================================
+SCAN POINT = 696
+X = -23.4694 cm
+Y = 43.8776 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.570000s Real=1.577507s Sys=0.000000s [Cpu=99.5%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 72 starts.
+====================================
+RUN FOR POINT 697 STARTED
+====================================
+====================================
+SCAN POINT = 697
+X = -23.4694 cm
+Y = 45.9184 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.590000s Real=1.584067s Sys=0.000000s [Cpu=100.4%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 73 starts.
+====================================
+RUN FOR POINT 698 STARTED
+====================================
+====================================
+SCAN POINT = 698
+X = -23.4694 cm
+Y = 47.9592 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.530000s Real=1.525789s Sys=0.000000s [Cpu=100.3%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 74 starts.
+====================================
+RUN FOR POINT 699 STARTED
+====================================
+====================================
+SCAN POINT = 699
+X = -23.4694 cm
+Y = 50 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.510000s Real=1.517056s Sys=0.000000s [Cpu=99.5%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 75 starts.
+====================================
+RUN FOR POINT 700 STARTED
+====================================
+====================================
+SCAN POINT = 700
+X = -21.4286 cm
+Y = -50 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.460000s Real=1.451613s Sys=0.000000s [Cpu=100.6%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 76 starts.
+====================================
+RUN FOR POINT 701 STARTED
+====================================
+====================================
+SCAN POINT = 701
+X = -21.4286 cm
+Y = -47.9592 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.580000s Real=1.581654s Sys=0.000000s [Cpu=99.9%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 77 starts.
+====================================
+RUN FOR POINT 702 STARTED
+====================================
+====================================
+SCAN POINT = 702
+X = -21.4286 cm
+Y = -45.9184 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.600000s Real=1.602614s Sys=0.000000s [Cpu=99.8%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 78 starts.
+====================================
+RUN FOR POINT 703 STARTED
+====================================
+====================================
+SCAN POINT = 703
+X = -21.4286 cm
+Y = -43.8776 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.590000s Real=1.583691s Sys=0.000000s [Cpu=100.4%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 79 starts.
+====================================
+RUN FOR POINT 704 STARTED
+====================================
+====================================
+SCAN POINT = 704
+X = -21.4286 cm
+Y = -41.8367 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.530000s Real=1.530369s Sys=0.000000s [Cpu=100.0%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 80 starts.
+====================================
+RUN FOR POINT 705 STARTED
+====================================
+====================================
+SCAN POINT = 705
+X = -21.4286 cm
+Y = -39.7959 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.540000s Real=1.540713s Sys=0.000000s [Cpu=100.0%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 81 starts.
+====================================
+RUN FOR POINT 706 STARTED
+====================================
+====================================
+SCAN POINT = 706
+X = -21.4286 cm
+Y = -37.7551 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.590000s Real=1.586091s Sys=0.000000s [Cpu=100.2%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 82 starts.
+====================================
+RUN FOR POINT 707 STARTED
+====================================
+====================================
+SCAN POINT = 707
+X = -21.4286 cm
+Y = -35.7143 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.600000s Real=1.602049s Sys=0.000000s [Cpu=99.9%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 83 starts.
+====================================
+RUN FOR POINT 708 STARTED
+====================================
+====================================
+SCAN POINT = 708
+X = -21.4286 cm
+Y = -33.6735 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.580000s Real=1.585751s Sys=0.000000s [Cpu=99.6%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 84 starts.
+====================================
+RUN FOR POINT 709 STARTED
+====================================
+====================================
+SCAN POINT = 709
+X = -21.4286 cm
+Y = -31.6327 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.530000s Real=1.539100s Sys=0.000000s [Cpu=99.4%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 85 starts.
+====================================
+RUN FOR POINT 710 STARTED
+====================================
+====================================
+SCAN POINT = 710
+X = -21.4286 cm
+Y = -29.5918 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.530000s Real=1.534358s Sys=0.000000s [Cpu=99.7%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 86 starts.
+====================================
+RUN FOR POINT 711 STARTED
+====================================
+====================================
+SCAN POINT = 711
+X = -21.4286 cm
+Y = -27.551 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.520000s Real=1.521755s Sys=0.000000s [Cpu=99.9%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 87 starts.
+====================================
+RUN FOR POINT 712 STARTED
+====================================
+====================================
+SCAN POINT = 712
+X = -21.4286 cm
+Y = -25.5102 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.610000s Real=1.602486s Sys=0.000000s [Cpu=100.5%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 88 starts.
+====================================
+RUN FOR POINT 713 STARTED
+====================================
+====================================
+SCAN POINT = 713
+X = -21.4286 cm
+Y = -23.4694 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.600000s Real=1.603739s Sys=0.000000s [Cpu=99.8%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 89 starts.
+====================================
+RUN FOR POINT 714 STARTED
+====================================
+====================================
+SCAN POINT = 714
+X = -21.4286 cm
+Y = -21.4286 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.600000s Real=1.602320s Sys=0.000000s [Cpu=99.9%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 90 starts.
+====================================
+RUN FOR POINT 715 STARTED
+====================================
+====================================
+SCAN POINT = 715
+X = -21.4286 cm
+Y = -19.3878 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.540000s Real=1.538830s Sys=0.000000s [Cpu=100.1%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 91 starts.
+====================================
+RUN FOR POINT 716 STARTED
+====================================
+====================================
+SCAN POINT = 716
+X = -21.4286 cm
+Y = -17.3469 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.550000s Real=1.541902s Sys=0.000000s [Cpu=100.5%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 92 starts.
+====================================
+RUN FOR POINT 717 STARTED
+====================================
+====================================
+SCAN POINT = 717
+X = -21.4286 cm
+Y = -15.3061 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.530000s Real=1.531665s Sys=0.000000s [Cpu=99.9%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 93 starts.
+====================================
+RUN FOR POINT 718 STARTED
+====================================
+====================================
+SCAN POINT = 718
+X = -21.4286 cm
+Y = -13.2653 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.600000s Real=1.603673s Sys=0.000000s [Cpu=99.8%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 94 starts.
+====================================
+RUN FOR POINT 719 STARTED
+====================================
+====================================
+SCAN POINT = 719
+X = -21.4286 cm
+Y = -11.2245 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.600000s Real=1.595571s Sys=0.000000s [Cpu=100.3%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 95 starts.
+====================================
+RUN FOR POINT 720 STARTED
+====================================
+====================================
+SCAN POINT = 720
+X = -21.4286 cm
+Y = -9.18367 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.580000s Real=1.576482s Sys=0.000000s [Cpu=100.2%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 96 starts.
+====================================
+RUN FOR POINT 721 STARTED
+====================================
+====================================
+SCAN POINT = 721
+X = -21.4286 cm
+Y = -7.14286 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.510000s Real=1.511456s Sys=0.000000s [Cpu=99.9%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 97 starts.
+====================================
+RUN FOR POINT 722 STARTED
+====================================
+====================================
+SCAN POINT = 722
+X = -21.4286 cm
+Y = -5.10204 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.510000s Real=1.506104s Sys=0.000000s [Cpu=100.3%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 98 starts.
+====================================
+RUN FOR POINT 723 STARTED
+====================================
+====================================
+SCAN POINT = 723
+X = -21.4286 cm
+Y = -3.06122 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.530000s Real=1.537459s Sys=0.000000s [Cpu=99.5%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 99 starts.
+====================================
+RUN FOR POINT 724 STARTED
+====================================
+====================================
+SCAN POINT = 724
+X = -21.4286 cm
+Y = -1.02041 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.590000s Real=1.586821s Sys=0.000000s [Cpu=100.2%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 100 starts.
+====================================
+RUN FOR POINT 725 STARTED
+====================================
+====================================
+SCAN POINT = 725
+X = -21.4286 cm
+Y = 1.02041 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.590000s Real=1.592302s Sys=0.000000s [Cpu=99.9%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 101 starts.
+====================================
+RUN FOR POINT 726 STARTED
+====================================
+====================================
+SCAN POINT = 726
+X = -21.4286 cm
+Y = 3.06122 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.520000s Real=1.515730s Sys=0.000000s [Cpu=100.3%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 102 starts.
+====================================
+RUN FOR POINT 727 STARTED
+====================================
+====================================
+SCAN POINT = 727
+X = -21.4286 cm
+Y = 5.10204 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.510000s Real=1.513354s Sys=0.000000s [Cpu=99.8%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 103 starts.
+====================================
+RUN FOR POINT 728 STARTED
+====================================
+====================================
+SCAN POINT = 728
+X = -21.4286 cm
+Y = 7.14286 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.510000s Real=1.509247s Sys=0.000000s [Cpu=100.0%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 104 starts.
+====================================
+RUN FOR POINT 729 STARTED
+====================================
+====================================
+SCAN POINT = 729
+X = -21.4286 cm
+Y = 9.18367 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.580000s Real=1.576245s Sys=0.000000s [Cpu=100.2%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 105 starts.
+====================================
+RUN FOR POINT 730 STARTED
+====================================
+====================================
+SCAN POINT = 730
+X = -21.4286 cm
+Y = 11.2245 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.590000s Real=1.594262s Sys=0.000000s [Cpu=99.7%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 106 starts.
+====================================
+RUN FOR POINT 731 STARTED
+====================================
+====================================
+SCAN POINT = 731
+X = -21.4286 cm
+Y = 13.2653 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.590000s Real=1.584722s Sys=0.000000s [Cpu=100.3%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 107 starts.
+====================================
+RUN FOR POINT 732 STARTED
+====================================
+====================================
+SCAN POINT = 732
+X = -21.4286 cm
+Y = 15.3061 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.540000s Real=1.539827s Sys=0.000000s [Cpu=100.0%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 108 starts.
+====================================
+RUN FOR POINT 733 STARTED
+====================================
+====================================
+SCAN POINT = 733
+X = -21.4286 cm
+Y = 17.3469 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.540000s Real=1.536625s Sys=0.000000s [Cpu=100.2%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 109 starts.
+====================================
+RUN FOR POINT 734 STARTED
+====================================
+====================================
+SCAN POINT = 734
+X = -21.4286 cm
+Y = 19.3878 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.540000s Real=1.538354s Sys=0.000000s [Cpu=100.1%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 110 starts.
+====================================
+RUN FOR POINT 735 STARTED
+====================================
+====================================
+SCAN POINT = 735
+X = -21.4286 cm
+Y = 21.4286 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.590000s Real=1.595955s Sys=0.000000s [Cpu=99.6%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 111 starts.
+====================================
+RUN FOR POINT 736 STARTED
+====================================
+====================================
+SCAN POINT = 736
+X = -21.4286 cm
+Y = 23.4694 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.600000s Real=1.592950s Sys=0.000000s [Cpu=100.4%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 112 starts.
+====================================
+RUN FOR POINT 737 STARTED
+====================================
+====================================
+SCAN POINT = 737
+X = -21.4286 cm
+Y = 25.5102 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.580000s Real=1.581252s Sys=0.000000s [Cpu=99.9%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 113 starts.
+====================================
+RUN FOR POINT 738 STARTED
+====================================
+====================================
+SCAN POINT = 738
+X = -21.4286 cm
+Y = 27.551 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.520000s Real=1.525418s Sys=0.000000s [Cpu=99.6%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 114 starts.
+====================================
+RUN FOR POINT 739 STARTED
+====================================
+====================================
+SCAN POINT = 739
+X = -21.4286 cm
+Y = 29.5918 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.540000s Real=1.544023s Sys=0.000000s [Cpu=99.7%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 115 starts.
+====================================
+RUN FOR POINT 740 STARTED
+====================================
+====================================
+SCAN POINT = 740
+X = -21.4286 cm
+Y = 31.6327 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.520000s Real=1.523725s Sys=0.000000s [Cpu=99.8%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 116 starts.
+====================================
+RUN FOR POINT 741 STARTED
+====================================
+====================================
+SCAN POINT = 741
+X = -21.4286 cm
+Y = 33.6735 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.600000s Real=1.600100s Sys=0.000000s [Cpu=100.0%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 117 starts.
+====================================
+RUN FOR POINT 742 STARTED
+====================================
+====================================
+SCAN POINT = 742
+X = -21.4286 cm
+Y = 35.7143 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.590000s Real=1.597440s Sys=0.000000s [Cpu=99.5%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 118 starts.
+====================================
+RUN FOR POINT 743 STARTED
+====================================
+====================================
+SCAN POINT = 743
+X = -21.4286 cm
+Y = 37.7551 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.590000s Real=1.591283s Sys=0.010000s [Cpu=100.5%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 119 starts.
+====================================
+RUN FOR POINT 744 STARTED
+====================================
+====================================
+SCAN POINT = 744
+X = -21.4286 cm
+Y = 39.7959 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.530000s Real=1.528627s Sys=0.000000s [Cpu=100.1%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 120 starts.
+====================================
+RUN FOR POINT 745 STARTED
+====================================
+====================================
+SCAN POINT = 745
+X = -21.4286 cm
+Y = 41.8367 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.520000s Real=1.522955s Sys=0.000000s [Cpu=99.8%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 121 starts.
+====================================
+RUN FOR POINT 746 STARTED
+====================================
+====================================
+SCAN POINT = 746
+X = -21.4286 cm
+Y = 43.8776 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.570000s Real=1.570804s Sys=0.000000s [Cpu=99.9%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 122 starts.
+====================================
+RUN FOR POINT 747 STARTED
+====================================
+====================================
+SCAN POINT = 747
+X = -21.4286 cm
+Y = 45.9184 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.570000s Real=1.576642s Sys=0.000000s [Cpu=99.6%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 123 starts.
+====================================
+RUN FOR POINT 748 STARTED
+====================================
+====================================
+SCAN POINT = 748
+X = -21.4286 cm
+Y = 47.9592 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.580000s Real=1.573377s Sys=0.000000s [Cpu=100.4%]
+/run/geometryModified
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Cs
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  5.46896 keV    e-  84.1317 keV    e+  82.5105 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Al
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  2.34157 keV    e-  131.218 keV    e+  128.746 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_SODIUM_IODIDE
+ Range cuts        :  gamma  100 um     e-  100 um     e+  100 um  proton 100 um 
+ Energy thresholds :  gamma  7.27373 keV    e-  132.805 keV    e+  129.832 keV proton 10 keV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 124 starts.
+====================================
+RUN FOR POINT 749 STARTED
+====================================
+====================================
+SCAN POINT = 749
+X = -21.4286 cm
+Y = 50 cm
+====================================
+ Run terminated.
+Run Summary
+  Number of events processed : 100000
+  User=1.460000s Real=1.462184s Sys=0.000000s [Cpu=99.9%]
+====================================
+CSV SAVED
+====================================
+================== Deleting memory pools ===================
+Number of memory pools allocated: 10; of which, static: 0
+Dynamic pools deleted: 10 / Total memory freed: 0.052 MB
+============================================================
