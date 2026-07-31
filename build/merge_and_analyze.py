@@ -9,7 +9,7 @@ def main():
     # 1. Merge all CSV files
     print("Finding scan results CSV files in the current directory...")
     files = glob.glob("scan_results_*.csv")
-    files = [f for f in files if "merged" not in f]
+    files = [f for f in files if "merged" not in f and "analyzed" not in f]
 
     def get_start_idx(filename):
         base = os.path.basename(filename)
@@ -47,106 +47,66 @@ def main():
     merged_df.to_csv(merged_csv_path, index=False)
     print(f"Successfully merged {len(dfs)} files into '{merged_csv_path}'")
 
-    # 2. Pivot the data to get columns for each detector
-    print("\nReshaping data to compute relative differences...")
-    # Group by x, y and detectorID to handle any potential duplicate scans (take mean if duplicates exist)
-    df_pivot = merged_df.pivot_table(
-        index=['x', 'y'], 
-        columns='detectorID', 
-        values='normalizedCounts', 
-        aggfunc='mean'
-    ).reset_index()
-
-    # Ensure all 6 detectors are present in the columns
-    for i in range(6):
-        if i not in df_pivot.columns:
-            df_pivot[i] = 0.0
-
-    # Rename detector columns for clarity
-    df_pivot.rename(columns={i: f'det_{i}' for i in range(6)}, inplace=True)
-
-    # 3. Calculate Relative Differences
-    # Symmetric pairs across the horizontal axis:
-    # Detector 1 (phi=60, top-right) vs Detector 4 (phi=240, bottom-left)
-    # Detector 2 (phi=120, top-left) vs Detector 5 (phi=300, bottom-right)
-    # Detector 0 (phi=0, middle-right) vs Detector 3 (phi=180, middle-left)
-
-    # Formula for relative difference: (Det_top - Det_bottom) / ((Det_top + Det_bottom) / 2)
-    # To avoid division by zero:
-    epsilon = 1e-15
+    # 2. Integrate all detectors by summing/averaging counts for each (x, y)
+    print("\nIntegrating counts across all 6 detectors...")
     
-    # Relative difference between top and bottom detectors
-    df_pivot['RD_1_4'] = (df_pivot['det_1'] - df_pivot['det_4']) / ((df_pivot['det_1'] + df_pivot['det_4']) / 2 + epsilon)
-    df_pivot['RD_2_5'] = (df_pivot['det_2'] - df_pivot['det_5']) / ((df_pivot['det_2'] + df_pivot['det_5']) / 2 + epsilon)
-    df_pivot['RD_0_3'] = (df_pivot['det_0'] - df_pivot['det_3']) / ((df_pivot['det_0'] + df_pivot['det_3']) / 2 + epsilon)
+    # Group by x and y and sum the counts
+    df_integrated = merged_df.groupby(['x', 'y']).agg({
+        'roiCounts': 'sum',
+        'normalizedCounts': 'sum',
+        'nPrimary': 'sum'
+    }).reset_index()
 
-    # Save the detailed pivoted and analyzed data
-    analyzed_csv_path = "analyzed_relative_difference.csv"
-    df_pivot.to_csv(analyzed_csv_path, index=False)
-    print(f"Saved analyzed relative differences to '{analyzed_csv_path}'")
+    # Save the integrated data
+    integrated_csv_path = "integrated_scan_results.csv"
+    df_integrated.to_csv(integrated_csv_path, index=False)
+    print(f"Saved integrated detector results to '{integrated_csv_path}'")
 
     # Display statistics
-    print("\n--- Relative Difference Statistics ---")
-    print(df_pivot[['RD_1_4', 'RD_2_5', 'RD_0_3']].describe())
+    print("\n--- Integrated Signal Statistics ---")
+    print(df_integrated[['roiCounts', 'normalizedCounts']].describe())
 
-    # 4. Generate 2D Heatmaps
-    print("\nGenerating 2D Heatmap plots...")
+    # 3. Generate 2D Heatmap of Integrated Image
+    print("\nGenerating 2D integrated image...")
     try:
-        x_unique = np.sort(df_pivot['x'].unique())
-        y_unique = np.sort(df_pivot['y'].unique())
+        x_unique = np.sort(df_integrated['x'].unique())
+        y_unique = np.sort(df_integrated['y'].unique())
         
-        # Grid shapes
-        grid_shape = (len(y_unique), len(x_unique))
-        
-        # Pivot the relative differences back to 2D grids for plotting
-        grid_RD_1_4 = df_pivot.pivot(index='y', columns='x', values='RD_1_4')
-        grid_RD_2_5 = df_pivot.pivot(index='y', columns='x', values='RD_2_5')
-        grid_RD_0_3 = df_pivot.pivot(index='y', columns='x', values='RD_0_3')
+        # Pivot the integrated normalized counts to a 2D grid
+        grid_integrated = df_integrated.pivot(index='y', columns='x', values='normalizedCounts')
 
-        fig, axes = plt.subplots(1, 3, figsize=(20, 6))
-
+        plt.figure(figsize=(10, 8))
         extent = [x_unique.min(), x_unique.max(), y_unique.min(), y_unique.max()]
 
-        # Plot RD_1_4
-        im1 = axes[0].imshow(grid_RD_1_4, extent=extent, origin='lower', cmap='seismic', aspect='equal')
-        axes[0].set_title("Relative Difference Det 1 vs 4\n(Top-Right vs Bottom-Left)")
-        axes[0].set_xlabel("X (mm)")
-        axes[0].set_ylabel("Y (mm)")
-        fig.colorbar(im1, ax=axes[0], label="Relative Difference")
+        # Plot integrated image using a beautiful colormap (e.g., 'inferno' or 'viridis')
+        im = plt.imshow(grid_integrated, extent=extent, origin='lower', cmap='inferno', aspect='equal')
+        
+        plt.title("Integrated 2D Compton Backscattering Image\n(Sum of All 6 Detectors)", fontsize=14, fontweight='bold', pad=15)
+        plt.xlabel("X Position (cm)", fontsize=12)
+        plt.ylabel("Y Position (cm)", fontsize=12)
+        
+        # Add colorbar
+        cbar = plt.colorbar(im)
+        cbar.set_label("Integrated Normalized Backscatter intensity (counts/primary)", fontsize=12)
 
-        # Plot RD_2_5
-        im2 = axes[1].imshow(grid_RD_2_5, extent=extent, origin='lower', cmap='seismic', aspect='equal')
-        axes[1].set_title("Relative Difference Det 2 vs 5\n(Top-Left vs Bottom-Right)")
-        axes[1].set_xlabel("X (mm)")
-        axes[1].set_ylabel("Y (mm)")
-        fig.colorbar(im2, ax=axes[1], label="Relative Difference")
-
-        # Plot RD_0_3
-        im3 = axes[2].imshow(grid_RD_0_3, extent=extent, origin='lower', cmap='seismic', aspect='equal')
-        axes[2].set_title("Relative Difference Det 0 vs 3\n(Middle-Right vs Middle-Left)")
-        axes[2].set_xlabel("X (mm)")
-        axes[2].set_ylabel("Y (mm)")
-        fig.colorbar(im3, ax=axes[2], label="Relative Difference")
-
-        plt.suptitle("Relative Difference Spatial Distributions (Defect detection)", fontsize=16)
         plt.tight_layout()
         
-        plot_path = "relative_difference_plots.png"
+        plot_path = "integrated_backscatter_image.png"
         plt.savefig(plot_path, dpi=300)
-        print(f"Successfully generated and saved plot to '{plot_path}'")
+        print(f"Successfully generated and saved integrated image to '{plot_path}'")
 
     except Exception as e:
-        print(f"Error plotting 2D heatmaps: {e}")
+        print(f"Error plotting 2D heatmap: {e}")
         print("Falling back to scatter plot generation...")
         try:
             plt.figure(figsize=(10, 8))
-            sc = plt.scatter(df_pivot['x'], df_pivot['y'], c=df_pivot['RD_1_4'], cmap='seismic', s=10)
-            plt.colorbar(sc, label="Relative Difference Det 1 vs 4")
-            plt.title("Relative Difference Det 1 vs 4 Spatial Distribution (Scatter)")
-            plt.xlabel("X (mm)")
-            plt.ylabel("Y (mm)")
-            plt.savefig("relative_difference_scatter.png", dpi=300)
-            print("Successfully saved scatter plot to 'relative_difference_scatter.png'")
+            sc = plt.scatter(df_integrated['x'], df_integrated['y'], c=df_integrated['normalizedCounts'], cmap='inferno', s=15)
+            plt.colorbar(sc, label="Integrated Normalized Counts")
+            plt.title("Integrated Spatial Distribution (Scatter)")
+            plt.xlabel("X (cm)")
+            plt.ylabel("Y (cm)")
+            plt.savefig("integrated_backscatter_scatter.png", dpi=300)
+            print("Successfully saved scatter plot to 'integrated_backscatter_scatter.png'")
         except Exception as sc_err:
             print(f"Failed to generate scatter plot: {sc_err}")
 
