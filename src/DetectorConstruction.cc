@@ -242,15 +242,15 @@ G4VPhysicalVolume* DetectorConstruction::ConstructWorld()
         0
     );
 
-    new G4PVPlacement(
-        nullptr,
-        defectPos,
-        logicVoid,
-        "VoidPV",
-        logicPipe,
-        false,
-        0
-    );
+    // new G4PVPlacement(
+    //     nullptr,
+    //     defectPos,
+    //     logicVoid,
+    //     "VoidPV",
+    //     logicPipe,
+    //     false,
+    //     0
+    // );
 
     auto voidVis =
         new G4VisAttributes(

@@ -21,6 +21,13 @@
 
 /gps/ene/mono 662 keV
 
+# Batasi pancaran ke arah +Z (sudut kerucut 15 derajat)
+/gps/ang/type cone
+/gps/ang/mintheta 0 deg
+/gps/ang/maxtheta 15 deg
+/gps/ang/rot1 1 0 0
+/gps/ang/rot2 0 1 0
+
 # ======================================
 # OPTIONAL
 # ======================================
