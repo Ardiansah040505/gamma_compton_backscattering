@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 import os
+import sys
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
 def main():
     # Definisikan path input
-    normal_path = "normal/normal.csv"
-    crack_path = "crack_1/crack.csv"
+    normal_path = sys.argv[1] if len(sys.argv) > 1 else "normal/normal1.csv"
+    crack_path = sys.argv[2] if len(sys.argv) > 2 else "crack_1/crack2.csv"
     
     # Cek keberadaan file
     if not os.path.exists(normal_path):

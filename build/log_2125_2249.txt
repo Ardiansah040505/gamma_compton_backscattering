@@ -26,9 +26,7 @@ Command is ignored.
 /gps/particle gamma
 /gps/ene/type Mono
 /gps/ene/mono 662 keV
-/gps/ang/type cone
-parameter value (cone) is not listed in the candidate List.
-  Candidates are: iso cos planar beam1d beam2d focused user
+/gps/ang/type iso
 /gps/ang/mintheta 0 deg
 /gps/ang/maxtheta 15 deg
 /gps/ang/rot1 1 0 0
@@ -555,7 +553,7 @@ Y = 1.02041 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.830000s Real=1.824962s Sys=0.000000s [Cpu=100.3%]
+  User=1.880000s Real=1.884274s Sys=0.000000s [Cpu=99.8%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -602,7 +600,7 @@ Y = 3.06122 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.880000s Real=1.881097s Sys=0.000000s [Cpu=99.9%]
+  User=1.980000s Real=1.975234s Sys=0.000000s [Cpu=100.2%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -649,7 +647,7 @@ Y = 5.10204 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.890000s Real=1.890491s Sys=0.000000s [Cpu=100.0%]
+  User=1.940000s Real=1.945450s Sys=0.000000s [Cpu=99.7%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -696,7 +694,7 @@ Y = 7.14286 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.880000s Real=1.880812s Sys=0.000000s [Cpu=100.0%]
+  User=1.940000s Real=1.936915s Sys=0.000000s [Cpu=100.2%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -743,7 +741,7 @@ Y = 9.18367 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.900000s Real=1.897344s Sys=0.000000s [Cpu=100.1%]
+  User=1.940000s Real=1.944430s Sys=0.000000s [Cpu=99.8%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -790,7 +788,7 @@ Y = 11.2245 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.900000s Real=1.898365s Sys=0.000000s [Cpu=100.1%]
+  User=1.990000s Real=1.991183s Sys=0.000000s [Cpu=99.9%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -837,7 +835,7 @@ Y = 13.2653 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.880000s Real=1.882086s Sys=0.000000s [Cpu=99.9%]
+  User=1.940000s Real=1.939854s Sys=0.000000s [Cpu=100.0%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -884,7 +882,7 @@ Y = 15.3061 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.920000s Real=1.915210s Sys=0.000000s [Cpu=100.3%]
+  User=1.970000s Real=1.972378s Sys=0.000000s [Cpu=99.9%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -931,7 +929,7 @@ Y = 17.3469 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.910000s Real=1.911736s Sys=0.000000s [Cpu=99.9%]
+  User=1.950000s Real=1.945477s Sys=0.000000s [Cpu=100.2%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -978,7 +976,7 @@ Y = 19.3878 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.810000s Real=1.812559s Sys=0.000000s [Cpu=99.9%]
+  User=1.880000s Real=1.882391s Sys=0.000000s [Cpu=99.9%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -1025,7 +1023,7 @@ Y = 21.4286 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.820000s Real=1.819905s Sys=0.000000s [Cpu=100.0%]
+  User=1.880000s Real=1.884820s Sys=0.000000s [Cpu=99.7%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -1072,7 +1070,7 @@ Y = 23.4694 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.790000s Real=1.792514s Sys=0.000000s [Cpu=99.9%]
+  User=1.900000s Real=1.906669s Sys=0.000000s [Cpu=99.7%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -1119,7 +1117,7 @@ Y = 25.5102 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.910000s Real=1.907620s Sys=0.000000s [Cpu=100.1%]
+  User=1.960000s Real=1.959934s Sys=0.000000s [Cpu=100.0%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -1166,7 +1164,7 @@ Y = 27.551 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.910000s Real=1.909735s Sys=0.000000s [Cpu=100.0%]
+  User=1.960000s Real=1.955260s Sys=0.000000s [Cpu=100.2%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -1213,7 +1211,7 @@ Y = 29.5918 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.870000s Real=1.871934s Sys=0.000000s [Cpu=99.9%]
+  User=1.950000s Real=1.954862s Sys=0.000000s [Cpu=99.8%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -1260,7 +1258,7 @@ Y = 31.6327 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.890000s Real=1.888646s Sys=0.000000s [Cpu=100.1%]
+  User=1.950000s Real=1.949241s Sys=0.000000s [Cpu=100.0%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -1307,7 +1305,7 @@ Y = 33.6735 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.910000s Real=1.914380s Sys=0.000000s [Cpu=99.8%]
+  User=1.950000s Real=1.948813s Sys=0.000000s [Cpu=100.1%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -1354,7 +1352,7 @@ Y = 35.7143 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.900000s Real=1.897347s Sys=0.000000s [Cpu=100.1%]
+  User=1.950000s Real=1.943365s Sys=0.000000s [Cpu=100.3%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -1401,7 +1399,7 @@ Y = 37.7551 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.910000s Real=1.909386s Sys=0.000000s [Cpu=100.0%]
+  User=1.970000s Real=1.976647s Sys=0.000000s [Cpu=99.7%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -1448,7 +1446,7 @@ Y = 39.7959 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.910000s Real=1.908400s Sys=0.000000s [Cpu=100.1%]
+  User=1.940000s Real=1.943236s Sys=0.000000s [Cpu=99.8%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -1495,7 +1493,7 @@ Y = 41.8367 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.840000s Real=1.833611s Sys=0.000000s [Cpu=100.3%]
+  User=1.890000s Real=1.894735s Sys=0.000000s [Cpu=99.8%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -1542,7 +1540,7 @@ Y = 43.8776 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.810000s Real=1.811735s Sys=0.000000s [Cpu=99.9%]
+  User=1.880000s Real=1.874520s Sys=0.000000s [Cpu=100.3%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -1589,7 +1587,7 @@ Y = 45.9184 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.870000s Real=1.867590s Sys=0.000000s [Cpu=100.1%]
+  User=1.950000s Real=1.949214s Sys=0.000000s [Cpu=100.0%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -1636,7 +1634,7 @@ Y = 47.9592 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.870000s Real=1.874455s Sys=0.000000s [Cpu=99.8%]
+  User=1.940000s Real=1.943717s Sys=0.000000s [Cpu=99.8%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -1683,7 +1681,7 @@ Y = 50 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.860000s Real=1.854579s Sys=0.000000s [Cpu=100.3%]
+  User=1.940000s Real=1.932544s Sys=0.000000s [Cpu=100.4%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -1730,7 +1728,7 @@ Y = -50 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.800000s Real=1.800055s Sys=0.000000s [Cpu=100.0%]
+  User=1.820000s Real=1.823506s Sys=0.000000s [Cpu=99.8%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -1777,7 +1775,7 @@ Y = -47.9592 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.770000s Real=1.776038s Sys=0.000000s [Cpu=99.7%]
+  User=1.850000s Real=1.849643s Sys=0.000000s [Cpu=100.0%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -1824,7 +1822,7 @@ Y = -45.9184 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.790000s Real=1.787186s Sys=0.000000s [Cpu=100.2%]
+  User=1.840000s Real=1.839928s Sys=0.000000s [Cpu=100.0%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -1871,7 +1869,7 @@ Y = -43.8776 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.780000s Real=1.780113s Sys=0.000000s [Cpu=100.0%]
+  User=1.840000s Real=1.839009s Sys=0.000000s [Cpu=100.1%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -1918,7 +1916,7 @@ Y = -41.8367 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.780000s Real=1.773295s Sys=0.000000s [Cpu=100.4%]
+  User=1.900000s Real=1.899657s Sys=0.000000s [Cpu=100.0%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -1965,7 +1963,7 @@ Y = -39.7959 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.700000s Real=1.699111s Sys=0.000000s [Cpu=100.1%]
+  User=1.810000s Real=1.808331s Sys=0.000000s [Cpu=100.1%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -2012,7 +2010,7 @@ Y = -37.7551 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.710000s Real=1.714358s Sys=0.000000s [Cpu=99.7%]
+  User=1.790000s Real=1.797401s Sys=0.000000s [Cpu=99.6%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -2059,7 +2057,7 @@ Y = -35.7143 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.710000s Real=1.706632s Sys=0.000000s [Cpu=100.2%]
+  User=1.770000s Real=1.772199s Sys=0.000000s [Cpu=99.9%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -2106,7 +2104,7 @@ Y = -33.6735 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.790000s Real=1.791624s Sys=0.000000s [Cpu=99.9%]
+  User=1.870000s Real=1.868673s Sys=0.000000s [Cpu=100.1%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -2153,7 +2151,7 @@ Y = -31.6327 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.790000s Real=1.785138s Sys=0.000000s [Cpu=100.3%]
+  User=1.870000s Real=1.867284s Sys=0.000000s [Cpu=100.1%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -2200,7 +2198,7 @@ Y = -29.5918 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.760000s Real=1.766022s Sys=0.000000s [Cpu=99.7%]
+  User=1.880000s Real=1.880191s Sys=0.000000s [Cpu=100.0%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -2247,7 +2245,7 @@ Y = -27.551 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.780000s Real=1.772135s Sys=0.000000s [Cpu=100.4%]
+  User=1.880000s Real=1.874171s Sys=0.000000s [Cpu=100.3%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -2294,7 +2292,7 @@ Y = -25.5102 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.800000s Real=1.801973s Sys=0.000000s [Cpu=99.9%]
+  User=1.870000s Real=1.874829s Sys=0.000000s [Cpu=99.7%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -2341,7 +2339,7 @@ Y = -23.4694 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.780000s Real=1.775949s Sys=0.000000s [Cpu=100.2%]
+  User=1.860000s Real=1.855721s Sys=0.000000s [Cpu=100.2%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -2388,7 +2386,7 @@ Y = -21.4286 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.790000s Real=1.791922s Sys=0.000000s [Cpu=99.9%]
+  User=1.840000s Real=1.842752s Sys=0.000000s [Cpu=99.9%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -2435,7 +2433,7 @@ Y = -19.3878 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.800000s Real=1.799882s Sys=0.000000s [Cpu=100.0%]
+  User=1.860000s Real=1.855803s Sys=0.000000s [Cpu=100.2%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -2482,7 +2480,7 @@ Y = -17.3469 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.800000s Real=1.802159s Sys=0.000000s [Cpu=99.9%]
+  User=1.830000s Real=1.827129s Sys=0.000000s [Cpu=100.2%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -2529,7 +2527,7 @@ Y = -15.3061 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.810000s Real=1.804839s Sys=0.000000s [Cpu=100.3%]
+  User=1.860000s Real=1.863529s Sys=0.000000s [Cpu=99.8%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -2576,7 +2574,7 @@ Y = -13.2653 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.800000s Real=1.802720s Sys=0.000000s [Cpu=99.8%]
+  User=1.870000s Real=1.865434s Sys=0.000000s [Cpu=100.2%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -2623,7 +2621,7 @@ Y = -11.2245 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.780000s Real=1.784369s Sys=0.000000s [Cpu=99.8%]
+  User=1.870000s Real=1.868996s Sys=0.000000s [Cpu=100.1%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -2670,7 +2668,7 @@ Y = -9.18367 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.750000s Real=1.751441s Sys=0.000000s [Cpu=99.9%]
+  User=1.870000s Real=1.868442s Sys=0.000000s [Cpu=100.1%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -2717,7 +2715,7 @@ Y = -7.14286 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.780000s Real=1.780660s Sys=0.000000s [Cpu=100.0%]
+  User=1.850000s Real=1.851963s Sys=0.000000s [Cpu=99.9%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -2764,7 +2762,7 @@ Y = -5.10204 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.800000s Real=1.805283s Sys=0.000000s [Cpu=99.7%]
+  User=1.880000s Real=1.883674s Sys=0.000000s [Cpu=99.8%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -2811,7 +2809,7 @@ Y = -3.06122 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.820000s Real=1.817005s Sys=0.000000s [Cpu=100.2%]
+  User=1.880000s Real=1.876974s Sys=0.000000s [Cpu=100.2%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -2858,7 +2856,7 @@ Y = -1.02041 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.730000s Real=1.725047s Sys=0.000000s [Cpu=100.3%]
+  User=1.800000s Real=1.806030s Sys=0.000000s [Cpu=99.7%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -2905,7 +2903,7 @@ Y = 1.02041 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.720000s Real=1.723018s Sys=0.000000s [Cpu=99.8%]
+  User=1.800000s Real=1.805286s Sys=0.010000s [Cpu=100.3%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -2952,7 +2950,7 @@ Y = 3.06122 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.800000s Real=1.798222s Sys=0.000000s [Cpu=100.1%]
+  User=1.880000s Real=1.883992s Sys=0.000000s [Cpu=99.8%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -2999,7 +2997,7 @@ Y = 5.10204 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.800000s Real=1.796878s Sys=0.000000s [Cpu=100.2%]
+  User=1.850000s Real=1.854285s Sys=0.000000s [Cpu=99.8%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -3046,7 +3044,7 @@ Y = 7.14286 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.770000s Real=1.772930s Sys=0.000000s [Cpu=99.8%]
+  User=1.860000s Real=1.854745s Sys=0.000000s [Cpu=100.3%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -3093,7 +3091,7 @@ Y = 9.18367 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.760000s Real=1.753848s Sys=0.000000s [Cpu=100.4%]
+  User=1.870000s Real=1.866196s Sys=0.000000s [Cpu=100.2%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -3140,7 +3138,7 @@ Y = 11.2245 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.770000s Real=1.774692s Sys=0.000000s [Cpu=99.7%]
+  User=1.860000s Real=1.870137s Sys=0.000000s [Cpu=99.5%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -3187,7 +3185,7 @@ Y = 13.2653 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.790000s Real=1.790467s Sys=0.000000s [Cpu=100.0%]
+  User=1.840000s Real=1.835855s Sys=0.000000s [Cpu=100.2%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -3234,7 +3232,7 @@ Y = 15.3061 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.770000s Real=1.763551s Sys=0.000000s [Cpu=100.4%]
+  User=1.850000s Real=1.854050s Sys=0.000000s [Cpu=99.8%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -3281,7 +3279,7 @@ Y = 17.3469 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.760000s Real=1.759374s Sys=0.000000s [Cpu=100.0%]
+  User=1.850000s Real=1.852952s Sys=0.000000s [Cpu=99.8%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -3328,7 +3326,7 @@ Y = 19.3878 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.770000s Real=1.769159s Sys=0.000000s [Cpu=100.0%]
+  User=1.850000s Real=1.848834s Sys=0.000000s [Cpu=100.1%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -3375,7 +3373,7 @@ Y = 21.4286 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.780000s Real=1.783949s Sys=0.000000s [Cpu=99.8%]
+  User=1.850000s Real=1.849446s Sys=0.000000s [Cpu=100.0%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -3422,7 +3420,7 @@ Y = 23.4694 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.790000s Real=1.785839s Sys=0.000000s [Cpu=100.2%]
+  User=1.880000s Real=1.877918s Sys=0.000000s [Cpu=100.1%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -3469,7 +3467,7 @@ Y = 25.5102 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.780000s Real=1.781439s Sys=0.000000s [Cpu=99.9%]
+  User=1.860000s Real=1.865425s Sys=0.000000s [Cpu=99.7%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -3516,7 +3514,7 @@ Y = 27.551 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.770000s Real=1.768973s Sys=0.000000s [Cpu=100.1%]
+  User=1.860000s Real=1.858447s Sys=0.000000s [Cpu=100.1%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -3563,7 +3561,7 @@ Y = 29.5918 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.780000s Real=1.776952s Sys=0.000000s [Cpu=100.2%]
+  User=1.860000s Real=1.856292s Sys=0.000000s [Cpu=100.2%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -3610,7 +3608,7 @@ Y = 31.6327 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.800000s Real=1.799132s Sys=0.000000s [Cpu=100.0%]
+  User=1.860000s Real=1.862859s Sys=0.000000s [Cpu=99.8%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -3657,7 +3655,7 @@ Y = 33.6735 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.790000s Real=1.789327s Sys=0.000000s [Cpu=100.0%]
+  User=1.870000s Real=1.869054s Sys=0.000000s [Cpu=100.1%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -3704,7 +3702,7 @@ Y = 35.7143 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.690000s Real=1.692895s Sys=0.000000s [Cpu=99.8%]
+  User=1.820000s Real=1.814358s Sys=0.000000s [Cpu=100.3%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -3751,7 +3749,7 @@ Y = 37.7551 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.710000s Real=1.705560s Sys=0.000000s [Cpu=100.3%]
+  User=1.770000s Real=1.777671s Sys=0.000000s [Cpu=99.6%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -3798,7 +3796,7 @@ Y = 39.7959 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.710000s Real=1.717635s Sys=0.000000s [Cpu=99.6%]
+  User=1.790000s Real=1.789858s Sys=0.000000s [Cpu=100.0%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -3845,7 +3843,7 @@ Y = 41.8367 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.780000s Real=1.785750s Sys=0.000000s [Cpu=99.7%]
+  User=1.860000s Real=1.860427s Sys=0.000000s [Cpu=100.0%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -3892,7 +3890,7 @@ Y = 43.8776 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.790000s Real=1.792627s Sys=0.000000s [Cpu=99.9%]
+  User=1.830000s Real=1.830020s Sys=0.000000s [Cpu=100.0%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -3939,7 +3937,7 @@ Y = 45.9184 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.790000s Real=1.790891s Sys=0.000000s [Cpu=100.0%]
+  User=1.850000s Real=1.850343s Sys=0.000000s [Cpu=100.0%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -3986,7 +3984,7 @@ Y = 47.9592 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.780000s Real=1.787172s Sys=0.000000s [Cpu=99.6%]
+  User=1.830000s Real=1.833260s Sys=0.000000s [Cpu=99.8%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -4033,7 +4031,7 @@ Y = 50 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.780000s Real=1.772605s Sys=0.000000s [Cpu=100.4%]
+  User=1.860000s Real=1.854175s Sys=0.000000s [Cpu=100.3%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -4080,7 +4078,7 @@ Y = -50 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.770000s Real=1.768774s Sys=0.000000s [Cpu=100.1%]
+  User=1.860000s Real=1.863405s Sys=0.000000s [Cpu=99.8%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -4127,7 +4125,7 @@ Y = -47.9592 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.790000s Real=1.789716s Sys=0.000000s [Cpu=100.0%]
+  User=1.870000s Real=1.872842s Sys=0.000000s [Cpu=99.8%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -4174,7 +4172,7 @@ Y = -45.9184 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.880000s Real=1.882202s Sys=0.000000s [Cpu=99.9%]
+  User=1.950000s Real=1.954661s Sys=0.000000s [Cpu=99.8%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -4221,7 +4219,7 @@ Y = -43.8776 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.870000s Real=1.865959s Sys=0.000000s [Cpu=100.2%]
+  User=1.960000s Real=1.961206s Sys=0.000000s [Cpu=99.9%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -4268,7 +4266,7 @@ Y = -41.8367 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.870000s Real=1.872293s Sys=0.000000s [Cpu=99.9%]
+  User=1.930000s Real=1.926471s Sys=0.000000s [Cpu=100.2%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -4315,7 +4313,7 @@ Y = -39.7959 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.860000s Real=1.862725s Sys=0.000000s [Cpu=99.9%]
+  User=1.910000s Real=1.914170s Sys=0.000000s [Cpu=99.8%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -4362,7 +4360,7 @@ Y = -37.7551 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.890000s Real=1.887669s Sys=0.000000s [Cpu=100.1%]
+  User=1.950000s Real=1.943436s Sys=0.000000s [Cpu=100.3%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -4409,7 +4407,7 @@ Y = -35.7143 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.860000s Real=1.859680s Sys=0.000000s [Cpu=100.0%]
+  User=1.930000s Real=1.927961s Sys=0.000000s [Cpu=100.1%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -4456,7 +4454,7 @@ Y = -33.6735 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.890000s Real=1.890076s Sys=0.000000s [Cpu=100.0%]
+  User=1.940000s Real=1.945431s Sys=0.000000s [Cpu=99.7%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -4503,7 +4501,7 @@ Y = -31.6327 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.870000s Real=1.870888s Sys=0.000000s [Cpu=100.0%]
+  User=1.940000s Real=1.936186s Sys=0.000000s [Cpu=100.2%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -4550,7 +4548,7 @@ Y = -29.5918 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.850000s Real=1.849290s Sys=0.000000s [Cpu=100.0%]
+  User=1.950000s Real=1.950886s Sys=0.000000s [Cpu=100.0%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -4597,7 +4595,7 @@ Y = -27.551 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.900000s Real=1.895789s Sys=0.000000s [Cpu=100.2%]
+  User=1.970000s Real=1.963578s Sys=0.000000s [Cpu=100.3%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -4644,7 +4642,7 @@ Y = -25.5102 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.790000s Real=1.789789s Sys=0.000000s [Cpu=100.0%]
+  User=1.860000s Real=1.861355s Sys=0.000000s [Cpu=99.9%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -4691,7 +4689,7 @@ Y = -23.4694 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.790000s Real=1.791045s Sys=0.000000s [Cpu=99.9%]
+  User=1.850000s Real=1.850166s Sys=0.000000s [Cpu=100.0%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -4738,7 +4736,7 @@ Y = -21.4286 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.860000s Real=1.858464s Sys=0.000000s [Cpu=100.1%]
+  User=1.960000s Real=1.959613s Sys=0.000000s [Cpu=100.0%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -4785,7 +4783,7 @@ Y = -19.3878 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.860000s Real=1.854025s Sys=0.000000s [Cpu=100.3%]
+  User=1.950000s Real=1.951618s Sys=0.000000s [Cpu=99.9%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -4832,7 +4830,7 @@ Y = -17.3469 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.870000s Real=1.873645s Sys=0.000000s [Cpu=99.8%]
+  User=1.950000s Real=1.943736s Sys=0.000000s [Cpu=100.3%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -4879,7 +4877,7 @@ Y = -15.3061 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.890000s Real=1.889596s Sys=0.000000s [Cpu=100.0%]
+  User=1.930000s Real=1.935558s Sys=0.000000s [Cpu=99.7%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -4926,7 +4924,7 @@ Y = -13.2653 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.870000s Real=1.866083s Sys=0.000000s [Cpu=100.2%]
+  User=1.960000s Real=1.953485s Sys=0.000000s [Cpu=100.3%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -4973,7 +4971,7 @@ Y = -11.2245 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.870000s Real=1.871038s Sys=0.000000s [Cpu=99.9%]
+  User=1.940000s Real=1.939099s Sys=0.000000s [Cpu=100.0%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -5020,7 +5018,7 @@ Y = -9.18367 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.860000s Real=1.863562s Sys=0.000000s [Cpu=99.8%]
+  User=1.950000s Real=1.955261s Sys=0.000000s [Cpu=99.7%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -5067,7 +5065,7 @@ Y = -7.14286 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.890000s Real=1.885039s Sys=0.000000s [Cpu=100.3%]
+  User=1.940000s Real=1.938966s Sys=0.000000s [Cpu=100.1%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -5114,7 +5112,7 @@ Y = -5.10204 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.870000s Real=1.869151s Sys=0.000000s [Cpu=100.0%]
+  User=1.940000s Real=1.933604s Sys=0.000000s [Cpu=100.3%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -5161,7 +5159,7 @@ Y = -3.06122 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.870000s Real=1.866386s Sys=0.000000s [Cpu=100.2%]
+  User=1.970000s Real=1.969304s Sys=0.000000s [Cpu=100.0%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -5208,7 +5206,7 @@ Y = -1.02041 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.800000s Real=1.800257s Sys=0.000000s [Cpu=100.0%]
+  User=1.860000s Real=1.866854s Sys=0.000000s [Cpu=99.6%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -5255,7 +5253,7 @@ Y = 1.02041 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.770000s Real=1.777008s Sys=0.000000s [Cpu=99.6%]
+  User=1.870000s Real=1.867082s Sys=0.000000s [Cpu=100.2%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -5302,7 +5300,7 @@ Y = 3.06122 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.860000s Real=1.868584s Sys=0.000000s [Cpu=99.5%]
+  User=1.940000s Real=1.941060s Sys=0.000000s [Cpu=99.9%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -5349,7 +5347,7 @@ Y = 5.10204 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.880000s Real=1.877104s Sys=0.000000s [Cpu=100.2%]
+  User=1.930000s Real=1.929197s Sys=0.000000s [Cpu=100.0%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -5396,7 +5394,7 @@ Y = 7.14286 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.850000s Real=1.850255s Sys=0.000000s [Cpu=100.0%]
+  User=1.920000s Real=1.913770s Sys=0.000000s [Cpu=100.3%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -5443,7 +5441,7 @@ Y = 9.18367 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.870000s Real=1.861794s Sys=0.000000s [Cpu=100.4%]
+  User=1.920000s Real=1.918721s Sys=0.000000s [Cpu=100.1%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -5490,7 +5488,7 @@ Y = 11.2245 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.870000s Real=1.873664s Sys=0.000000s [Cpu=99.8%]
+  User=1.920000s Real=1.921176s Sys=0.000000s [Cpu=99.9%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -5537,7 +5535,7 @@ Y = 13.2653 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.880000s Real=1.877192s Sys=0.000000s [Cpu=100.1%]
+  User=1.910000s Real=1.909962s Sys=0.000000s [Cpu=100.0%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -5584,7 +5582,7 @@ Y = 15.3061 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.880000s Real=1.879331s Sys=0.000000s [Cpu=100.0%]
+  User=1.930000s Real=1.931262s Sys=0.000000s [Cpu=99.9%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -5631,7 +5629,7 @@ Y = 17.3469 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.860000s Real=1.860633s Sys=0.000000s [Cpu=100.0%]
+  User=1.900000s Real=1.897971s Sys=0.000000s [Cpu=100.1%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -5678,7 +5676,7 @@ Y = 19.3878 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.880000s Real=1.882670s Sys=0.000000s [Cpu=99.9%]
+  User=1.930000s Real=1.932606s Sys=0.000000s [Cpu=99.9%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -5725,7 +5723,7 @@ Y = 21.4286 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.860000s Real=1.860763s Sys=0.000000s [Cpu=100.0%]
+  User=1.940000s Real=1.934342s Sys=0.000000s [Cpu=100.3%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -5772,7 +5770,7 @@ Y = 23.4694 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.790000s Real=1.789295s Sys=0.000000s [Cpu=100.0%]
+  User=1.850000s Real=1.855621s Sys=0.000000s [Cpu=99.7%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -5819,7 +5817,7 @@ Y = 25.5102 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.380000s Real=1.378233s Sys=0.000000s [Cpu=100.1%]
+  User=1.860000s Real=1.854889s Sys=0.000000s [Cpu=100.3%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -5866,7 +5864,7 @@ Y = 27.551 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.120000s Real=1.117814s Sys=0.000000s [Cpu=100.2%]
+  User=1.920000s Real=1.920049s Sys=0.000000s [Cpu=100.0%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -5913,7 +5911,7 @@ Y = 29.5918 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.140000s Real=1.135345s Sys=0.000000s [Cpu=100.4%]
+  User=1.930000s Real=1.928476s Sys=0.000000s [Cpu=100.1%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -5960,7 +5958,7 @@ Y = 31.6327 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.150000s Real=1.148584s Sys=0.000000s [Cpu=100.1%]
+  User=1.910000s Real=1.913173s Sys=0.000000s [Cpu=99.8%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -6007,7 +6005,7 @@ Y = 33.6735 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.180000s Real=1.184554s Sys=0.000000s [Cpu=99.6%]
+  User=1.900000s Real=1.892423s Sys=0.000000s [Cpu=100.4%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -6054,7 +6052,7 @@ Y = 35.7143 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.200000s Real=1.195700s Sys=0.000000s [Cpu=100.4%]
+  User=1.900000s Real=1.900421s Sys=0.000000s [Cpu=100.0%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -6101,7 +6099,7 @@ Y = 37.7551 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.190000s Real=1.190786s Sys=0.000000s [Cpu=99.9%]
+  User=1.910000s Real=1.915299s Sys=0.000000s [Cpu=99.7%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -6148,7 +6146,7 @@ Y = 39.7959 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.200000s Real=1.199722s Sys=0.000000s [Cpu=100.0%]
+  User=1.870000s Real=1.866279s Sys=0.000000s [Cpu=100.2%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -6195,7 +6193,7 @@ Y = 41.8367 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.200000s Real=1.195767s Sys=0.000000s [Cpu=100.4%]
+  User=1.870000s Real=1.866241s Sys=0.000000s [Cpu=100.2%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -6242,7 +6240,7 @@ Y = 43.8776 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.220000s Real=1.226691s Sys=0.000000s [Cpu=99.5%]
+  User=1.900000s Real=1.902894s Sys=0.000000s [Cpu=99.8%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -6289,7 +6287,7 @@ Y = 45.9184 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.210000s Real=1.206679s Sys=0.000000s [Cpu=100.3%]
+  User=1.900000s Real=1.901445s Sys=0.000000s [Cpu=99.9%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -6336,7 +6334,7 @@ Y = 47.9592 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.160000s Real=1.162275s Sys=0.000000s [Cpu=99.8%]
+  User=1.820000s Real=1.817177s Sys=0.000000s [Cpu=100.2%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -6383,11 +6381,11 @@ Y = 50 cm
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.120000s Real=1.120733s Sys=0.000000s [Cpu=99.9%]
+  User=1.830000s Real=1.830781s Sys=0.000000s [Cpu=100.0%]
 ====================================
 CSV SAVED
 ====================================
 ================== Deleting memory pools ===================
 Number of memory pools allocated: 10; of which, static: 0
-Dynamic pools deleted: 10 / Total memory freed: 0.057 MB
+Dynamic pools deleted: 10 / Total memory freed: 0.058 MB
 ============================================================
