@@ -47,7 +47,7 @@ void DetectorConstruction::SetScanPosition(
     fScanY = y;
 
     // Update detectors positions (detector ring moves together with the source)
-    G4double r = 20.0 * cm;
+    G4double r = 5.0 * cm;
     for(size_t i = 0; i < fDetectorPVs.size(); i++)
     {
         G4double phi = i * 360.0*deg / fDetectorPVs.size();
@@ -99,9 +99,9 @@ G4VPhysicalVolume* DetectorConstruction::ConstructWorld()
     auto solidWorld =
         new G4Box(
             "WorldSolid",
-            70*cm,
-            70*cm,
-            70*cm
+            150*cm,
+            150*cm,
+            150*cm
         );
 
     auto logicWorld =
@@ -206,7 +206,7 @@ G4VPhysicalVolume* DetectorConstruction::ConstructWorld()
 
     new G4PVPlacement(
         rotPipe,
-        G4ThreeVector(0,0,65*cm),
+        G4ThreeVector(0,0,27*cm),
         logicPipe,
         "PipePV",
         logicWorld,
@@ -225,8 +225,8 @@ G4VPhysicalVolume* DetectorConstruction::ConstructWorld()
         new G4Box(
             "VoidSolid",
             20.0*cm,   // half-length X
-            3.0*cm,    // half-length Y (tipis → garis horizontal)
-            1.5*cm     // half-thickness Z → total tebal 1 cm
+            1.0*cm,    // half-length Y (total tebal 2 cm, aman di dinding tebal 4 cm)
+            1.5*cm     // half-thickness Z
         );
 
     auto logicVoid =
@@ -238,7 +238,7 @@ G4VPhysicalVolume* DetectorConstruction::ConstructWorld()
 
     G4ThreeVector defectPos(
         0,
-        21*cm,
+        -22*cm,        // Diposisikan di dinding bawah (yang menghadap detektor)
         0
     );
 
@@ -270,8 +270,8 @@ G4VPhysicalVolume* DetectorConstruction::ConstructWorld()
         new G4Tubs(
             "NaISolid",
             0.0*cm,
-            10.0*cm,
-            10.0*cm,
+            2.0*cm,    // Radius dikurangi agar 6 detektor muat di ring radius 5 cm
+            2.0*cm,    // Half-length dikurangi agar muat
             0.0,
             360.0*deg
         );
@@ -299,7 +299,7 @@ G4VPhysicalVolume* DetectorConstruction::ConstructWorld()
     // =====================
     G4int Ndet = 6;
 
-    G4double r = 20.0 * cm;
+    G4double r = 5.0 * cm;
 
     for(G4int i = 0; i < Ndet; i++)
     {
