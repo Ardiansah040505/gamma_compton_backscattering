@@ -1,8 +1,8 @@
-Total scan points = 2500
+Total scan points = 10201
 First point: x = -50, y = -50
 Last point : x = 50, y = 50
 ====================================
-TOTAL SCAN POINTS = 2500
+TOTAL SCAN POINTS = 10201
 ====================================
 
 **************************************************************
@@ -547,13 +547,13 @@ RUN FOR POINT 250 STARTED
 ====================================
 ====================================
 SCAN POINT = 250
-X = -39.7959 cm
-Y = -50 cm
+X = -48 cm
+Y = -2 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.000000s Real=1.999949s Sys=0.000000s [Cpu=100.0%]
+  User=2.200000s Real=2.198993s Sys=0.000000s [Cpu=100.0%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -594,13 +594,13 @@ RUN FOR POINT 251 STARTED
 ====================================
 ====================================
 SCAN POINT = 251
-X = -39.7959 cm
-Y = -47.9592 cm
+X = -48 cm
+Y = -1 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.010000s Real=2.014185s Sys=0.000000s [Cpu=99.8%]
+  User=2.220000s Real=2.221602s Sys=0.000000s [Cpu=99.9%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -641,13 +641,13 @@ RUN FOR POINT 252 STARTED
 ====================================
 ====================================
 SCAN POINT = 252
-X = -39.7959 cm
-Y = -45.9184 cm
+X = -48 cm
+Y = 0 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.050000s Real=2.046772s Sys=0.000000s [Cpu=100.2%]
+  User=2.160000s Real=2.157156s Sys=0.000000s [Cpu=100.1%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -688,13 +688,13 @@ RUN FOR POINT 253 STARTED
 ====================================
 ====================================
 SCAN POINT = 253
-X = -39.7959 cm
-Y = -43.8776 cm
+X = -48 cm
+Y = 1 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.040000s Real=2.037479s Sys=0.000000s [Cpu=100.1%]
+  User=2.190000s Real=2.188025s Sys=0.000000s [Cpu=100.1%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -735,13 +735,13 @@ RUN FOR POINT 254 STARTED
 ====================================
 ====================================
 SCAN POINT = 254
-X = -39.7959 cm
-Y = -41.8367 cm
+X = -48 cm
+Y = 2 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.040000s Real=2.047009s Sys=0.000000s [Cpu=99.7%]
+  User=2.190000s Real=2.191598s Sys=0.000000s [Cpu=99.9%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -782,13 +782,13 @@ RUN FOR POINT 255 STARTED
 ====================================
 ====================================
 SCAN POINT = 255
-X = -39.7959 cm
-Y = -39.7959 cm
+X = -48 cm
+Y = 3 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.050000s Real=2.048945s Sys=0.000000s [Cpu=100.1%]
+  User=2.260000s Real=2.263109s Sys=0.000000s [Cpu=99.9%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -829,13 +829,13 @@ RUN FOR POINT 256 STARTED
 ====================================
 ====================================
 SCAN POINT = 256
-X = -39.7959 cm
-Y = -37.7551 cm
+X = -48 cm
+Y = 4 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.040000s Real=2.033834s Sys=0.000000s [Cpu=100.3%]
+  User=2.260000s Real=2.259255s Sys=0.000000s [Cpu=100.0%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -876,13 +876,13 @@ RUN FOR POINT 257 STARTED
 ====================================
 ====================================
 SCAN POINT = 257
-X = -39.7959 cm
-Y = -35.7143 cm
+X = -48 cm
+Y = 5 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.050000s Real=2.046702s Sys=0.000000s [Cpu=100.2%]
+  User=2.280000s Real=2.272927s Sys=0.010000s [Cpu=100.8%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -923,13 +923,13 @@ RUN FOR POINT 258 STARTED
 ====================================
 ====================================
 SCAN POINT = 258
-X = -39.7959 cm
-Y = -33.6735 cm
+X = -48 cm
+Y = 6 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.050000s Real=2.054179s Sys=0.000000s [Cpu=99.8%]
+  User=2.240000s Real=2.246296s Sys=0.000000s [Cpu=99.7%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -970,13 +970,13 @@ RUN FOR POINT 259 STARTED
 ====================================
 ====================================
 SCAN POINT = 259
-X = -39.7959 cm
-Y = -31.6327 cm
+X = -48 cm
+Y = 7 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.060000s Real=2.064031s Sys=0.000000s [Cpu=99.8%]
+  User=2.220000s Real=2.215912s Sys=0.000000s [Cpu=100.2%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -1017,13 +1017,13 @@ RUN FOR POINT 260 STARTED
 ====================================
 ====================================
 SCAN POINT = 260
-X = -39.7959 cm
-Y = -29.5918 cm
+X = -48 cm
+Y = 8 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.050000s Real=2.052776s Sys=0.000000s [Cpu=99.9%]
+  User=2.220000s Real=2.216302s Sys=0.000000s [Cpu=100.2%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -1064,13 +1064,13 @@ RUN FOR POINT 261 STARTED
 ====================================
 ====================================
 SCAN POINT = 261
-X = -39.7959 cm
-Y = -27.551 cm
+X = -48 cm
+Y = 9 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.070000s Real=2.072379s Sys=0.000000s [Cpu=99.9%]
+  User=2.230000s Real=2.236037s Sys=0.000000s [Cpu=99.7%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -1111,13 +1111,13 @@ RUN FOR POINT 262 STARTED
 ====================================
 ====================================
 SCAN POINT = 262
-X = -39.7959 cm
-Y = -25.5102 cm
+X = -48 cm
+Y = 10 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.010000s Real=2.009414s Sys=0.000000s [Cpu=100.0%]
+  User=2.230000s Real=2.227408s Sys=0.000000s [Cpu=100.1%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -1158,13 +1158,13 @@ RUN FOR POINT 263 STARTED
 ====================================
 ====================================
 SCAN POINT = 263
-X = -39.7959 cm
-Y = -23.4694 cm
+X = -48 cm
+Y = 11 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.000000s Real=1.998957s Sys=0.000000s [Cpu=100.1%]
+  User=2.210000s Real=2.211707s Sys=0.000000s [Cpu=99.9%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -1205,13 +1205,13 @@ RUN FOR POINT 264 STARTED
 ====================================
 ====================================
 SCAN POINT = 264
-X = -39.7959 cm
-Y = -21.4286 cm
+X = -48 cm
+Y = 12 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.050000s Real=2.051363s Sys=0.000000s [Cpu=99.9%]
+  User=2.220000s Real=2.221290s Sys=0.000000s [Cpu=99.9%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -1252,13 +1252,13 @@ RUN FOR POINT 265 STARTED
 ====================================
 ====================================
 SCAN POINT = 265
-X = -39.7959 cm
-Y = -19.3878 cm
+X = -48 cm
+Y = 13 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.040000s Real=2.037424s Sys=0.000000s [Cpu=100.1%]
+  User=2.220000s Real=2.217039s Sys=0.000000s [Cpu=100.1%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -1299,13 +1299,13 @@ RUN FOR POINT 266 STARTED
 ====================================
 ====================================
 SCAN POINT = 266
-X = -39.7959 cm
-Y = -17.3469 cm
+X = -48 cm
+Y = 14 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.020000s Real=2.020469s Sys=0.000000s [Cpu=100.0%]
+  User=2.220000s Real=2.215978s Sys=0.000000s [Cpu=100.2%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -1346,13 +1346,13 @@ RUN FOR POINT 267 STARTED
 ====================================
 ====================================
 SCAN POINT = 267
-X = -39.7959 cm
-Y = -15.3061 cm
+X = -48 cm
+Y = 15 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.060000s Real=2.052266s Sys=0.000000s [Cpu=100.4%]
+  User=2.220000s Real=2.223306s Sys=0.000000s [Cpu=99.9%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -1393,13 +1393,13 @@ RUN FOR POINT 268 STARTED
 ====================================
 ====================================
 SCAN POINT = 268
-X = -39.7959 cm
-Y = -13.2653 cm
+X = -48 cm
+Y = 16 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.070000s Real=2.071263s Sys=0.000000s [Cpu=99.9%]
+  User=2.270000s Real=2.267492s Sys=0.000000s [Cpu=100.1%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -1440,13 +1440,13 @@ RUN FOR POINT 269 STARTED
 ====================================
 ====================================
 SCAN POINT = 269
-X = -39.7959 cm
-Y = -11.2245 cm
+X = -48 cm
+Y = 17 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.030000s Real=2.031018s Sys=0.000000s [Cpu=99.9%]
+  User=2.220000s Real=2.220142s Sys=0.000000s [Cpu=100.0%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -1487,13 +1487,13 @@ RUN FOR POINT 270 STARTED
 ====================================
 ====================================
 SCAN POINT = 270
-X = -39.7959 cm
-Y = -9.18367 cm
+X = -48 cm
+Y = 18 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.070000s Real=2.068185s Sys=0.000000s [Cpu=100.1%]
+  User=2.250000s Real=2.247048s Sys=0.000000s [Cpu=100.1%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -1534,13 +1534,13 @@ RUN FOR POINT 271 STARTED
 ====================================
 ====================================
 SCAN POINT = 271
-X = -39.7959 cm
-Y = -7.14286 cm
+X = -48 cm
+Y = 19 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.060000s Real=2.056806s Sys=0.000000s [Cpu=100.2%]
+  User=2.240000s Real=2.243899s Sys=0.000000s [Cpu=99.8%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -1581,13 +1581,13 @@ RUN FOR POINT 272 STARTED
 ====================================
 ====================================
 SCAN POINT = 272
-X = -39.7959 cm
-Y = -5.10204 cm
+X = -48 cm
+Y = 20 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.080000s Real=2.086800s Sys=0.000000s [Cpu=99.7%]
+  User=2.210000s Real=2.203148s Sys=0.000000s [Cpu=100.3%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -1628,13 +1628,13 @@ RUN FOR POINT 273 STARTED
 ====================================
 ====================================
 SCAN POINT = 273
-X = -39.7959 cm
-Y = -3.06122 cm
+X = -48 cm
+Y = 21 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.090000s Real=2.081554s Sys=0.000000s [Cpu=100.4%]
+  User=2.220000s Real=2.222569s Sys=0.000000s [Cpu=99.9%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -1675,13 +1675,13 @@ RUN FOR POINT 274 STARTED
 ====================================
 ====================================
 SCAN POINT = 274
-X = -39.7959 cm
-Y = -1.02041 cm
+X = -48 cm
+Y = 22 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.000000s Real=2.007884s Sys=0.000000s [Cpu=99.6%]
+  User=2.210000s Real=2.212035s Sys=0.000000s [Cpu=99.9%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -1722,13 +1722,13 @@ RUN FOR POINT 275 STARTED
 ====================================
 ====================================
 SCAN POINT = 275
-X = -39.7959 cm
-Y = 1.02041 cm
+X = -48 cm
+Y = 23 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.010000s Real=2.012187s Sys=0.000000s [Cpu=99.9%]
+  User=2.220000s Real=2.211874s Sys=0.000000s [Cpu=100.4%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -1769,13 +1769,13 @@ RUN FOR POINT 276 STARTED
 ====================================
 ====================================
 SCAN POINT = 276
-X = -39.7959 cm
-Y = 3.06122 cm
+X = -48 cm
+Y = 24 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.060000s Real=2.058972s Sys=0.000000s [Cpu=100.0%]
+  User=2.250000s Real=2.254742s Sys=0.000000s [Cpu=99.8%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -1816,13 +1816,13 @@ RUN FOR POINT 277 STARTED
 ====================================
 ====================================
 SCAN POINT = 277
-X = -39.7959 cm
-Y = 5.10204 cm
+X = -48 cm
+Y = 25 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.080000s Real=2.077770s Sys=0.000000s [Cpu=100.1%]
+  User=2.240000s Real=2.238859s Sys=0.000000s [Cpu=100.1%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -1863,13 +1863,13 @@ RUN FOR POINT 278 STARTED
 ====================================
 ====================================
 SCAN POINT = 278
-X = -39.7959 cm
-Y = 7.14286 cm
+X = -48 cm
+Y = 26 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.060000s Real=2.061424s Sys=0.000000s [Cpu=99.9%]
+  User=2.240000s Real=2.243050s Sys=0.000000s [Cpu=99.9%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -1910,13 +1910,13 @@ RUN FOR POINT 279 STARTED
 ====================================
 ====================================
 SCAN POINT = 279
-X = -39.7959 cm
-Y = 9.18367 cm
+X = -48 cm
+Y = 27 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.100000s Real=2.101370s Sys=0.000000s [Cpu=99.9%]
+  User=2.270000s Real=2.270784s Sys=0.000000s [Cpu=100.0%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -1957,13 +1957,13 @@ RUN FOR POINT 280 STARTED
 ====================================
 ====================================
 SCAN POINT = 280
-X = -39.7959 cm
-Y = 11.2245 cm
+X = -48 cm
+Y = 28 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.080000s Real=2.082475s Sys=0.000000s [Cpu=99.9%]
+  User=2.250000s Real=2.253152s Sys=0.000000s [Cpu=99.9%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -2004,13 +2004,13 @@ RUN FOR POINT 281 STARTED
 ====================================
 ====================================
 SCAN POINT = 281
-X = -39.7959 cm
-Y = 13.2653 cm
+X = -48 cm
+Y = 29 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.070000s Real=2.075964s Sys=0.000000s [Cpu=99.7%]
+  User=2.240000s Real=2.245683s Sys=0.000000s [Cpu=99.7%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -2051,13 +2051,13 @@ RUN FOR POINT 282 STARTED
 ====================================
 ====================================
 SCAN POINT = 282
-X = -39.7959 cm
-Y = 15.3061 cm
+X = -48 cm
+Y = 30 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.050000s Real=2.057619s Sys=0.000000s [Cpu=99.6%]
+  User=2.260000s Real=2.254880s Sys=0.000000s [Cpu=100.2%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -2098,13 +2098,13 @@ RUN FOR POINT 283 STARTED
 ====================================
 ====================================
 SCAN POINT = 283
-X = -39.7959 cm
-Y = 17.3469 cm
+X = -48 cm
+Y = 31 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.080000s Real=2.076941s Sys=0.000000s [Cpu=100.1%]
+  User=2.240000s Real=2.244321s Sys=0.000000s [Cpu=99.8%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -2145,13 +2145,13 @@ RUN FOR POINT 284 STARTED
 ====================================
 ====================================
 SCAN POINT = 284
-X = -39.7959 cm
-Y = 19.3878 cm
+X = -48 cm
+Y = 32 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.090000s Real=2.083850s Sys=0.000000s [Cpu=100.3%]
+  User=2.250000s Real=2.243510s Sys=0.000000s [Cpu=100.3%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -2192,13 +2192,13 @@ RUN FOR POINT 285 STARTED
 ====================================
 ====================================
 SCAN POINT = 285
-X = -39.7959 cm
-Y = 21.4286 cm
+X = -48 cm
+Y = 33 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.070000s Real=2.074639s Sys=0.000000s [Cpu=99.8%]
+  User=2.230000s Real=2.230483s Sys=0.000000s [Cpu=100.0%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -2239,13 +2239,13 @@ RUN FOR POINT 286 STARTED
 ====================================
 ====================================
 SCAN POINT = 286
-X = -39.7959 cm
-Y = 23.4694 cm
+X = -48 cm
+Y = 34 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.030000s Real=2.029254s Sys=0.000000s [Cpu=100.0%]
+  User=2.230000s Real=2.233556s Sys=0.000000s [Cpu=99.8%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -2286,13 +2286,13 @@ RUN FOR POINT 287 STARTED
 ====================================
 ====================================
 SCAN POINT = 287
-X = -39.7959 cm
-Y = 25.5102 cm
+X = -48 cm
+Y = 35 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.020000s Real=2.022439s Sys=0.000000s [Cpu=99.9%]
+  User=2.220000s Real=2.220661s Sys=0.000000s [Cpu=100.0%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -2333,13 +2333,13 @@ RUN FOR POINT 288 STARTED
 ====================================
 ====================================
 SCAN POINT = 288
-X = -39.7959 cm
-Y = 27.551 cm
+X = -48 cm
+Y = 36 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.110000s Real=2.103966s Sys=0.000000s [Cpu=100.3%]
+  User=2.230000s Real=2.223545s Sys=0.000000s [Cpu=100.3%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -2380,13 +2380,13 @@ RUN FOR POINT 289 STARTED
 ====================================
 ====================================
 SCAN POINT = 289
-X = -39.7959 cm
-Y = 29.5918 cm
+X = -48 cm
+Y = 37 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.050000s Real=2.053448s Sys=0.000000s [Cpu=99.8%]
+  User=2.210000s Real=2.212884s Sys=0.000000s [Cpu=99.9%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -2427,13 +2427,13 @@ RUN FOR POINT 290 STARTED
 ====================================
 ====================================
 SCAN POINT = 290
-X = -39.7959 cm
-Y = 31.6327 cm
+X = -48 cm
+Y = 38 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.080000s Real=2.078060s Sys=0.000000s [Cpu=100.1%]
+  User=2.270000s Real=2.271102s Sys=0.000000s [Cpu=100.0%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -2474,13 +2474,13 @@ RUN FOR POINT 291 STARTED
 ====================================
 ====================================
 SCAN POINT = 291
-X = -39.7959 cm
-Y = 33.6735 cm
+X = -48 cm
+Y = 39 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.060000s Real=2.058536s Sys=0.000000s [Cpu=100.1%]
+  User=2.240000s Real=2.235330s Sys=0.000000s [Cpu=100.2%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -2521,13 +2521,13 @@ RUN FOR POINT 292 STARTED
 ====================================
 ====================================
 SCAN POINT = 292
-X = -39.7959 cm
-Y = 35.7143 cm
+X = -48 cm
+Y = 40 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.050000s Real=2.052932s Sys=0.000000s [Cpu=99.9%]
+  User=2.250000s Real=2.254425s Sys=0.000000s [Cpu=99.8%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -2568,13 +2568,13 @@ RUN FOR POINT 293 STARTED
 ====================================
 ====================================
 SCAN POINT = 293
-X = -39.7959 cm
-Y = 37.7551 cm
+X = -48 cm
+Y = 41 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.080000s Real=2.071686s Sys=0.000000s [Cpu=100.4%]
+  User=2.220000s Real=2.215558s Sys=0.000000s [Cpu=100.2%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -2615,13 +2615,13 @@ RUN FOR POINT 294 STARTED
 ====================================
 ====================================
 SCAN POINT = 294
-X = -39.7959 cm
-Y = 39.7959 cm
+X = -48 cm
+Y = 42 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.040000s Real=2.045033s Sys=0.000000s [Cpu=99.8%]
+  User=2.200000s Real=2.202606s Sys=0.000000s [Cpu=99.9%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -2662,13 +2662,13 @@ RUN FOR POINT 295 STARTED
 ====================================
 ====================================
 SCAN POINT = 295
-X = -39.7959 cm
-Y = 41.8367 cm
+X = -48 cm
+Y = 43 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.050000s Real=2.044952s Sys=0.000000s [Cpu=100.2%]
+  User=2.220000s Real=2.214995s Sys=0.000000s [Cpu=100.2%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -2709,13 +2709,13 @@ RUN FOR POINT 296 STARTED
 ====================================
 ====================================
 SCAN POINT = 296
-X = -39.7959 cm
-Y = 43.8776 cm
+X = -48 cm
+Y = 44 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.060000s Real=2.063052s Sys=0.000000s [Cpu=99.9%]
+  User=2.190000s Real=2.194709s Sys=0.000000s [Cpu=99.8%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -2756,13 +2756,13 @@ RUN FOR POINT 297 STARTED
 ====================================
 ====================================
 SCAN POINT = 297
-X = -39.7959 cm
-Y = 45.9184 cm
+X = -48 cm
+Y = 45 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.080000s Real=2.081175s Sys=0.000000s [Cpu=99.9%]
+  User=2.210000s Real=2.211919s Sys=0.000000s [Cpu=99.9%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -2803,13 +2803,13 @@ RUN FOR POINT 298 STARTED
 ====================================
 ====================================
 SCAN POINT = 298
-X = -39.7959 cm
-Y = 47.9592 cm
+X = -48 cm
+Y = 46 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.010000s Real=2.008491s Sys=0.000000s [Cpu=100.1%]
+  User=2.260000s Real=2.259669s Sys=0.000000s [Cpu=100.0%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -2850,13 +2850,13 @@ RUN FOR POINT 299 STARTED
 ====================================
 ====================================
 SCAN POINT = 299
-X = -39.7959 cm
-Y = 50 cm
+X = -48 cm
+Y = 47 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.000000s Real=2.005170s Sys=0.000000s [Cpu=99.7%]
+  User=2.260000s Real=2.264050s Sys=0.000000s [Cpu=99.8%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -2897,13 +2897,13 @@ RUN FOR POINT 300 STARTED
 ====================================
 ====================================
 SCAN POINT = 300
-X = -37.7551 cm
-Y = -50 cm
+X = -48 cm
+Y = 48 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.020000s Real=2.013964s Sys=0.000000s [Cpu=100.3%]
+  User=2.260000s Real=2.262960s Sys=0.000000s [Cpu=99.9%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -2944,13 +2944,13 @@ RUN FOR POINT 301 STARTED
 ====================================
 ====================================
 SCAN POINT = 301
-X = -37.7551 cm
-Y = -47.9592 cm
+X = -48 cm
+Y = 49 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.020000s Real=2.024505s Sys=0.000000s [Cpu=99.8%]
+  User=2.270000s Real=2.271148s Sys=0.000000s [Cpu=99.9%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -2991,13 +2991,13 @@ RUN FOR POINT 302 STARTED
 ====================================
 ====================================
 SCAN POINT = 302
-X = -37.7551 cm
-Y = -45.9184 cm
+X = -48 cm
+Y = 50 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.000000s Real=2.000086s Sys=0.000000s [Cpu=100.0%]
+  User=2.250000s Real=2.243004s Sys=0.000000s [Cpu=100.3%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -3038,13 +3038,13 @@ RUN FOR POINT 303 STARTED
 ====================================
 ====================================
 SCAN POINT = 303
-X = -37.7551 cm
-Y = -43.8776 cm
+X = -47 cm
+Y = -50 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.010000s Real=2.009397s Sys=0.000000s [Cpu=100.0%]
+  User=2.250000s Real=2.251989s Sys=0.000000s [Cpu=99.9%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -3085,13 +3085,13 @@ RUN FOR POINT 304 STARTED
 ====================================
 ====================================
 SCAN POINT = 304
-X = -37.7551 cm
-Y = -41.8367 cm
+X = -47 cm
+Y = -49 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.030000s Real=2.020590s Sys=0.000000s [Cpu=100.5%]
+  User=2.260000s Real=2.257465s Sys=0.000000s [Cpu=100.1%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -3132,13 +3132,13 @@ RUN FOR POINT 305 STARTED
 ====================================
 ====================================
 SCAN POINT = 305
-X = -37.7551 cm
-Y = -39.7959 cm
+X = -47 cm
+Y = -48 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.950000s Real=1.953246s Sys=0.000000s [Cpu=99.8%]
+  User=2.270000s Real=2.270877s Sys=0.000000s [Cpu=100.0%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -3179,13 +3179,13 @@ RUN FOR POINT 306 STARTED
 ====================================
 ====================================
 SCAN POINT = 306
-X = -37.7551 cm
-Y = -37.7551 cm
+X = -47 cm
+Y = -47 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.920000s Real=1.920712s Sys=0.000000s [Cpu=100.0%]
+  User=2.240000s Real=2.240836s Sys=0.000000s [Cpu=100.0%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -3226,13 +3226,13 @@ RUN FOR POINT 307 STARTED
 ====================================
 ====================================
 SCAN POINT = 307
-X = -37.7551 cm
-Y = -35.7143 cm
+X = -47 cm
+Y = -46 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.960000s Real=1.957933s Sys=0.000000s [Cpu=100.1%]
+  User=2.270000s Real=2.264911s Sys=0.000000s [Cpu=100.2%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -3273,13 +3273,13 @@ RUN FOR POINT 308 STARTED
 ====================================
 ====================================
 SCAN POINT = 308
-X = -37.7551 cm
-Y = -33.6735 cm
+X = -47 cm
+Y = -45 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.000000s Real=2.000302s Sys=0.000000s [Cpu=100.0%]
+  User=2.180000s Real=2.178430s Sys=0.000000s [Cpu=100.1%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -3320,13 +3320,13 @@ RUN FOR POINT 309 STARTED
 ====================================
 ====================================
 SCAN POINT = 309
-X = -37.7551 cm
-Y = -31.6327 cm
+X = -47 cm
+Y = -44 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.010000s Real=2.009893s Sys=0.000000s [Cpu=100.0%]
+  User=2.190000s Real=2.195411s Sys=0.000000s [Cpu=99.8%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -3367,13 +3367,13 @@ RUN FOR POINT 310 STARTED
 ====================================
 ====================================
 SCAN POINT = 310
-X = -37.7551 cm
-Y = -29.5918 cm
+X = -47 cm
+Y = -43 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.000000s Real=1.997929s Sys=0.000000s [Cpu=100.1%]
+  User=2.180000s Real=2.178896s Sys=0.000000s [Cpu=100.1%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -3414,13 +3414,13 @@ RUN FOR POINT 311 STARTED
 ====================================
 ====================================
 SCAN POINT = 311
-X = -37.7551 cm
-Y = -27.551 cm
+X = -47 cm
+Y = -42 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.000000s Real=2.002897s Sys=0.000000s [Cpu=99.9%]
+  User=2.190000s Real=2.190264s Sys=0.000000s [Cpu=100.0%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -3461,13 +3461,13 @@ RUN FOR POINT 312 STARTED
 ====================================
 ====================================
 SCAN POINT = 312
-X = -37.7551 cm
-Y = -25.5102 cm
+X = -47 cm
+Y = -41 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.040000s Real=2.031839s Sys=0.000000s [Cpu=100.4%]
+  User=2.200000s Real=2.198202s Sys=0.000000s [Cpu=100.1%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -3508,13 +3508,13 @@ RUN FOR POINT 313 STARTED
 ====================================
 ====================================
 SCAN POINT = 313
-X = -37.7551 cm
-Y = -23.4694 cm
+X = -47 cm
+Y = -40 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.000000s Real=2.002775s Sys=0.000000s [Cpu=99.9%]
+  User=2.260000s Real=2.256539s Sys=0.000000s [Cpu=100.2%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -3555,13 +3555,13 @@ RUN FOR POINT 314 STARTED
 ====================================
 ====================================
 SCAN POINT = 314
-X = -37.7551 cm
-Y = -21.4286 cm
+X = -47 cm
+Y = -39 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.020000s Real=2.021476s Sys=0.000000s [Cpu=99.9%]
+  User=2.270000s Real=2.269550s Sys=0.000000s [Cpu=100.0%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -3602,13 +3602,13 @@ RUN FOR POINT 315 STARTED
 ====================================
 ====================================
 SCAN POINT = 315
-X = -37.7551 cm
-Y = -19.3878 cm
+X = -47 cm
+Y = -38 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.000000s Real=1.999712s Sys=0.000000s [Cpu=100.0%]
+  User=2.240000s Real=2.246075s Sys=0.000000s [Cpu=99.7%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -3649,13 +3649,13 @@ RUN FOR POINT 316 STARTED
 ====================================
 ====================================
 SCAN POINT = 316
-X = -37.7551 cm
-Y = -17.3469 cm
+X = -47 cm
+Y = -37 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.030000s Real=2.027357s Sys=0.000000s [Cpu=100.1%]
+  User=2.240000s Real=2.247637s Sys=0.000000s [Cpu=99.7%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -3696,13 +3696,13 @@ RUN FOR POINT 317 STARTED
 ====================================
 ====================================
 SCAN POINT = 317
-X = -37.7551 cm
-Y = -15.3061 cm
+X = -47 cm
+Y = -36 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.010000s Real=2.014204s Sys=0.000000s [Cpu=99.8%]
+  User=2.230000s Real=2.229999s Sys=0.000000s [Cpu=100.0%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -3743,13 +3743,13 @@ RUN FOR POINT 318 STARTED
 ====================================
 ====================================
 SCAN POINT = 318
-X = -37.7551 cm
-Y = -13.2653 cm
+X = -47 cm
+Y = -35 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.000000s Real=1.996211s Sys=0.000000s [Cpu=100.2%]
+  User=2.180000s Real=2.177499s Sys=0.000000s [Cpu=100.1%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -3790,13 +3790,13 @@ RUN FOR POINT 319 STARTED
 ====================================
 ====================================
 SCAN POINT = 319
-X = -37.7551 cm
-Y = -11.2245 cm
+X = -47 cm
+Y = -34 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.000000s Real=2.005337s Sys=0.000000s [Cpu=99.7%]
+  User=2.220000s Real=2.214457s Sys=0.000000s [Cpu=100.3%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -3837,13 +3837,13 @@ RUN FOR POINT 320 STARTED
 ====================================
 ====================================
 SCAN POINT = 320
-X = -37.7551 cm
-Y = -9.18367 cm
+X = -47 cm
+Y = -33 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=2.020000s Real=2.014550s Sys=0.000000s [Cpu=100.3%]
+  User=2.210000s Real=2.211476s Sys=0.000000s [Cpu=99.9%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -3884,13 +3884,13 @@ RUN FOR POINT 321 STARTED
 ====================================
 ====================================
 SCAN POINT = 321
-X = -37.7551 cm
-Y = -7.14286 cm
+X = -47 cm
+Y = -32 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.920000s Real=1.925137s Sys=0.000000s [Cpu=99.7%]
+  User=2.200000s Real=2.200141s Sys=0.000000s [Cpu=100.0%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -3931,13 +3931,13 @@ RUN FOR POINT 322 STARTED
 ====================================
 ====================================
 SCAN POINT = 322
-X = -37.7551 cm
-Y = -5.10204 cm
+X = -47 cm
+Y = -31 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.210000s Real=1.206529s Sys=0.000000s [Cpu=100.3%]
+  User=2.210000s Real=2.207959s Sys=0.000000s [Cpu=100.1%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -3978,13 +3978,13 @@ RUN FOR POINT 323 STARTED
 ====================================
 ====================================
 SCAN POINT = 323
-X = -37.7551 cm
-Y = -3.06122 cm
+X = -47 cm
+Y = -30 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.790000s Real=1.791174s Sys=0.000000s [Cpu=99.9%]
+  User=2.220000s Real=2.218129s Sys=0.000000s [Cpu=100.1%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -4025,13 +4025,13 @@ RUN FOR POINT 324 STARTED
 ====================================
 ====================================
 SCAN POINT = 324
-X = -37.7551 cm
-Y = -1.02041 cm
+X = -47 cm
+Y = -29 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.740000s Real=1.734584s Sys=0.000000s [Cpu=100.3%]
+  User=1.340000s Real=1.343859s Sys=0.000000s [Cpu=99.7%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -4072,13 +4072,13 @@ RUN FOR POINT 325 STARTED
 ====================================
 ====================================
 SCAN POINT = 325
-X = -37.7551 cm
-Y = 1.02041 cm
+X = -47 cm
+Y = -28 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.750000s Real=1.750616s Sys=0.000000s [Cpu=100.0%]
+  User=1.210000s Real=1.209250s Sys=0.000000s [Cpu=100.1%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -4119,13 +4119,13 @@ RUN FOR POINT 326 STARTED
 ====================================
 ====================================
 SCAN POINT = 326
-X = -37.7551 cm
-Y = 3.06122 cm
+X = -47 cm
+Y = -27 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.810000s Real=1.806829s Sys=0.000000s [Cpu=100.2%]
+  User=1.190000s Real=1.187197s Sys=0.000000s [Cpu=100.2%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -4166,13 +4166,13 @@ RUN FOR POINT 327 STARTED
 ====================================
 ====================================
 SCAN POINT = 327
-X = -37.7551 cm
-Y = 5.10204 cm
+X = -47 cm
+Y = -26 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.800000s Real=1.801314s Sys=0.000000s [Cpu=99.9%]
+  User=1.170000s Real=1.171443s Sys=0.000000s [Cpu=99.9%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -4213,13 +4213,13 @@ RUN FOR POINT 328 STARTED
 ====================================
 ====================================
 SCAN POINT = 328
-X = -37.7551 cm
-Y = 7.14286 cm
+X = -47 cm
+Y = -25 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.800000s Real=1.801773s Sys=0.000000s [Cpu=99.9%]
+  User=1.190000s Real=1.186530s Sys=0.000000s [Cpu=100.3%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -4260,13 +4260,13 @@ RUN FOR POINT 329 STARTED
 ====================================
 ====================================
 SCAN POINT = 329
-X = -37.7551 cm
-Y = 9.18367 cm
+X = -47 cm
+Y = -24 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.780000s Real=1.782001s Sys=0.000000s [Cpu=99.9%]
+  User=1.180000s Real=1.180586s Sys=0.000000s [Cpu=100.0%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -4307,13 +4307,13 @@ RUN FOR POINT 330 STARTED
 ====================================
 ====================================
 SCAN POINT = 330
-X = -37.7551 cm
-Y = 11.2245 cm
+X = -47 cm
+Y = -23 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.770000s Real=1.770282s Sys=0.000000s [Cpu=100.0%]
+  User=1.130000s Real=1.130511s Sys=0.000000s [Cpu=100.0%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -4354,13 +4354,13 @@ RUN FOR POINT 331 STARTED
 ====================================
 ====================================
 SCAN POINT = 331
-X = -37.7551 cm
-Y = 13.2653 cm
+X = -47 cm
+Y = -22 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.810000s Real=1.803204s Sys=0.000000s [Cpu=100.4%]
+  User=1.170000s Real=1.174295s Sys=0.000000s [Cpu=99.6%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -4401,13 +4401,13 @@ RUN FOR POINT 332 STARTED
 ====================================
 ====================================
 SCAN POINT = 332
-X = -37.7551 cm
-Y = 15.3061 cm
+X = -47 cm
+Y = -21 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.780000s Real=1.782084s Sys=0.000000s [Cpu=99.9%]
+  User=1.170000s Real=1.162740s Sys=0.000000s [Cpu=100.6%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -4448,13 +4448,13 @@ RUN FOR POINT 333 STARTED
 ====================================
 ====================================
 SCAN POINT = 333
-X = -37.7551 cm
-Y = 17.3469 cm
+X = -47 cm
+Y = -20 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.800000s Real=1.797186s Sys=0.000000s [Cpu=100.2%]
+  User=1.140000s Real=1.146410s Sys=0.000000s [Cpu=99.4%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -4495,13 +4495,13 @@ RUN FOR POINT 334 STARTED
 ====================================
 ====================================
 SCAN POINT = 334
-X = -37.7551 cm
-Y = 19.3878 cm
+X = -47 cm
+Y = -19 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.780000s Real=1.780580s Sys=0.000000s [Cpu=100.0%]
+  User=1.200000s Real=1.192430s Sys=0.000000s [Cpu=100.6%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -4542,13 +4542,13 @@ RUN FOR POINT 335 STARTED
 ====================================
 ====================================
 SCAN POINT = 335
-X = -37.7551 cm
-Y = 21.4286 cm
+X = -47 cm
+Y = -18 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.810000s Real=1.810950s Sys=0.000000s [Cpu=99.9%]
+  User=1.210000s Real=1.215665s Sys=0.000000s [Cpu=99.5%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -4589,13 +4589,13 @@ RUN FOR POINT 336 STARTED
 ====================================
 ====================================
 SCAN POINT = 336
-X = -37.7551 cm
-Y = 23.4694 cm
+X = -47 cm
+Y = -17 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.790000s Real=1.792338s Sys=0.000000s [Cpu=99.9%]
+  User=1.220000s Real=1.221908s Sys=0.000000s [Cpu=99.8%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -4636,13 +4636,13 @@ RUN FOR POINT 337 STARTED
 ====================================
 ====================================
 SCAN POINT = 337
-X = -37.7551 cm
-Y = 25.5102 cm
+X = -47 cm
+Y = -16 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.790000s Real=1.791418s Sys=0.000000s [Cpu=99.9%]
+  User=1.220000s Real=1.224977s Sys=0.000000s [Cpu=99.6%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -4683,13 +4683,13 @@ RUN FOR POINT 338 STARTED
 ====================================
 ====================================
 SCAN POINT = 338
-X = -37.7551 cm
-Y = 27.551 cm
+X = -47 cm
+Y = -15 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.790000s Real=1.794137s Sys=0.000000s [Cpu=99.8%]
+  User=1.180000s Real=1.183359s Sys=0.000000s [Cpu=99.7%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -4730,13 +4730,13 @@ RUN FOR POINT 339 STARTED
 ====================================
 ====================================
 SCAN POINT = 339
-X = -37.7551 cm
-Y = 29.5918 cm
+X = -47 cm
+Y = -14 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.800000s Real=1.794909s Sys=0.000000s [Cpu=100.3%]
+  User=1.230000s Real=1.221285s Sys=0.000000s [Cpu=100.7%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -4777,13 +4777,13 @@ RUN FOR POINT 340 STARTED
 ====================================
 ====================================
 SCAN POINT = 340
-X = -37.7551 cm
-Y = 31.6327 cm
+X = -47 cm
+Y = -13 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.790000s Real=1.789960s Sys=0.000000s [Cpu=100.0%]
+  User=1.200000s Real=1.207477s Sys=0.000000s [Cpu=99.4%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -4824,13 +4824,13 @@ RUN FOR POINT 341 STARTED
 ====================================
 ====================================
 SCAN POINT = 341
-X = -37.7551 cm
-Y = 33.6735 cm
+X = -47 cm
+Y = -12 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.800000s Real=1.806566s Sys=0.000000s [Cpu=99.6%]
+  User=1.210000s Real=1.210034s Sys=0.000000s [Cpu=100.0%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -4871,13 +4871,13 @@ RUN FOR POINT 342 STARTED
 ====================================
 ====================================
 SCAN POINT = 342
-X = -37.7551 cm
-Y = 35.7143 cm
+X = -47 cm
+Y = -11 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.720000s Real=1.719919s Sys=0.000000s [Cpu=100.0%]
+  User=1.180000s Real=1.171353s Sys=0.000000s [Cpu=100.7%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -4918,13 +4918,13 @@ RUN FOR POINT 343 STARTED
 ====================================
 ====================================
 SCAN POINT = 343
-X = -37.7551 cm
-Y = 37.7551 cm
+X = -47 cm
+Y = -10 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.740000s Real=1.739399s Sys=0.000000s [Cpu=100.0%]
+  User=1.180000s Real=1.183171s Sys=0.000000s [Cpu=99.7%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -4965,13 +4965,13 @@ RUN FOR POINT 344 STARTED
 ====================================
 ====================================
 SCAN POINT = 344
-X = -37.7551 cm
-Y = 39.7959 cm
+X = -47 cm
+Y = -9 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.720000s Real=1.721440s Sys=0.000000s [Cpu=99.9%]
+  User=1.160000s Real=1.164797s Sys=0.000000s [Cpu=99.6%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -5012,13 +5012,13 @@ RUN FOR POINT 345 STARTED
 ====================================
 ====================================
 SCAN POINT = 345
-X = -37.7551 cm
-Y = 41.8367 cm
+X = -47 cm
+Y = -8 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.800000s Real=1.803242s Sys=0.000000s [Cpu=99.8%]
+  User=1.270000s Real=1.265448s Sys=0.000000s [Cpu=100.4%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -5059,13 +5059,13 @@ RUN FOR POINT 346 STARTED
 ====================================
 ====================================
 SCAN POINT = 346
-X = -37.7551 cm
-Y = 43.8776 cm
+X = -47 cm
+Y = -7 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.800000s Real=1.801179s Sys=0.000000s [Cpu=99.9%]
+  User=1.250000s Real=1.252702s Sys=0.000000s [Cpu=99.8%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -5106,13 +5106,13 @@ RUN FOR POINT 347 STARTED
 ====================================
 ====================================
 SCAN POINT = 347
-X = -37.7551 cm
-Y = 45.9184 cm
+X = -47 cm
+Y = -6 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.780000s Real=1.772834s Sys=0.000000s [Cpu=100.4%]
+  User=1.240000s Real=1.233986s Sys=0.000000s [Cpu=100.5%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -5153,13 +5153,13 @@ RUN FOR POINT 348 STARTED
 ====================================
 ====================================
 SCAN POINT = 348
-X = -37.7551 cm
-Y = 47.9592 cm
+X = -47 cm
+Y = -5 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.790000s Real=1.789065s Sys=0.000000s [Cpu=100.1%]
+  User=1.230000s Real=1.230053s Sys=0.000000s [Cpu=100.0%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -5200,13 +5200,13 @@ RUN FOR POINT 349 STARTED
 ====================================
 ====================================
 SCAN POINT = 349
-X = -37.7551 cm
-Y = 50 cm
+X = -47 cm
+Y = -4 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.770000s Real=1.772507s Sys=0.000000s [Cpu=99.9%]
+  User=1.240000s Real=1.240378s Sys=0.000000s [Cpu=100.0%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -5247,13 +5247,13 @@ RUN FOR POINT 350 STARTED
 ====================================
 ====================================
 SCAN POINT = 350
-X = -35.7143 cm
-Y = -50 cm
+X = -47 cm
+Y = -3 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.850000s Real=1.848859s Sys=0.000000s [Cpu=100.1%]
+  User=1.240000s Real=1.245310s Sys=0.000000s [Cpu=99.6%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -5294,13 +5294,13 @@ RUN FOR POINT 351 STARTED
 ====================================
 ====================================
 SCAN POINT = 351
-X = -35.7143 cm
-Y = -47.9592 cm
+X = -47 cm
+Y = -2 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.840000s Real=1.838028s Sys=0.000000s [Cpu=100.1%]
+  User=1.170000s Real=1.165064s Sys=0.000000s [Cpu=100.4%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -5341,13 +5341,13 @@ RUN FOR POINT 352 STARTED
 ====================================
 ====================================
 SCAN POINT = 352
-X = -35.7143 cm
-Y = -45.9184 cm
+X = -47 cm
+Y = -1 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.820000s Real=1.824267s Sys=0.000000s [Cpu=99.8%]
+  User=1.150000s Real=1.148802s Sys=0.000000s [Cpu=100.1%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -5388,13 +5388,13 @@ RUN FOR POINT 353 STARTED
 ====================================
 ====================================
 SCAN POINT = 353
-X = -35.7143 cm
-Y = -43.8776 cm
+X = -47 cm
+Y = 0 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.780000s Real=1.776136s Sys=0.000000s [Cpu=100.2%]
+  User=1.130000s Real=1.128239s Sys=0.000000s [Cpu=100.2%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -5435,13 +5435,13 @@ RUN FOR POINT 354 STARTED
 ====================================
 ====================================
 SCAN POINT = 354
-X = -35.7143 cm
-Y = -41.8367 cm
+X = -47 cm
+Y = 1 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.780000s Real=1.783194s Sys=0.000000s [Cpu=99.8%]
+  User=1.150000s Real=1.152082s Sys=0.000000s [Cpu=99.8%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -5482,13 +5482,13 @@ RUN FOR POINT 355 STARTED
 ====================================
 ====================================
 SCAN POINT = 355
-X = -35.7143 cm
-Y = -39.7959 cm
+X = -47 cm
+Y = 2 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.870000s Real=1.863975s Sys=0.000000s [Cpu=100.3%]
+  User=1.140000s Real=1.137826s Sys=0.000000s [Cpu=100.2%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -5529,13 +5529,13 @@ RUN FOR POINT 356 STARTED
 ====================================
 ====================================
 SCAN POINT = 356
-X = -35.7143 cm
-Y = -37.7551 cm
+X = -47 cm
+Y = 3 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.880000s Real=1.880333s Sys=0.000000s [Cpu=100.0%]
+  User=1.210000s Real=1.210902s Sys=0.000000s [Cpu=99.9%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -5576,13 +5576,13 @@ RUN FOR POINT 357 STARTED
 ====================================
 ====================================
 SCAN POINT = 357
-X = -35.7143 cm
-Y = -35.7143 cm
+X = -47 cm
+Y = 4 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.850000s Real=1.853725s Sys=0.000000s [Cpu=99.8%]
+  User=1.180000s Real=1.182381s Sys=0.000000s [Cpu=99.8%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -5623,13 +5623,13 @@ RUN FOR POINT 358 STARTED
 ====================================
 ====================================
 SCAN POINT = 358
-X = -35.7143 cm
-Y = -33.6735 cm
+X = -47 cm
+Y = 5 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.860000s Real=1.853739s Sys=0.000000s [Cpu=100.3%]
+  User=1.180000s Real=1.173952s Sys=0.000000s [Cpu=100.5%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -5670,13 +5670,13 @@ RUN FOR POINT 359 STARTED
 ====================================
 ====================================
 SCAN POINT = 359
-X = -35.7143 cm
-Y = -31.6327 cm
+X = -47 cm
+Y = 6 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.850000s Real=1.855616s Sys=0.000000s [Cpu=99.7%]
+  User=1.210000s Real=1.211245s Sys=0.000000s [Cpu=99.9%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -5717,13 +5717,13 @@ RUN FOR POINT 360 STARTED
 ====================================
 ====================================
 SCAN POINT = 360
-X = -35.7143 cm
-Y = -29.5918 cm
+X = -47 cm
+Y = 7 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.880000s Real=1.871104s Sys=0.000000s [Cpu=100.5%]
+  User=1.240000s Real=1.240988s Sys=0.000000s [Cpu=99.9%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -5764,13 +5764,13 @@ RUN FOR POINT 361 STARTED
 ====================================
 ====================================
 SCAN POINT = 361
-X = -35.7143 cm
-Y = -27.551 cm
+X = -47 cm
+Y = 8 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.870000s Real=1.872597s Sys=0.000000s [Cpu=99.9%]
+  User=1.200000s Real=1.202469s Sys=0.000000s [Cpu=99.8%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -5811,13 +5811,13 @@ RUN FOR POINT 362 STARTED
 ====================================
 ====================================
 SCAN POINT = 362
-X = -35.7143 cm
-Y = -25.5102 cm
+X = -47 cm
+Y = 9 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.860000s Real=1.856385s Sys=0.000000s [Cpu=100.2%]
+  User=1.230000s Real=1.223168s Sys=0.000000s [Cpu=100.6%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -5858,13 +5858,13 @@ RUN FOR POINT 363 STARTED
 ====================================
 ====================================
 SCAN POINT = 363
-X = -35.7143 cm
-Y = -23.4694 cm
+X = -47 cm
+Y = 10 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.770000s Real=1.770085s Sys=0.000000s [Cpu=100.0%]
+  User=1.160000s Real=1.159666s Sys=0.000000s [Cpu=100.0%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -5905,13 +5905,13 @@ RUN FOR POINT 364 STARTED
 ====================================
 ====================================
 SCAN POINT = 364
-X = -35.7143 cm
-Y = -21.4286 cm
+X = -47 cm
+Y = 11 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.800000s Real=1.800727s Sys=0.000000s [Cpu=100.0%]
+  User=1.180000s Real=1.179442s Sys=0.000000s [Cpu=100.0%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -5952,13 +5952,13 @@ RUN FOR POINT 365 STARTED
 ====================================
 ====================================
 SCAN POINT = 365
-X = -35.7143 cm
-Y = -19.3878 cm
+X = -47 cm
+Y = 12 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.780000s Real=1.779715s Sys=0.000000s [Cpu=100.0%]
+  User=1.210000s Real=1.208238s Sys=0.000000s [Cpu=100.1%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -5999,13 +5999,13 @@ RUN FOR POINT 366 STARTED
 ====================================
 ====================================
 SCAN POINT = 366
-X = -35.7143 cm
-Y = -17.3469 cm
+X = -47 cm
+Y = 13 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.820000s Real=1.822764s Sys=0.000000s [Cpu=99.8%]
+  User=1.160000s Real=1.167360s Sys=0.000000s [Cpu=99.4%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -6046,13 +6046,13 @@ RUN FOR POINT 367 STARTED
 ====================================
 ====================================
 SCAN POINT = 367
-X = -35.7143 cm
-Y = -15.3061 cm
+X = -47 cm
+Y = 14 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.840000s Real=1.841528s Sys=0.000000s [Cpu=99.9%]
+  User=1.190000s Real=1.191358s Sys=0.000000s [Cpu=99.9%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -6093,13 +6093,13 @@ RUN FOR POINT 368 STARTED
 ====================================
 ====================================
 SCAN POINT = 368
-X = -35.7143 cm
-Y = -13.2653 cm
+X = -47 cm
+Y = 15 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.850000s Real=1.850321s Sys=0.000000s [Cpu=100.0%]
+  User=1.180000s Real=1.178820s Sys=0.000000s [Cpu=100.1%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -6140,13 +6140,13 @@ RUN FOR POINT 369 STARTED
 ====================================
 ====================================
 SCAN POINT = 369
-X = -35.7143 cm
-Y = -11.2245 cm
+X = -47 cm
+Y = 16 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.850000s Real=1.854877s Sys=0.000000s [Cpu=99.7%]
+  User=1.190000s Real=1.184479s Sys=0.000000s [Cpu=100.5%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -6187,13 +6187,13 @@ RUN FOR POINT 370 STARTED
 ====================================
 ====================================
 SCAN POINT = 370
-X = -35.7143 cm
-Y = -9.18367 cm
+X = -47 cm
+Y = 17 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.860000s Real=1.861657s Sys=0.000000s [Cpu=99.9%]
+  User=1.190000s Real=1.192734s Sys=0.000000s [Cpu=99.8%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -6234,13 +6234,13 @@ RUN FOR POINT 371 STARTED
 ====================================
 ====================================
 SCAN POINT = 371
-X = -35.7143 cm
-Y = -7.14286 cm
+X = -47 cm
+Y = 18 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.850000s Real=1.842612s Sys=0.000000s [Cpu=100.4%]
+  User=1.220000s Real=1.222777s Sys=0.000000s [Cpu=99.8%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -6281,13 +6281,13 @@ RUN FOR POINT 372 STARTED
 ====================================
 ====================================
 SCAN POINT = 372
-X = -35.7143 cm
-Y = -5.10204 cm
+X = -47 cm
+Y = 19 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.850000s Real=1.855484s Sys=0.010000s [Cpu=100.2%]
+  User=1.230000s Real=1.235914s Sys=0.000000s [Cpu=99.5%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -6328,13 +6328,13 @@ RUN FOR POINT 373 STARTED
 ====================================
 ====================================
 SCAN POINT = 373
-X = -35.7143 cm
-Y = -3.06122 cm
+X = -47 cm
+Y = 20 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.830000s Real=1.833527s Sys=0.000000s [Cpu=99.8%]
+  User=1.220000s Real=1.221706s Sys=0.000000s [Cpu=99.9%]
 /run/geometryModified
 
 ========= Table of registered couples ============================
@@ -6375,17 +6375,17 @@ RUN FOR POINT 374 STARTED
 ====================================
 ====================================
 SCAN POINT = 374
-X = -35.7143 cm
-Y = -1.02041 cm
+X = -47 cm
+Y = 21 cm
 ====================================
  Run terminated.
 Run Summary
   Number of events processed : 100000
-  User=1.780000s Real=1.776203s Sys=0.000000s [Cpu=100.2%]
+  User=1.230000s Real=1.226622s Sys=0.000000s [Cpu=100.3%]
 ====================================
 CSV SAVED
 ====================================
 ================== Deleting memory pools ===================
 Number of memory pools allocated: 10; of which, static: 0
-Dynamic pools deleted: 10 / Total memory freed: 0.053 MB
+Dynamic pools deleted: 10 / Total memory freed: 0.052 MB
 ============================================================

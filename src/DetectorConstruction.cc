@@ -215,13 +215,12 @@ G4VPhysicalVolume* DetectorConstruction::ConstructWorld()
     );
 
     // =====================
-    // DEFECT / VOID (COMMENTED OUT FOR NORMAL PIPE SIMULATION)
+    // DEFECT / VOID (ACTIVATED FOR CRACK SIMULATION)
     // Bentuk: garis horizontal (kotak pipih)
     // Panjang X = 40 cm (melintang penuh di dinding pipa)
     // Panjang Y = 40 cm (melintang penuh di dinding pipa)
     // Tebal  Z = 0.5 cm (setengah tebal = 0.5 cm → total 1 cm)
     // =====================
-    /*
     auto solidVoid =
         new G4Box(
             "VoidSolid",
@@ -263,7 +262,6 @@ G4VPhysicalVolume* DetectorConstruction::ConstructWorld()
     logicVoid->SetVisAttributes(
         voidVis
     );
-    */
 
     // =====================
     // NaI DETECTOR
