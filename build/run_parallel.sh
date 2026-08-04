@@ -1,7 +1,7 @@
 #!/bin/bash
 
 NPROC=20
-TOTAL_POINTS=2500
+TOTAL_POINTS=10201
 
 CHUNK=$(( (TOTAL_POINTS + NPROC - 1) / NPROC ))
 
@@ -10,8 +10,8 @@ do
     START=$((i * CHUNK))
     END=$(((i + 1) * CHUNK - 1))
 
-    if [ $END -ge 2499 ]; then
-        END=2499
+    if [ $END -ge 10200 ]; then
+        END=10200
     fi
 
     screen -dmS scan_$i bash -c "
