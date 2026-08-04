@@ -221,6 +221,7 @@ G4VPhysicalVolume* DetectorConstruction::ConstructWorld()
     // Panjang Y = 40 cm (melintang penuh di dinding pipa)
     // Tebal  Z = 0.5 cm (setengah tebal = 0.5 cm → total 1 cm)
     // =====================
+    /*
     auto solidVoid =
         new G4Box(
             "VoidSolid",
@@ -262,6 +263,7 @@ G4VPhysicalVolume* DetectorConstruction::ConstructWorld()
     logicVoid->SetVisAttributes(
         voidVis
     );
+    */
 
     // =====================
     // NaI DETECTOR

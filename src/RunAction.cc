@@ -122,6 +122,7 @@ void RunAction::EndOfRunAction(
                 << normalizedFlux
                 << "\n";
         }
+        fOutFile.flush();
     }
 
     if(gCurrentPoint == gEndPoint)
