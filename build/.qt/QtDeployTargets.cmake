@@ -1,2 +1,2 @@
-set(__QT_DEPLOY_TARGET_crack_FILE /home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/crack)
+set(__QT_DEPLOY_TARGET_crack_FILE /data/mahasiswa/ardian/gcb_project/gcb_hor/gcb_hor3/build/crack)
 set(__QT_DEPLOY_TARGET_crack_TYPE EXECUTABLE)
