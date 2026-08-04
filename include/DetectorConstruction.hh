@@ -9,6 +9,7 @@
 class G4LogicalVolume;
 class G4VPhysicalVolume;
 class G4Material;
+class DetectorMessenger;
 
 class DetectorConstruction : public G4VUserDetectorConstruction
 {
@@ -39,6 +40,7 @@ private:
 
     std::vector<G4VPhysicalVolume*> fDetectorPVs;
     G4VPhysicalVolume* fSourcePV;
+    DetectorMessenger* fMessenger;
 };
 
 #endif

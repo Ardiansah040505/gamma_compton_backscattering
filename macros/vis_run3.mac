@@ -1,0 +1,62 @@
+# ======================================
+# Visualization Setup (vis_run3.mac)
+# Aligned with run3.mac configuration
+# ======================================
+/control/verbose 1
+/run/verbose 1
+/event/verbose 0
+/tracking/verbose 0
+
+# Set thread count to 1 (crucial for stable visualization)
+/run/numberOfThreads 1
+
+# Initialize geometry
+/run/initialize
+
+# Open OpenGL viewer
+/vis/open OGL 800x800-0+0
+
+# ======================================
+# GAMMA SOURCE (From run3.mac)
+# ======================================
+/gps/particle gamma
+/gps/ene/type Mono
+/gps/ene/mono 662 keV
+
+# Batasi pancaran ke arah +Z (sudut kerucut 15 derajat)
+/gps/ang/type iso
+/gps/ang/mintheta 0 deg
+/gps/ang/maxtheta 15 deg
+/gps/ang/rot1 -1 0 0
+/gps/ang/rot2 0 1 0
+
+# ======================================
+# OPTIONAL (From run3.mac)
+# ======================================
+/process/had/rdm/thresholdForVeryLongDecayTime 1.0e+60 year
+
+# ======================================
+# VISUALIZATION DRAWING & VIEWPOINT
+# ======================================
+# Draw geometry
+/vis/drawVolume
+
+# Set viewpoint
+/vis/viewer/set/viewpointThetaPhi 70 20
+/vis/viewer/zoom 1.2
+/vis/viewer/set/style surface
+/vis/viewer/set/lineSegmentsPerCircle 100
+
+# Add axes (X=Red, Y=Green, Z=Blue)
+/vis/scene/add/axes 0 0 0 10 cm
+
+# Trajectories
+/vis/scene/add/trajectories smooth
+/vis/modeling/trajectories/create/drawByCharge
+/vis/modeling/trajectories/drawByCharge-0/set gamma yellow
+
+# Hits
+/vis/scene/add/hits
+
+# Auto-run 50 events to show trajectories instantly
+/run/beamOn 50

@@ -1,8 +1,12 @@
-CMakeFiles/crack.dir/src/DetectorConstruction.cc.o: \
- /home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/src/DetectorConstruction.cc \
+CMakeFiles/crack.dir/src/DetectorMessenger.cc.o: \
+ /home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/src/DetectorMessenger.cc \
  /usr/include/stdc-predef.h \
- /home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/include/DetectorConstruction.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VUserDetectorConstruction.hh \
+ /home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/include/DetectorMessenger.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4UImessenger.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4UIdirectory.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4UIcommand.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4ApplicationState.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4ThreeVector.hh \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/globals.hh \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4ios.hh \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4Types.hh \
@@ -209,18 +213,21 @@ CMakeFiles/crack.dir/src/DetectorConstruction.cc.o: \
  /usr/include/bits/stdint-least.h \
  /usr/include/c++/16/bits/parse_numbers.h \
  /usr/include/c++/16/bits/std_mutex.h \
- /usr/include/c++/16/bits/unique_lock.h /usr/include/c++/16/vector \
- /usr/include/c++/16/bits/stl_uninitialized.h \
- /usr/include/c++/16/bits/stl_vector.h \
- /usr/include/c++/16/bits/stl_bvector.h \
- /usr/include/c++/16/bits/vector.tcc \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VPhysicalVolume.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/geomdefs.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4RotationMatrix.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4ThreeVector.hh \
+ /usr/include/c++/16/bits/unique_lock.h \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Vector/ThreeVector.h \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Utility/defs.h \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4UIparameter.hh \
+ /usr/include/c++/16/vector /usr/include/c++/16/bits/stl_uninitialized.h \
+ /usr/include/c++/16/bits/stl_vector.h \
+ /usr/include/c++/16/bits/stl_bvector.h \
+ /usr/include/c++/16/bits/vector.tcc \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/globals.hh \
+ /home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/include/DetectorConstruction.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VUserDetectorConstruction.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VPhysicalVolume.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/geomdefs.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4RotationMatrix.hh \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Vector/Rotation.h \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Vector/RotationInterfaces.h \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Vector/LorentzVector.h \
@@ -282,87 +289,51 @@ CMakeFiles/crack.dir/src/DetectorConstruction.cc.o: \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4DataVector.hh \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4DataVector.icc \
  /usr/include/assert.h \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4NistManager.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4ICRU90StoppingData.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4Material.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4NistElementBuilder.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4NistMaterialBuilder.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4Pow.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4Exp.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4Box.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4GeomTypes.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4GeomConfig.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4CSGSolid.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VSolid.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VSolid.icc \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4Polyhedron.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/HepPolyhedron.h \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4TwoVector.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Vector/TwoVector.h \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Vector/TwoVector.icc \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4Point3D.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Geometry/Point3D.h \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4Normal3D.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Geometry/Normal3D.h \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4Transform3D.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Geometry/Transform3D.h \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Geometry/Transform3D.icc \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Geometry/Vector3D.h \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4Visible.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4Visible.icc \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4Box.icc \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4Tubs.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4Tubs.icc \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4SystemOfUnits.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4LogicalVolume.hh \
+ /home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/include/ScanConfig.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4UIdirectory.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4UIcmdWithAnInteger.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4RunManager.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4Event.hh \
+ /usr/include/c++/16/set /usr/include/c++/16/bits/stl_set.h \
+ /usr/include/c++/16/bits/stl_multiset.h \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/evtdefs.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4Allocator.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4AllocatorPool.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4PrimaryVertex.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4PrimaryParticle.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/pwdefs.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4HCofThisEvent.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VHitsCollection.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4DCofThisEvent.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VDigiCollection.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4TrajectoryContainer.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VTrajectory.hh \
  /usr/include/c++/16/memory \
  /usr/include/c++/16/bits/stl_raw_storage_iter.h \
  /usr/include/c++/16/bits/align.h \
  /usr/include/c++/16/bits/shared_ptr_atomic.h \
  /usr/include/c++/16/backward/auto_ptr.h \
  /usr/include/c++/16/pstl/glue_memory_defs.h \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VUserEventInformation.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4EventManager.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4StackManager.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4UserStackingAction.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4ClassificationOfNewTrack.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4StackedTrack.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4TrackStack.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4SmartTrackStack.hh \
+ /usr/include/c++/16/array /usr/include/c++/16/compare \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4SubEventTrackStack.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4SubEvent.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4Track.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/trkdefs.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4LogicalVolume.hh \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4Region.hh \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4Region.icc \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VPhysicalVolume.hh \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4LogicalVolume.icc \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4PVPlacement.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4SDManager.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4HCtable.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4SDStructure.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VSensitiveDetector.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4CollectionNameVector.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4HCofThisEvent.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4Allocator.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4AllocatorPool.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VHitsCollection.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4Step.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4StepPoint.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4SteppingControl.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4StepStatus.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4TouchableHandle.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VTouchable.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4TouchableHistory.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4NavigationHistory.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4AffineTransform.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4AffineTransform.icc \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4NavigationLevel.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4NavigationLevelRep.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4NavigationLevelRep.icc \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4NavigationLevel.icc \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4NavigationHistoryPool.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4NavigationHistory.icc \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4LogicalVolume.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4TouchableHistory.icc \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4ReferenceCountedHandle.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4StepPoint.icc \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4TrackVector.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4Step.icc \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4Track.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/trkdefs.hh \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4DynamicParticle.hh \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4ElectronOccupancy.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/pwdefs.hh \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4LorentzVector.hh \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4ParticleDefinition.hh \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4PDefManager.hh \
@@ -371,31 +342,145 @@ CMakeFiles/crack.dir/src/DetectorConstruction.cc.o: \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4ParticleMomentum.hh \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4DynamicParticle.icc \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4TrackStatus.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4TouchableHandle.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VTouchable.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4TouchableHistory.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4NavigationHistory.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4AffineTransform.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4Transform3D.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Geometry/Transform3D.h \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Geometry/Transform3D.icc \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Geometry/Point3D.h \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Geometry/Vector3D.h \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Geometry/Normal3D.h \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4AffineTransform.icc \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4NavigationLevel.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4NavigationLevelRep.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4NavigationLevelRep.icc \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4NavigationLevel.icc \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4NavigationHistoryPool.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4NavigationHistory.icc \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4TouchableHistory.icc \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4ReferenceCountedHandle.hh \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VUserTrackInformation.hh \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4PhysicsModelCatalog.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4Material.hh \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4Track.icc \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VHit.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VReadOutGeometry.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4SensitiveVolumeList.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VSDFilter.hh \
- /home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/include/SensitiveDetector.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VSensitiveDetector.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/globals.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VisAttributes.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/graphics_reps_defs.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4Colour.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4Color.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VisAttributes.icc \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4Colour.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4RotationMatrix.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4SubtractionSolid.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4BooleanSolid.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4DisplacedSolid.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VBooleanProcessor.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4BooleanSolid.icc \
- /home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/include/DetectorMessenger.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4Step.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4StepPoint.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4SteppingControl.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4StepStatus.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4StepPoint.icc \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4TrackVector.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4Step.icc \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4PrimaryTransformer.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4ParticleTable.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4ParticleTableIterator.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4ParticleTable.icc \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4TrackingManager.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4SteppingManager.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4Navigator.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4NormalNavigation.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VNavigation.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VSolid.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VSolid.icc \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4AuxiliaryNavServices.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4AuxiliaryNavServices.icc \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4NormalNavigation.icc \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VoxelNavigation.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4NavigationLogger.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4BlockingList.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4BlockingList.icc \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4SmartVoxelProxy.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4SmartVoxelProxy.icc \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4SmartVoxelNode.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4SmartVoxelNode.icc \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4SmartVoxelHeader.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4SmartVoxelHeader.icc \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VoxelNavigation.icc \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4ParameterisedNavigation.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VPVParameterisation.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VVolumeMaterialScanner.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4ParameterisedNavigation.icc \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4ReplicaNavigation.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4ReplicaNavigation.icc \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4RegularNavigation.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VExternalNavigation.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4Navigator.icc \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4NoProcess.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VProcess.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/Randomize.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Random/Randomize.h \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Random/DualRand.h \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Random/RandomEngine.h \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Random/RandomEngine.icc \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Random/JamesRandom.h \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Random/MixMaxRng.h \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Random/MTwistEngine.h \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Random/RanecuEngine.h \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Random/RanluxEngine.h \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Random/Ranlux64Engine.h \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Random/RanluxppEngine.h \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Random/RanshiEngine.h \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Random/RandBinomial.h \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Random/Random.h \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Random/Random.icc \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Utility/memory.h \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Random/RandBinomial.icc \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Random/RandBreitWigner.h \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Random/RandFlat.h \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Utility/thread_local.h \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Random/RandFlat.icc \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Random/RandBreitWigner.icc \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Random/RandChiSquare.h \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Random/RandChiSquare.icc \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Random/RandExponential.h \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Random/RandExponential.icc \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Random/RandExpZiggurat.h \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Random/RandBit.h \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Random/RandBit.icc \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Random/RandGamma.h \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Random/RandGamma.icc \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Random/RandGauss.h \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Random/RandGauss.icc \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Random/RandGaussQ.h \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Random/RandGaussQ.icc \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Random/RandGaussZiggurat.h \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Random/RandGeneral.h \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Random/RandGeneral.icc \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Random/RandLandau.h \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Random/RandLandau.icc \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Random/RandPoissonQ.h \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Random/RandPoisson.h \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Random/RandPoisson.icc \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Random/RandPoissonQ.icc \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Random/RandStudentT.h \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/CLHEP/Random/RandStudentT.icc \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4PhysicsTable.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4PhysicsTable.icc \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VParticleChange.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VParticleChange.icc \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4ForceCondition.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4GPILSelection.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4ParticleChange.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4ParticleChange.icc \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4ProcessType.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4ProcessManager.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4ProcessVector.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4ProcessVector.icc \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4ProcessManager.icc \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4UserSteppingAction.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VSteppingVerbose.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/trkgdefs.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4TrackingMessenger.hh \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4UImessenger.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4UIdirectory.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4UIcommand.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4ApplicationState.hh \
- /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4UIparameter.hh
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4UserTrackingAction.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4RunManagerKernel.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/rundefs.hh \
+ /usr/include/c++/16/list /usr/include/c++/16/bits/stl_list.h \
+ /usr/include/c++/16/bits/list.tcc \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4UImanager.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4UIcommandStatus.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VStateDependent.hh \
+ /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/icomsdefs.hh

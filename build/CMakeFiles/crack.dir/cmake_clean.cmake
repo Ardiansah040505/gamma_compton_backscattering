@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/crack.dir/src/ActionInitialization.cc.o.d"
   "CMakeFiles/crack.dir/src/DetectorConstruction.cc.o"
   "CMakeFiles/crack.dir/src/DetectorConstruction.cc.o.d"
+  "CMakeFiles/crack.dir/src/DetectorMessenger.cc.o"
+  "CMakeFiles/crack.dir/src/DetectorMessenger.cc.o.d"
   "CMakeFiles/crack.dir/src/EventAction.cc.o"
   "CMakeFiles/crack.dir/src/EventAction.cc.o.d"
   "CMakeFiles/crack.dir/src/PhysicsList.cc.o"

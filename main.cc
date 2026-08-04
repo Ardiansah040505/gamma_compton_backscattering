@@ -66,8 +66,17 @@ int main(int argc, char** argv)
     // =====================================
 
     G4UIExecutive* ui = nullptr;
+    bool isVis = (argc == 1);
+    if (argc >= 2)
+    {
+        std::string arg1 = argv[1];
+        if (arg1.find("vis") != std::string::npos)
+        {
+            isVis = true;
+        }
+    }
 
-    if(argc == 1)
+    if(isVis)
     {
         ui = new G4UIExecutive(argc, argv);
     }
@@ -115,7 +124,7 @@ int main(int argc, char** argv)
     }
 
     // =====================================
-    // BATCH MODE
+    // BATCH MODE or INTERACTIVE MODE
     // =====================================
 
     if(!ui)
@@ -150,8 +159,19 @@ int main(int argc, char** argv)
     }
     else
     {
+        // Set to center scan point (0, 0) so the particle gun emission
+        // matches the initial visual position of the source volume.
+        int centerIndex = scanPoints.size() / 2;
+        gCurrentPoint = centerIndex;
+        detectorConstruction->SetScanPosition(scanPoints[centerIndex].x, scanPoints[centerIndex].y);
+
+        G4String visMacro = "vis.mac";
+        if (argc >= 2)
+        {
+            visMacro = argv[1];
+        }
         uiManager->ApplyCommand(
-            "/control/execute vis.mac"
+            "/control/execute " + visMacro
         );
 
         ui->SessionStart();

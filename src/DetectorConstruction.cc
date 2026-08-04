@@ -20,6 +20,8 @@
 #include "G4SubtractionSolid.hh"
 #include <cmath>
 
+#include "DetectorMessenger.hh"
+
 // =====================
 // Constructor
 // =====================
@@ -27,14 +29,19 @@ DetectorConstruction::DetectorConstruction()
 : G4VUserDetectorConstruction(),
   fScanX(0),
   fScanY(0),
-  fSourcePV(nullptr)
-{}
+  fSourcePV(nullptr),
+  fMessenger(nullptr)
+{
+    fMessenger = new DetectorMessenger(this);
+}
 
 // =====================
 // Destructor
 // =====================
 DetectorConstruction::~DetectorConstruction()
-{}
+{
+    delete fMessenger;
+}
 
 // =====================
 // SetScanPosition
