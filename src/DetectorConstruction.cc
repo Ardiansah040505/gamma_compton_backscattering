@@ -1,6 +1,7 @@
 #include "DetectorConstruction.hh"
 
 #include "G4Material.hh"
+#include "G4Element.hh"
 #include "G4NistManager.hh"
 
 #include "G4Box.hh"
@@ -92,7 +93,19 @@ void DetectorConstruction::defineMaterials()
 
     fNaiTI  = nist->FindOrBuildMaterial("G4_SODIUM_IODIDE");
 
-    fAl     = nist->FindOrBuildMaterial("G4_Al");
+    // elements for API 5L Steel
+    G4Element* elFe = nist->FindOrBuildElement("Fe");
+    G4Element* elMn = nist->FindOrBuildElement("Mn");
+    G4Element* elC  = nist->FindOrBuildElement("C");
+    G4Element* elSi = nist->FindOrBuildElement("Si");
+
+    G4double density = 7.85 * g/cm3;
+    G4int ncomponents = 4;
+    fAPI5L_Steel = new G4Material("API5L_Steel", density, ncomponents);
+    fAPI5L_Steel->AddElement(elFe, 0.983); // Besi 98.3%
+    fAPI5L_Steel->AddElement(elMn, 0.012); // Mangan 1.2%
+    fAPI5L_Steel->AddElement(elC,  0.002); // Karbon 0.2%
+    fAPI5L_Steel->AddElement(elSi, 0.003); // Silikon 0.3%
 }
 
 // =====================
@@ -191,7 +204,7 @@ G4VPhysicalVolume* DetectorConstruction::ConstructWorld()
     auto logicPipe =
         new G4LogicalVolume(
             solidPipe,
-            fAl,
+            fAPI5L_Steel,
             "PipeLV"
         );
 

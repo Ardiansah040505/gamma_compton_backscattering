@@ -36,7 +36,7 @@ private:
     G4Material* fAir;
     G4Material* fCesium;
     G4Material* fNaiTI;
-    G4Material* fAl;
+    G4Material* fAPI5L_Steel;
 
     std::vector<G4VPhysicalVolume*> fDetectorPVs;
     G4VPhysicalVolume* fSourcePV;
