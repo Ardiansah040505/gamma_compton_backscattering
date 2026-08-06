@@ -1,7 +1,7 @@
 CMakeFiles/crack.dir/src/PrimaryGeneratorAction.cc.o: \
- /home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/src/PrimaryGeneratorAction.cc \
+ /home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/src/PrimaryGeneratorAction.cc \
  /usr/include/stdc-predef.h \
- /home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/include/PrimaryGeneratorAction.hh \
+ /home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/include/PrimaryGeneratorAction.hh \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4GeneralParticleSource.hh \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/globals.hh \
@@ -486,4 +486,4 @@ CMakeFiles/crack.dir/src/PrimaryGeneratorAction.cc.o: \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/rundefs.hh \
  /usr/include/c++/16/list /usr/include/c++/16/bits/stl_list.h \
  /usr/include/c++/16/bits/list.tcc \
- /home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/include/ScanConfig.hh
+ /home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/include/ScanConfig.hh

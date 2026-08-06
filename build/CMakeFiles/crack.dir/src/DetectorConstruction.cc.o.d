@@ -1,7 +1,7 @@
 CMakeFiles/crack.dir/src/DetectorConstruction.cc.o: \
- /home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/src/DetectorConstruction.cc \
+ /home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/src/DetectorConstruction.cc \
  /usr/include/stdc-predef.h \
- /home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/include/DetectorConstruction.hh \
+ /home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/include/DetectorConstruction.hh \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VUserDetectorConstruction.hh \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/globals.hh \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4ios.hh \
@@ -379,7 +379,7 @@ CMakeFiles/crack.dir/src/DetectorConstruction.cc.o: \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VReadOutGeometry.hh \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4SensitiveVolumeList.hh \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VSDFilter.hh \
- /home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/include/SensitiveDetector.hh \
+ /home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/include/SensitiveDetector.hh \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VSensitiveDetector.hh \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/globals.hh \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VisAttributes.hh \
@@ -394,7 +394,7 @@ CMakeFiles/crack.dir/src/DetectorConstruction.cc.o: \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4DisplacedSolid.hh \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VBooleanProcessor.hh \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4BooleanSolid.icc \
- /home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/include/DetectorMessenger.hh \
+ /home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/include/DetectorMessenger.hh \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4UImessenger.hh \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4UIdirectory.hh \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4UIcommand.hh \

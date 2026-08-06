@@ -1,7 +1,7 @@
 CMakeFiles/crack.dir/src/SensitiveDetector.cc.o: \
- /home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/src/SensitiveDetector.cc \
+ /home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/src/SensitiveDetector.cc \
  /usr/include/stdc-predef.h \
- /home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/include/SensitiveDetector.hh \
+ /home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/include/SensitiveDetector.hh \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VSensitiveDetector.hh \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4CollectionNameVector.hh \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/globals.hh \
@@ -346,7 +346,7 @@ CMakeFiles/crack.dir/src/SensitiveDetector.cc.o: \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4SensitiveVolumeList.hh \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4VSDFilter.hh \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/globals.hh \
- /home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/include/EventAction.hh \
+ /home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/include/EventAction.hh \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4UserEventAction.hh \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4Step.hh \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4SystemOfUnits.hh \

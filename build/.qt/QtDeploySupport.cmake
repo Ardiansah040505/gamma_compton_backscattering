@@ -35,7 +35,7 @@ set(__QT_DEPLOY_SYSTEM_NAME "Linux")
 set(__QT_DEPLOY_SHARED_LIBRARY_SUFFIX ".so")
 set(__QT_DEPLOY_IS_SHARED_LIBS_BUILD "ON")
 set(__QT_DEPLOY_TOOL "GRD")
-set(__QT_DEPLOY_IMPL_DIR "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/.qt")
+set(__QT_DEPLOY_IMPL_DIR "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/.qt")
 set(__QT_DEPLOY_VERBOSE "")
 set(__QT_CMAKE_EXPORT_NAMESPACE "Qt6")
 set(__QT_LIBINFIX "")
@@ -60,7 +60,7 @@ set(__QT_DEPLOY_QT_DEBUG_POSTFIX "")
 
 # Define the CMake commands to be made available during deployment.
 set(__qt_deploy_support_files
-    "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/.qt/QtDeployTargets.cmake"
+    "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/.qt/QtDeployTargets.cmake"
     "/usr/lib/cmake/Qt6Core/Qt6CoreDeploySupport.cmake"
 )
 foreach(__qt_deploy_support_file IN LISTS __qt_deploy_support_files)

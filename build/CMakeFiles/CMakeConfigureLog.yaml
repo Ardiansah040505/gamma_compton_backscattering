@@ -21,7 +21,6 @@ events:
       - "uname"
     candidate_directories:
       - "/home/ryan-diferensial/.local/bin/"
-      - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin/"
       - "/home/ryan-diferensial/miniconda3/condabin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
@@ -33,14 +32,11 @@ events:
       - "/usr/bin/core_perl/"
     searched_directories:
       - "/home/ryan-diferensial/.local/bin/uname"
-      - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin/uname"
       - "/home/ryan-diferensial/miniconda3/condabin/uname"
       - "/usr/local/bin/uname"
     found: "/usr/bin/uname"
     search_context:
       ENV{PATH}:
-        - "/home/ryan-diferensial/.local/bin"
-        - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin"
         - "/home/ryan-diferensial/.local/bin"
         - "/home/ryan-diferensial/.local/bin"
         - "/home/ryan-diferensial/miniconda3/condabin"
@@ -82,7 +78,6 @@ events:
       - "smake"
     candidate_directories:
       - "/home/ryan-diferensial/.local/bin/"
-      - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin/"
       - "/home/ryan-diferensial/miniconda3/condabin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
@@ -94,7 +89,6 @@ events:
       - "/usr/bin/core_perl/"
     searched_directories:
       - "/home/ryan-diferensial/.local/bin/gmake"
-      - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin/gmake"
       - "/home/ryan-diferensial/miniconda3/condabin/gmake"
       - "/usr/local/bin/gmake"
       - "/usr/bin/gmake"
@@ -105,14 +99,11 @@ events:
       - "/usr/bin/vendor_perl/gmake"
       - "/usr/bin/core_perl/gmake"
       - "/home/ryan-diferensial/.local/bin/make"
-      - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin/make"
       - "/home/ryan-diferensial/miniconda3/condabin/make"
       - "/usr/local/bin/make"
     found: "/usr/bin/make"
     search_context:
       ENV{PATH}:
-        - "/home/ryan-diferensial/.local/bin"
-        - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin"
         - "/home/ryan-diferensial/.local/bin"
         - "/home/ryan-diferensial/.local/bin"
         - "/home/ryan-diferensial/miniconda3/condabin"
@@ -152,7 +143,6 @@ events:
       - "clang"
     candidate_directories:
       - "/home/ryan-diferensial/.local/bin/"
-      - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin/"
       - "/home/ryan-diferensial/miniconda3/condabin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
@@ -164,14 +154,11 @@ events:
       - "/usr/bin/core_perl/"
     searched_directories:
       - "/home/ryan-diferensial/.local/bin/cc"
-      - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin/cc"
       - "/home/ryan-diferensial/miniconda3/condabin/cc"
       - "/usr/local/bin/cc"
     found: "/usr/bin/cc"
     search_context:
       ENV{PATH}:
-        - "/home/ryan-diferensial/.local/bin"
-        - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin"
         - "/home/ryan-diferensial/.local/bin"
         - "/home/ryan-diferensial/.local/bin"
         - "/home/ryan-diferensial/miniconda3/condabin"
@@ -212,8 +199,6 @@ events:
     search_context:
       ENV{PATH}:
         - "/home/ryan-diferensial/.local/bin"
-        - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin"
-        - "/home/ryan-diferensial/.local/bin"
         - "/home/ryan-diferensial/.local/bin"
         - "/home/ryan-diferensial/miniconda3/condabin"
         - "/home/ryan-diferensial/.local/bin"
@@ -245,7 +230,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
       
       The C compiler identification is GNU, found in:
-        /home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/4.4.2/CompilerIdC/a.out
+        /home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/4.4.2/CompilerIdC/a.out
       
   -
     kind: "find-v1"
@@ -269,7 +254,6 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/home/ryan-diferensial/.local/bin/"
-      - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin/"
       - "/home/ryan-diferensial/miniconda3/condabin/"
       - "/usr/local/bin/"
       - "/bin/"
@@ -281,8 +265,6 @@ events:
     found: "/usr/bin/ar"
     search_context:
       ENV{PATH}:
-        - "/home/ryan-diferensial/.local/bin"
-        - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin"
         - "/home/ryan-diferensial/.local/bin"
         - "/home/ryan-diferensial/.local/bin"
         - "/home/ryan-diferensial/miniconda3/condabin"
@@ -317,7 +299,6 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/home/ryan-diferensial/.local/bin/"
-      - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin/"
       - "/home/ryan-diferensial/miniconda3/condabin/"
       - "/usr/local/bin/"
       - "/bin/"
@@ -329,8 +310,6 @@ events:
     found: "/usr/bin/ranlib"
     search_context:
       ENV{PATH}:
-        - "/home/ryan-diferensial/.local/bin"
-        - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin"
         - "/home/ryan-diferensial/.local/bin"
         - "/home/ryan-diferensial/.local/bin"
         - "/home/ryan-diferensial/miniconda3/condabin"
@@ -365,7 +344,6 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/home/ryan-diferensial/.local/bin/"
-      - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin/"
       - "/home/ryan-diferensial/miniconda3/condabin/"
       - "/usr/local/bin/"
       - "/bin/"
@@ -377,8 +355,6 @@ events:
     found: "/usr/bin/strip"
     search_context:
       ENV{PATH}:
-        - "/home/ryan-diferensial/.local/bin"
-        - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin"
         - "/home/ryan-diferensial/.local/bin"
         - "/home/ryan-diferensial/.local/bin"
         - "/home/ryan-diferensial/miniconda3/condabin"
@@ -413,7 +389,6 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/home/ryan-diferensial/.local/bin/"
-      - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin/"
       - "/home/ryan-diferensial/miniconda3/condabin/"
       - "/usr/local/bin/"
       - "/bin/"
@@ -425,8 +400,6 @@ events:
     found: "/usr/bin/ld"
     search_context:
       ENV{PATH}:
-        - "/home/ryan-diferensial/.local/bin"
-        - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin"
         - "/home/ryan-diferensial/.local/bin"
         - "/home/ryan-diferensial/.local/bin"
         - "/home/ryan-diferensial/miniconda3/condabin"
@@ -461,7 +434,6 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/home/ryan-diferensial/.local/bin/"
-      - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin/"
       - "/home/ryan-diferensial/miniconda3/condabin/"
       - "/usr/local/bin/"
       - "/bin/"
@@ -473,8 +445,6 @@ events:
     found: "/usr/bin/nm"
     search_context:
       ENV{PATH}:
-        - "/home/ryan-diferensial/.local/bin"
-        - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin"
         - "/home/ryan-diferensial/.local/bin"
         - "/home/ryan-diferensial/.local/bin"
         - "/home/ryan-diferensial/miniconda3/condabin"
@@ -509,7 +479,6 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/home/ryan-diferensial/.local/bin/"
-      - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin/"
       - "/home/ryan-diferensial/miniconda3/condabin/"
       - "/usr/local/bin/"
       - "/bin/"
@@ -521,8 +490,6 @@ events:
     found: "/usr/bin/objdump"
     search_context:
       ENV{PATH}:
-        - "/home/ryan-diferensial/.local/bin"
-        - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin"
         - "/home/ryan-diferensial/.local/bin"
         - "/home/ryan-diferensial/.local/bin"
         - "/home/ryan-diferensial/miniconda3/condabin"
@@ -557,7 +524,6 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/home/ryan-diferensial/.local/bin/"
-      - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin/"
       - "/home/ryan-diferensial/miniconda3/condabin/"
       - "/usr/local/bin/"
       - "/bin/"
@@ -569,8 +535,6 @@ events:
     found: "/usr/bin/objcopy"
     search_context:
       ENV{PATH}:
-        - "/home/ryan-diferensial/.local/bin"
-        - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin"
         - "/home/ryan-diferensial/.local/bin"
         - "/home/ryan-diferensial/.local/bin"
         - "/home/ryan-diferensial/miniconda3/condabin"
@@ -605,7 +569,6 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/home/ryan-diferensial/.local/bin/"
-      - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin/"
       - "/home/ryan-diferensial/miniconda3/condabin/"
       - "/usr/local/bin/"
       - "/bin/"
@@ -617,8 +580,6 @@ events:
     found: "/usr/bin/readelf"
     search_context:
       ENV{PATH}:
-        - "/home/ryan-diferensial/.local/bin"
-        - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin"
         - "/home/ryan-diferensial/.local/bin"
         - "/home/ryan-diferensial/.local/bin"
         - "/home/ryan-diferensial/miniconda3/condabin"
@@ -653,7 +614,6 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/home/ryan-diferensial/.local/bin/"
-      - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin/"
       - "/home/ryan-diferensial/miniconda3/condabin/"
       - "/usr/local/bin/"
       - "/bin/"
@@ -665,7 +625,6 @@ events:
     searched_directories:
       - "/usr/bin/dlltool"
       - "/home/ryan-diferensial/.local/bin/dlltool"
-      - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin/dlltool"
       - "/home/ryan-diferensial/miniconda3/condabin/dlltool"
       - "/usr/local/bin/dlltool"
       - "/bin/dlltool"
@@ -677,8 +636,6 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "/home/ryan-diferensial/.local/bin"
-        - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin"
         - "/home/ryan-diferensial/.local/bin"
         - "/home/ryan-diferensial/.local/bin"
         - "/home/ryan-diferensial/miniconda3/condabin"
@@ -713,7 +670,6 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/home/ryan-diferensial/.local/bin/"
-      - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin/"
       - "/home/ryan-diferensial/miniconda3/condabin/"
       - "/usr/local/bin/"
       - "/bin/"
@@ -725,8 +681,6 @@ events:
     found: "/usr/bin/addr2line"
     search_context:
       ENV{PATH}:
-        - "/home/ryan-diferensial/.local/bin"
-        - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin"
         - "/home/ryan-diferensial/.local/bin"
         - "/home/ryan-diferensial/.local/bin"
         - "/home/ryan-diferensial/miniconda3/condabin"
@@ -761,7 +715,6 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/home/ryan-diferensial/.local/bin/"
-      - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin/"
       - "/home/ryan-diferensial/miniconda3/condabin/"
       - "/usr/local/bin/"
       - "/bin/"
@@ -773,7 +726,6 @@ events:
     searched_directories:
       - "/usr/bin/tapi"
       - "/home/ryan-diferensial/.local/bin/tapi"
-      - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin/tapi"
       - "/home/ryan-diferensial/miniconda3/condabin/tapi"
       - "/usr/local/bin/tapi"
       - "/bin/tapi"
@@ -785,8 +737,6 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "/home/ryan-diferensial/.local/bin"
-        - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin"
         - "/home/ryan-diferensial/.local/bin"
         - "/home/ryan-diferensial/.local/bin"
         - "/home/ryan-diferensial/miniconda3/condabin"
@@ -824,7 +774,6 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/home/ryan-diferensial/.local/bin/"
-      - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin/"
       - "/home/ryan-diferensial/miniconda3/condabin/"
       - "/usr/local/bin/"
       - "/bin/"
@@ -836,7 +785,6 @@ events:
     searched_directories:
       - "/usr/bin/gcc-ar-16.1"
       - "/home/ryan-diferensial/.local/bin/gcc-ar-16.1"
-      - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin/gcc-ar-16.1"
       - "/home/ryan-diferensial/miniconda3/condabin/gcc-ar-16.1"
       - "/usr/local/bin/gcc-ar-16.1"
       - "/bin/gcc-ar-16.1"
@@ -847,7 +795,6 @@ events:
       - "/usr/bin/core_perl/gcc-ar-16.1"
       - "/usr/bin/gcc-ar-16"
       - "/home/ryan-diferensial/.local/bin/gcc-ar-16"
-      - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin/gcc-ar-16"
       - "/home/ryan-diferensial/miniconda3/condabin/gcc-ar-16"
       - "/usr/local/bin/gcc-ar-16"
       - "/bin/gcc-ar-16"
@@ -858,7 +805,6 @@ events:
       - "/usr/bin/core_perl/gcc-ar-16"
       - "/usr/bin/gcc-ar16"
       - "/home/ryan-diferensial/.local/bin/gcc-ar16"
-      - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin/gcc-ar16"
       - "/home/ryan-diferensial/miniconda3/condabin/gcc-ar16"
       - "/usr/local/bin/gcc-ar16"
       - "/bin/gcc-ar16"
@@ -870,8 +816,6 @@ events:
     found: "/usr/bin/gcc-ar"
     search_context:
       ENV{PATH}:
-        - "/home/ryan-diferensial/.local/bin"
-        - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin"
         - "/home/ryan-diferensial/.local/bin"
         - "/home/ryan-diferensial/.local/bin"
         - "/home/ryan-diferensial/miniconda3/condabin"
@@ -909,7 +853,6 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/home/ryan-diferensial/.local/bin/"
-      - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin/"
       - "/home/ryan-diferensial/miniconda3/condabin/"
       - "/usr/local/bin/"
       - "/bin/"
@@ -921,7 +864,6 @@ events:
     searched_directories:
       - "/usr/bin/gcc-ranlib-16.1"
       - "/home/ryan-diferensial/.local/bin/gcc-ranlib-16.1"
-      - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin/gcc-ranlib-16.1"
       - "/home/ryan-diferensial/miniconda3/condabin/gcc-ranlib-16.1"
       - "/usr/local/bin/gcc-ranlib-16.1"
       - "/bin/gcc-ranlib-16.1"
@@ -932,7 +874,6 @@ events:
       - "/usr/bin/core_perl/gcc-ranlib-16.1"
       - "/usr/bin/gcc-ranlib-16"
       - "/home/ryan-diferensial/.local/bin/gcc-ranlib-16"
-      - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin/gcc-ranlib-16"
       - "/home/ryan-diferensial/miniconda3/condabin/gcc-ranlib-16"
       - "/usr/local/bin/gcc-ranlib-16"
       - "/bin/gcc-ranlib-16"
@@ -943,7 +884,6 @@ events:
       - "/usr/bin/core_perl/gcc-ranlib-16"
       - "/usr/bin/gcc-ranlib16"
       - "/home/ryan-diferensial/.local/bin/gcc-ranlib16"
-      - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin/gcc-ranlib16"
       - "/home/ryan-diferensial/miniconda3/condabin/gcc-ranlib16"
       - "/usr/local/bin/gcc-ranlib16"
       - "/bin/gcc-ranlib16"
@@ -955,8 +895,6 @@ events:
     found: "/usr/bin/gcc-ranlib"
     search_context:
       ENV{PATH}:
-        - "/home/ryan-diferensial/.local/bin"
-        - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin"
         - "/home/ryan-diferensial/.local/bin"
         - "/home/ryan-diferensial/.local/bin"
         - "/home/ryan-diferensial/miniconda3/condabin"
@@ -1003,8 +941,6 @@ events:
     search_context:
       ENV{PATH}:
         - "/home/ryan-diferensial/.local/bin"
-        - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin"
-        - "/home/ryan-diferensial/.local/bin"
         - "/home/ryan-diferensial/.local/bin"
         - "/home/ryan-diferensial/miniconda3/condabin"
         - "/home/ryan-diferensial/.local/bin"
@@ -1044,8 +980,6 @@ events:
     search_context:
       ENV{PATH}:
         - "/home/ryan-diferensial/.local/bin"
-        - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin"
-        - "/home/ryan-diferensial/.local/bin"
         - "/home/ryan-diferensial/.local/bin"
         - "/home/ryan-diferensial/miniconda3/condabin"
         - "/home/ryan-diferensial/.local/bin"
@@ -1077,7 +1011,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is GNU, found in:
-        /home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/4.4.2/CompilerIdCXX/a.out
+        /home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/4.4.2/CompilerIdCXX/a.out
       
   -
     kind: "find-v1"
@@ -1104,7 +1038,6 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/home/ryan-diferensial/.local/bin/"
-      - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin/"
       - "/home/ryan-diferensial/miniconda3/condabin/"
       - "/usr/local/bin/"
       - "/bin/"
@@ -1116,7 +1049,6 @@ events:
     searched_directories:
       - "/usr/bin/gcc-ar-16.1"
       - "/home/ryan-diferensial/.local/bin/gcc-ar-16.1"
-      - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin/gcc-ar-16.1"
       - "/home/ryan-diferensial/miniconda3/condabin/gcc-ar-16.1"
       - "/usr/local/bin/gcc-ar-16.1"
       - "/bin/gcc-ar-16.1"
@@ -1127,7 +1059,6 @@ events:
       - "/usr/bin/core_perl/gcc-ar-16.1"
       - "/usr/bin/gcc-ar-16"
       - "/home/ryan-diferensial/.local/bin/gcc-ar-16"
-      - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin/gcc-ar-16"
       - "/home/ryan-diferensial/miniconda3/condabin/gcc-ar-16"
       - "/usr/local/bin/gcc-ar-16"
       - "/bin/gcc-ar-16"
@@ -1138,7 +1069,6 @@ events:
       - "/usr/bin/core_perl/gcc-ar-16"
       - "/usr/bin/gcc-ar16"
       - "/home/ryan-diferensial/.local/bin/gcc-ar16"
-      - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin/gcc-ar16"
       - "/home/ryan-diferensial/miniconda3/condabin/gcc-ar16"
       - "/usr/local/bin/gcc-ar16"
       - "/bin/gcc-ar16"
@@ -1150,8 +1080,6 @@ events:
     found: "/usr/bin/gcc-ar"
     search_context:
       ENV{PATH}:
-        - "/home/ryan-diferensial/.local/bin"
-        - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin"
         - "/home/ryan-diferensial/.local/bin"
         - "/home/ryan-diferensial/.local/bin"
         - "/home/ryan-diferensial/miniconda3/condabin"
@@ -1189,7 +1117,6 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/home/ryan-diferensial/.local/bin/"
-      - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin/"
       - "/home/ryan-diferensial/miniconda3/condabin/"
       - "/usr/local/bin/"
       - "/bin/"
@@ -1201,7 +1128,6 @@ events:
     searched_directories:
       - "/usr/bin/gcc-ranlib-16.1"
       - "/home/ryan-diferensial/.local/bin/gcc-ranlib-16.1"
-      - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin/gcc-ranlib-16.1"
       - "/home/ryan-diferensial/miniconda3/condabin/gcc-ranlib-16.1"
       - "/usr/local/bin/gcc-ranlib-16.1"
       - "/bin/gcc-ranlib-16.1"
@@ -1212,7 +1138,6 @@ events:
       - "/usr/bin/core_perl/gcc-ranlib-16.1"
       - "/usr/bin/gcc-ranlib-16"
       - "/home/ryan-diferensial/.local/bin/gcc-ranlib-16"
-      - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin/gcc-ranlib-16"
       - "/home/ryan-diferensial/miniconda3/condabin/gcc-ranlib-16"
       - "/usr/local/bin/gcc-ranlib-16"
       - "/bin/gcc-ranlib-16"
@@ -1223,7 +1148,6 @@ events:
       - "/usr/bin/core_perl/gcc-ranlib-16"
       - "/usr/bin/gcc-ranlib16"
       - "/home/ryan-diferensial/.local/bin/gcc-ranlib16"
-      - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin/gcc-ranlib16"
       - "/home/ryan-diferensial/miniconda3/condabin/gcc-ranlib16"
       - "/usr/local/bin/gcc-ranlib16"
       - "/bin/gcc-ranlib16"
@@ -1235,8 +1159,6 @@ events:
     found: "/usr/bin/gcc-ranlib"
     search_context:
       ENV{PATH}:
-        - "/home/ryan-diferensial/.local/bin"
-        - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin"
         - "/home/ryan-diferensial/.local/bin"
         - "/home/ryan-diferensial/.local/bin"
         - "/home/ryan-diferensial/miniconda3/condabin"
@@ -1258,8 +1180,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-K7G2ts"
-      binary: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-K7G2ts"
+      source: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-plj009"
+      binary: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-plj009"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: ""
@@ -1269,13 +1191,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: false
       stdout: |
-        Change Dir: '/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-K7G2ts'
+        Change Dir: '/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-plj009'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_29e55/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_29e55.dir/build.make CMakeFiles/cmTC_29e55.dir/build
-        make[1]: Entering directory '/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-K7G2ts'
-        Building C object CMakeFiles/cmTC_29e55.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -v -o CMakeFiles/cmTC_29e55.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f65f8/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_f65f8.dir/build.make CMakeFiles/cmTC_f65f8.dir/build
+        make[1]: Entering directory '/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-plj009'
+        Building C object CMakeFiles/cmTC_f65f8.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_f65f8.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         Target: x86_64-pc-linux-gnu
@@ -1283,8 +1205,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 16.1.1 20260728 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_29e55.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_29e55.dir/'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/16/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_29e55.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccUg6N14.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f65f8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f65f8.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/16/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_f65f8.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccTcj8hH.s
         GNU C23 (GCC) version 16.1.1 20260728 (x86_64-pc-linux-gnu)
         	compiled by GNU C version 16.1.1 20260728, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.1, isl version isl-0.28-GMP
         
@@ -1298,14 +1220,14 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: f7254166629cd07642b4d507d8808f35
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_29e55.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_29e55.dir/'
-         as -v --64 -o CMakeFiles/cmTC_29e55.dir/CMakeCCompilerABI.c.o /tmp/ccUg6N14.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f65f8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f65f8.dir/'
+         as -v --64 -o CMakeFiles/cmTC_f65f8.dir/CMakeCCompilerABI.c.o /tmp/ccTcj8hH.s
         GNU assembler version 2.47 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.47
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_29e55.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_29e55.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_29e55
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29e55.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f65f8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f65f8.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_f65f8
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f65f8.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper
@@ -1316,14 +1238,14 @@ events:
         gcc version 16.1.1 20260728 (GCC) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_29e55' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_29e55.'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2wJAOe.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_29e55 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_29e55.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f65f8' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f65f8.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3Y8R1g.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_f65f8 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_f65f8.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o
         collect2 version 16.1.1 20260728
-        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2wJAOe.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_29e55 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_29e55.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3Y8R1g.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_f65f8 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_f65f8.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o
         GNU ld (GNU Binutils) 2.47
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_29e55' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_29e55.'
-        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_29e55.dir/CMakeCCompilerABI.c.o -o cmTC_29e55
-        make[1]: Leaving directory '/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-K7G2ts'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f65f8' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f65f8.'
+        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_f65f8.dir/CMakeCCompilerABI.c.o -o cmTC_f65f8
+        make[1]: Leaving directory '/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-plj009'
         
       exitCode: 0
   -
@@ -1356,13 +1278,13 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
-        ignore line: [Change Dir: '/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-K7G2ts']
+        ignore line: [Change Dir: '/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-plj009']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_29e55/fast]
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_29e55.dir/build.make CMakeFiles/cmTC_29e55.dir/build]
-        ignore line: [make[1]: Entering directory '/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-K7G2ts']
-        ignore line: [Building C object CMakeFiles/cmTC_29e55.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_29e55.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f65f8/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_f65f8.dir/build.make CMakeFiles/cmTC_f65f8.dir/build]
+        ignore line: [make[1]: Entering directory '/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-plj009']
+        ignore line: [Building C object CMakeFiles/cmTC_f65f8.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_f65f8.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [Target: x86_64-pc-linux-gnu]
@@ -1370,8 +1292,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 16.1.1 20260728 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_29e55.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_29e55.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_29e55.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccUg6N14.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f65f8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f65f8.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_f65f8.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccTcj8hH.s]
         ignore line: [GNU C23 (GCC) version 16.1.1 20260728 (x86_64-pc-linux-gnu)]
         ignore line: [	compiled by GNU C version 16.1.1 20260728  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.1  isl version isl-0.28-GMP]
         ignore line: []
@@ -1385,14 +1307,14 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: f7254166629cd07642b4d507d8808f35]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_29e55.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_29e55.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_29e55.dir/CMakeCCompilerABI.c.o /tmp/ccUg6N14.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f65f8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f65f8.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_f65f8.dir/CMakeCCompilerABI.c.o /tmp/ccTcj8hH.s]
         ignore line: [GNU assembler version 2.47 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.47]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_29e55.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_29e55.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_29e55]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29e55.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f65f8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f65f8.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_f65f8]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f65f8.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper]
@@ -1403,13 +1325,13 @@ events:
         ignore line: [gcc version 16.1.1 20260728 (GCC) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_29e55' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_29e55.']
-        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2wJAOe.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_29e55 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_29e55.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f65f8' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f65f8.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3Y8R1g.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_f65f8 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_f65f8.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/cc2wJAOe.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc3Y8R1g.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s_asneeded] ==> ignore
           arg [-plugin-opt=-pass-through=-latomic_asneeded] ==> ignore
@@ -1425,7 +1347,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_29e55] ==> ignore
+          arg [cmTC_f65f8] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o]
@@ -1437,7 +1359,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_29e55.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_f65f8.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [-lgcc_s_asneeded] ==> lib [gcc_s_asneeded]
           arg [-latomic_asneeded] ==> lib [atomic_asneeded]
@@ -1447,9 +1369,9 @@ events:
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
         ignore line: [collect2 version 16.1.1 20260728]
-        link line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2wJAOe.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_29e55 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_29e55.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> linker [/usr/bin/ld]
-        link line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2wJAOe.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_29e55 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_29e55.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> linker architecture flags [-m;elf]
-        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2wJAOe.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_29e55 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_29e55.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
+        link line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3Y8R1g.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_f65f8 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_f65f8.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> linker [/usr/bin/ld]
+        link line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3Y8R1g.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_f65f8 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_f65f8.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> linker architecture flags [-m;elf]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3Y8R1g.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_f65f8 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_f65f8.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
         linker tool for 'C': /usr/bin/ld -m;elf
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
@@ -1486,8 +1408,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-SR3nM8"
-      binary: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-SR3nM8"
+      source: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-c5YB5Y"
+      binary: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-c5YB5Y"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1498,13 +1420,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: false
       stdout: |
-        Change Dir: '/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-SR3nM8'
+        Change Dir: '/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-c5YB5Y'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c0b13/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_c0b13.dir/build.make CMakeFiles/cmTC_c0b13.dir/build
-        make[1]: Entering directory '/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-SR3nM8'
-        Building CXX object CMakeFiles/cmTC_c0b13.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_c0b13.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ab662/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_ab662.dir/build.make CMakeFiles/cmTC_ab662.dir/build
+        make[1]: Entering directory '/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-c5YB5Y'
+        Building CXX object CMakeFiles/cmTC_ab662.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_ab662.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         Target: x86_64-pc-linux-gnu
@@ -1512,8 +1434,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 16.1.1 20260728 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c0b13.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c0b13.dir/'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/16/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_c0b13.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cci5Nv1W.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ab662.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ab662.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/16/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ab662.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccCxfidn.s
         GNU C++20 (GCC) version 16.1.1 20260728 (x86_64-pc-linux-gnu)
         	compiled by GNU C version 16.1.1 20260728, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.1, isl version isl-0.28-GMP
         
@@ -1530,14 +1452,14 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: e6b58163ceb7101a7203a46cfef09871
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c0b13.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c0b13.dir/'
-         as -v --64 -o CMakeFiles/cmTC_c0b13.dir/CMakeCXXCompilerABI.cpp.o /tmp/cci5Nv1W.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ab662.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ab662.dir/'
+         as -v --64 -o CMakeFiles/cmTC_ab662.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccCxfidn.s
         GNU assembler version 2.47 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.47
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c0b13.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c0b13.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_c0b13
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0b13.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ab662.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ab662.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_ab662
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab662.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper
@@ -1548,14 +1470,14 @@ events:
         gcc version 16.1.1 20260728 (GCC) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c0b13' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c0b13.'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVoaOYs.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_c0b13 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_c0b13.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ab662' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ab662.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfxhkp1.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_ab662 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_ab662.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o
         collect2 version 16.1.1 20260728
-        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVoaOYs.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_c0b13 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_c0b13.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfxhkp1.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_ab662 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_ab662.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o
         GNU ld (GNU Binutils) 2.47
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c0b13' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c0b13.'
-        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_c0b13.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_c0b13
-        make[1]: Leaving directory '/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-SR3nM8'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ab662' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ab662.'
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_ab662.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ab662
+        make[1]: Leaving directory '/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-c5YB5Y'
         
       exitCode: 0
   -
@@ -1594,13 +1516,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
-        ignore line: [Change Dir: '/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-SR3nM8']
+        ignore line: [Change Dir: '/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-c5YB5Y']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c0b13/fast]
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_c0b13.dir/build.make CMakeFiles/cmTC_c0b13.dir/build]
-        ignore line: [make[1]: Entering directory '/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-SR3nM8']
-        ignore line: [Building CXX object CMakeFiles/cmTC_c0b13.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_c0b13.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ab662/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_ab662.dir/build.make CMakeFiles/cmTC_ab662.dir/build]
+        ignore line: [make[1]: Entering directory '/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-c5YB5Y']
+        ignore line: [Building CXX object CMakeFiles/cmTC_ab662.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_ab662.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [Target: x86_64-pc-linux-gnu]
@@ -1608,8 +1530,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 16.1.1 20260728 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c0b13.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c0b13.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_c0b13.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cci5Nv1W.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ab662.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ab662.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ab662.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccCxfidn.s]
         ignore line: [GNU C++20 (GCC) version 16.1.1 20260728 (x86_64-pc-linux-gnu)]
         ignore line: [	compiled by GNU C version 16.1.1 20260728  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.1  isl version isl-0.28-GMP]
         ignore line: []
@@ -1626,14 +1548,14 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: e6b58163ceb7101a7203a46cfef09871]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c0b13.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c0b13.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_c0b13.dir/CMakeCXXCompilerABI.cpp.o /tmp/cci5Nv1W.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ab662.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ab662.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_ab662.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccCxfidn.s]
         ignore line: [GNU assembler version 2.47 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.47]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c0b13.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c0b13.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_c0b13]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0b13.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ab662.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ab662.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_ab662]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab662.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper]
@@ -1644,13 +1566,13 @@ events:
         ignore line: [gcc version 16.1.1 20260728 (GCC) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c0b13' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c0b13.']
-        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVoaOYs.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_c0b13 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_c0b13.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ab662' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ab662.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfxhkp1.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_ab662 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_ab662.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccVoaOYs.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccfxhkp1.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-latomic_asneeded] ==> ignore
@@ -1666,7 +1588,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_c0b13] ==> ignore
+          arg [cmTC_ab662] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o]
@@ -1678,7 +1600,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_c0b13.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_ab662.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -1690,9 +1612,9 @@ events:
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
         ignore line: [collect2 version 16.1.1 20260728]
-        link line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVoaOYs.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_c0b13 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_c0b13.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> linker [/usr/bin/ld]
-        link line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVoaOYs.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_c0b13 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_c0b13.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> linker architecture flags [-m;elf]
-        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVoaOYs.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_c0b13 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_c0b13.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
+        link line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfxhkp1.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_ab662 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_ab662.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> linker [/usr/bin/ld]
+        link line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfxhkp1.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_ab662 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_ab662.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> linker architecture flags [-m;elf]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfxhkp1.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_ab662 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_ab662.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
         linker tool for 'CXX': /usr/bin/ld -m;elf
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
@@ -1720,6 +1642,349 @@ events:
     message: |
       Running the CXX compiler's linker: "/usr/bin/ld" "-v"
       GNU ld (GNU Binutils) 2.47
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:8 (find_package)"
+    name: "Geant4"
+    components:
+      -
+        name: "ui_all"
+        required: true
+        found: false
+      -
+        name: "vis_all"
+        required: true
+        found: false
+    configs:
+      -
+        filename: "Geant4.cps"
+        kind: "cps"
+      -
+        filename: "geant4.cps"
+        kind: "cps"
+      -
+        filename: "Geant4Config.cmake"
+        kind: "cmake"
+      -
+        filename: "geant4-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Geant4"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/Geant4Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/geant4-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/Geant4.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/geant4.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/Geant4.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/geant4.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ryan-diferensial/.local/Geant4Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ryan-diferensial/.local/geant4-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ryan-diferensial/.local/lib/cps/Geant4.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ryan-diferensial/.local/lib/cps/geant4.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ryan-diferensial/.local/share/cps/Geant4.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ryan-diferensial/.local/share/cps/geant4.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ryan-diferensial/miniconda3/condabin/Geant4Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ryan-diferensial/miniconda3/condabin/geant4-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ryan-diferensial/miniconda3/condabin/lib/cps/Geant4.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ryan-diferensial/miniconda3/condabin/lib/cps/geant4.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ryan-diferensial/miniconda3/condabin/share/cps/Geant4.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ryan-diferensial/miniconda3/condabin/share/cps/geant4.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/Geant4Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/geant4-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/lib/cps/Geant4.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/lib/cps/geant4.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/share/cps/Geant4.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/share/cps/geant4.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/Geant4Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/geant4-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cps/Geant4.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cps/geant4.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/share/cps/Geant4.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/share/cps/geant4.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/Geant4Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/geant4-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/lib/cps/Geant4.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/lib/cps/geant4.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/share/cps/Geant4.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/share/cps/geant4.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/jvm/default/Geant4Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/jvm/default/geant4-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/jvm/default/lib/cps/Geant4.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/jvm/default/lib/cps/geant4.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/jvm/default/share/cps/Geant4.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/jvm/default/share/cps/geant4.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/site_perl/Geant4Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/site_perl/geant4-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/site_perl/lib/cps/Geant4.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/site_perl/lib/cps/geant4.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/site_perl/share/cps/Geant4.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/site_perl/share/cps/geant4.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/vendor_perl/Geant4Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/vendor_perl/geant4-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/vendor_perl/lib/cps/Geant4.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/vendor_perl/lib/cps/geant4.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/vendor_perl/share/cps/Geant4.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/vendor_perl/share/cps/geant4.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/core_perl/Geant4Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/core_perl/geant4-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/core_perl/lib/cps/Geant4.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/core_perl/lib/cps/geant4.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/core_perl/share/cps/Geant4.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/core_perl/share/cps/geant4.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/opt/Geant4Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/geant4-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/lib/cps/Geant4.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/opt/lib/cps/geant4.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/opt/share/cps/Geant4.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/opt/share/cps/geant4.cps"
+        mode: "cps"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "/home/ryan-diferensial/.local/bin"
+        - "/home/ryan-diferensial/.local/bin"
+        - "/home/ryan-diferensial/miniconda3/condabin"
+        - "/home/ryan-diferensial/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+...
+
+---
+events:
   -
     kind: "find-v1"
     backtrace:
@@ -2256,8 +2521,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-xNXakA"
-      binary: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-xNXakA"
+      source: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-DhkLPA"
+      binary: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-DhkLPA"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: ""
@@ -2268,17 +2533,17 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-xNXakA'
+        Change Dir: '/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-DhkLPA'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b6cf2/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_b6cf2.dir/build.make CMakeFiles/cmTC_b6cf2.dir/build
-        make[1]: Entering directory '/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-xNXakA'
-        Building C object CMakeFiles/cmTC_b6cf2.dir/src.c.o
-        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_b6cf2.dir/src.c.o -c /home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-xNXakA/src.c
-        Linking C executable cmTC_b6cf2
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6cf2.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_b6cf2.dir/src.c.o -o cmTC_b6cf2
-        make[1]: Leaving directory '/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-xNXakA'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ff7de/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_ff7de.dir/build.make CMakeFiles/cmTC_ff7de.dir/build
+        make[1]: Entering directory '/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-DhkLPA'
+        Building C object CMakeFiles/cmTC_ff7de.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_ff7de.dir/src.c.o -c /home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-DhkLPA/src.c
+        Linking C executable cmTC_ff7de
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff7de.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_ff7de.dir/src.c.o -o cmTC_ff7de
+        make[1]: Leaving directory '/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-DhkLPA'
         
       exitCode: 0
   -
@@ -2328,27 +2593,27 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/PTLConfig.cmake"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/PTLConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/ptl-config.cmake"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/ptl-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/PTL.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/PTL.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/ptl.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/ptl.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/PTL.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/PTL.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/ptl.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/ptl.cps"
         mode: "cps"
         reason: "no_exist"
     found:
@@ -16370,8 +16635,8 @@ events:
     checks:
       - "Looking for XOpenDisplay in /usr/lib/libX11.so;/usr/lib/libXext.so"
     directories:
-      source: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-ElJhqh"
-      binary: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-ElJhqh"
+      source: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-tNbU0y"
+      binary: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-tNbU0y"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: ""
@@ -16382,17 +16647,17 @@ events:
       variable: "X11_LIB_X11_SOLO"
       cached: true
       stdout: |
-        Change Dir: '/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-ElJhqh'
+        Change Dir: '/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-tNbU0y'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_09f60/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_09f60.dir/build.make CMakeFiles/cmTC_09f60.dir/build
-        make[1]: Entering directory '/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-ElJhqh'
-        Building C object CMakeFiles/cmTC_09f60.dir/CheckFunctionExists.c.o
-        /usr/bin/cc -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_09f60.dir/CheckFunctionExists.c.o -c /home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-ElJhqh/CheckFunctionExists.c
-        Linking C executable cmTC_09f60
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09f60.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_09f60.dir/CheckFunctionExists.c.o -o cmTC_09f60  /usr/lib/libX11.so /usr/lib/libXext.so
-        make[1]: Leaving directory '/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-ElJhqh'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_300b5/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_300b5.dir/build.make CMakeFiles/cmTC_300b5.dir/build
+        make[1]: Entering directory '/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-tNbU0y'
+        Building C object CMakeFiles/cmTC_300b5.dir/CheckFunctionExists.c.o
+        /usr/bin/cc -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_300b5.dir/CheckFunctionExists.c.o -c /home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-tNbU0y/CheckFunctionExists.c
+        Linking C executable cmTC_300b5
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_300b5.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_300b5.dir/CheckFunctionExists.c.o -o cmTC_300b5  /usr/lib/libX11.so /usr/lib/libXext.so
+        make[1]: Leaving directory '/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-tNbU0y'
         
       exitCode: 0
   -
@@ -16407,8 +16672,8 @@ events:
     checks:
       - "Looking for gethostbyname"
     directories:
-      source: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-Dd3ZUL"
-      binary: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-Dd3ZUL"
+      source: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-YddbLN"
+      binary: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-YddbLN"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: ""
@@ -16419,17 +16684,17 @@ events:
       variable: "CMAKE_HAVE_GETHOSTBYNAME"
       cached: true
       stdout: |
-        Change Dir: '/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-Dd3ZUL'
+        Change Dir: '/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-YddbLN'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_773b8/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_773b8.dir/build.make CMakeFiles/cmTC_773b8.dir/build
-        make[1]: Entering directory '/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-Dd3ZUL'
-        Building C object CMakeFiles/cmTC_773b8.dir/CheckFunctionExists.c.o
-        /usr/bin/cc -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_773b8.dir/CheckFunctionExists.c.o -c /home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-Dd3ZUL/CheckFunctionExists.c
-        Linking C executable cmTC_773b8
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_773b8.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_773b8.dir/CheckFunctionExists.c.o -o cmTC_773b8
-        make[1]: Leaving directory '/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-Dd3ZUL'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1333f/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_1333f.dir/build.make CMakeFiles/cmTC_1333f.dir/build
+        make[1]: Entering directory '/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-YddbLN'
+        Building C object CMakeFiles/cmTC_1333f.dir/CheckFunctionExists.c.o
+        /usr/bin/cc -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_1333f.dir/CheckFunctionExists.c.o -c /home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-YddbLN/CheckFunctionExists.c
+        Linking C executable cmTC_1333f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1333f.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_1333f.dir/CheckFunctionExists.c.o -o cmTC_1333f
+        make[1]: Leaving directory '/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-YddbLN'
         
       exitCode: 0
   -
@@ -16444,8 +16709,8 @@ events:
     checks:
       - "Looking for connect"
     directories:
-      source: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-2IK1hY"
-      binary: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-2IK1hY"
+      source: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-tmvuKQ"
+      binary: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-tmvuKQ"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: ""
@@ -16456,17 +16721,17 @@ events:
       variable: "CMAKE_HAVE_CONNECT"
       cached: true
       stdout: |
-        Change Dir: '/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-2IK1hY'
+        Change Dir: '/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-tmvuKQ'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bfcdd/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_bfcdd.dir/build.make CMakeFiles/cmTC_bfcdd.dir/build
-        make[1]: Entering directory '/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-2IK1hY'
-        Building C object CMakeFiles/cmTC_bfcdd.dir/CheckFunctionExists.c.o
-        /usr/bin/cc -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_bfcdd.dir/CheckFunctionExists.c.o -c /home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-2IK1hY/CheckFunctionExists.c
-        Linking C executable cmTC_bfcdd
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bfcdd.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_bfcdd.dir/CheckFunctionExists.c.o -o cmTC_bfcdd
-        make[1]: Leaving directory '/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-2IK1hY'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_72a52/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_72a52.dir/build.make CMakeFiles/cmTC_72a52.dir/build
+        make[1]: Entering directory '/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-tmvuKQ'
+        Building C object CMakeFiles/cmTC_72a52.dir/CheckFunctionExists.c.o
+        /usr/bin/cc -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_72a52.dir/CheckFunctionExists.c.o -c /home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-tmvuKQ/CheckFunctionExists.c
+        Linking C executable cmTC_72a52
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72a52.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_72a52.dir/CheckFunctionExists.c.o -o cmTC_72a52
+        make[1]: Leaving directory '/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-tmvuKQ'
         
       exitCode: 0
   -
@@ -16481,8 +16746,8 @@ events:
     checks:
       - "Looking for remove"
     directories:
-      source: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-xSeseM"
-      binary: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-xSeseM"
+      source: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-xlOqTr"
+      binary: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-xlOqTr"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: ""
@@ -16493,17 +16758,17 @@ events:
       variable: "CMAKE_HAVE_REMOVE"
       cached: true
       stdout: |
-        Change Dir: '/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-xSeseM'
+        Change Dir: '/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-xlOqTr'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5c09c/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_5c09c.dir/build.make CMakeFiles/cmTC_5c09c.dir/build
-        make[1]: Entering directory '/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-xSeseM'
-        Building C object CMakeFiles/cmTC_5c09c.dir/CheckFunctionExists.c.o
-        /usr/bin/cc -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_5c09c.dir/CheckFunctionExists.c.o -c /home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-xSeseM/CheckFunctionExists.c
-        Linking C executable cmTC_5c09c
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c09c.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_5c09c.dir/CheckFunctionExists.c.o -o cmTC_5c09c
-        make[1]: Leaving directory '/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-xSeseM'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7cafb/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_7cafb.dir/build.make CMakeFiles/cmTC_7cafb.dir/build
+        make[1]: Entering directory '/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-xlOqTr'
+        Building C object CMakeFiles/cmTC_7cafb.dir/CheckFunctionExists.c.o
+        /usr/bin/cc -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_7cafb.dir/CheckFunctionExists.c.o -c /home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-xlOqTr/CheckFunctionExists.c
+        Linking C executable cmTC_7cafb
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7cafb.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_7cafb.dir/CheckFunctionExists.c.o -o cmTC_7cafb
+        make[1]: Leaving directory '/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-xlOqTr'
         
       exitCode: 0
   -
@@ -16518,8 +16783,8 @@ events:
     checks:
       - "Looking for shmat"
     directories:
-      source: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-PuXPyd"
-      binary: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-PuXPyd"
+      source: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-lLNvJp"
+      binary: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-lLNvJp"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: ""
@@ -16530,17 +16795,17 @@ events:
       variable: "CMAKE_HAVE_SHMAT"
       cached: true
       stdout: |
-        Change Dir: '/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-PuXPyd'
+        Change Dir: '/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-lLNvJp'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ef6c7/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_ef6c7.dir/build.make CMakeFiles/cmTC_ef6c7.dir/build
-        make[1]: Entering directory '/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-PuXPyd'
-        Building C object CMakeFiles/cmTC_ef6c7.dir/CheckFunctionExists.c.o
-        /usr/bin/cc -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_ef6c7.dir/CheckFunctionExists.c.o -c /home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-PuXPyd/CheckFunctionExists.c
-        Linking C executable cmTC_ef6c7
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef6c7.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_ef6c7.dir/CheckFunctionExists.c.o -o cmTC_ef6c7
-        make[1]: Leaving directory '/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-PuXPyd'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_046c0/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_046c0.dir/build.make CMakeFiles/cmTC_046c0.dir/build
+        make[1]: Entering directory '/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-lLNvJp'
+        Building C object CMakeFiles/cmTC_046c0.dir/CheckFunctionExists.c.o
+        /usr/bin/cc -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_046c0.dir/CheckFunctionExists.c.o -c /home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-lLNvJp/CheckFunctionExists.c
+        Linking C executable cmTC_046c0
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_046c0.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_046c0.dir/CheckFunctionExists.c.o -o cmTC_046c0
+        make[1]: Leaving directory '/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-lLNvJp'
         
       exitCode: 0
   -
@@ -16555,8 +16820,8 @@ events:
     checks:
       - "Looking for IceConnectionNumber in ICE"
     directories:
-      source: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-h3VSax"
-      binary: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-h3VSax"
+      source: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-zhmXo3"
+      binary: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-zhmXo3"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: ""
@@ -16567,17 +16832,17 @@ events:
       variable: "CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER"
       cached: true
       stdout: |
-        Change Dir: '/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-h3VSax'
+        Change Dir: '/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-zhmXo3'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ec20a/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_ec20a.dir/build.make CMakeFiles/cmTC_ec20a.dir/build
-        make[1]: Entering directory '/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-h3VSax'
-        Building C object CMakeFiles/cmTC_ec20a.dir/CheckFunctionExists.c.o
-        /usr/bin/cc -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_ec20a.dir/CheckFunctionExists.c.o -c /home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-h3VSax/CheckFunctionExists.c
-        Linking C executable cmTC_ec20a
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec20a.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_ec20a.dir/CheckFunctionExists.c.o -o cmTC_ec20a  -lICE
-        make[1]: Leaving directory '/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-h3VSax'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_dfe44/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_dfe44.dir/build.make CMakeFiles/cmTC_dfe44.dir/build
+        make[1]: Entering directory '/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-zhmXo3'
+        Building C object CMakeFiles/cmTC_dfe44.dir/CheckFunctionExists.c.o
+        /usr/bin/cc -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_dfe44.dir/CheckFunctionExists.c.o -c /home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-zhmXo3/CheckFunctionExists.c
+        Linking C executable cmTC_dfe44
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfe44.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_dfe44.dir/CheckFunctionExists.c.o -o cmTC_dfe44  -lICE
+        make[1]: Leaving directory '/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-zhmXo3'
         
       exitCode: 0
   -
@@ -16633,27 +16898,27 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/Qt6Config.cmake"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/Qt6Config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/qt6-config.cmake"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/qt6-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/Qt6.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/Qt6.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/qt6.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/qt6.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/Qt6.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/Qt6.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/qt6.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/qt6.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -18712,8 +18977,8 @@ events:
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
-      source: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-ORPLXP"
-      binary: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-ORPLXP"
+      source: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-FgSE7n"
+      binary: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-FgSE7n"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -18724,17 +18989,17 @@ events:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
-        Change Dir: '/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-ORPLXP'
+        Change Dir: '/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-FgSE7n'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c7023/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_c7023.dir/build.make CMakeFiles/cmTC_c7023.dir/build
-        make[1]: Entering directory '/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-ORPLXP'
-        Building CXX object CMakeFiles/cmTC_c7023.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_STDATOMIC  -std=gnu++17 -o CMakeFiles/cmTC_c7023.dir/src.cxx.o -c /home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-ORPLXP/src.cxx
-        Linking CXX executable cmTC_c7023
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7023.dir/link.txt --verbose=1
-        /usr/bin/c++ CMakeFiles/cmTC_c7023.dir/src.cxx.o -o cmTC_c7023
-        make[1]: Leaving directory '/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-ORPLXP'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_631ba/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_631ba.dir/build.make CMakeFiles/cmTC_631ba.dir/build
+        make[1]: Entering directory '/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-FgSE7n'
+        Building CXX object CMakeFiles/cmTC_631ba.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_STDATOMIC  -std=gnu++17 -o CMakeFiles/cmTC_631ba.dir/src.cxx.o -c /home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-FgSE7n/src.cxx
+        Linking CXX executable cmTC_631ba
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_631ba.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_631ba.dir/src.cxx.o -o cmTC_631ba
+        make[1]: Leaving directory '/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/CMakeScratch/TryCompile-FgSE7n'
         
       exitCode: 0
   -
@@ -18790,27 +19055,27 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/Qt6CoreToolsConfig.cmake"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/Qt6CoreToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/qt6coretools-config.cmake"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/qt6coretools-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/Qt6CoreTools.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/Qt6CoreTools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/qt6coretools.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/qt6coretools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/Qt6CoreTools.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/Qt6CoreTools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/qt6coretools.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/qt6coretools.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -19008,27 +19273,27 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/Qt6CoreConfig.cmake"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/Qt6CoreConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/qt6core-config.cmake"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/qt6core-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/Qt6Core.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/Qt6Core.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/qt6core.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/qt6core.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/Qt6Core.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/Qt6Core.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/qt6core.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/qt6core.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -21118,27 +21383,27 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/Qt6GuiToolsConfig.cmake"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/Qt6GuiToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/qt6guitools-config.cmake"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/qt6guitools-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/Qt6GuiTools.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/Qt6GuiTools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/qt6guitools.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/qt6guitools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/Qt6GuiTools.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/Qt6GuiTools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/qt6guitools.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/qt6guitools.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -21349,27 +21614,27 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/Qt6DBusToolsConfig.cmake"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/Qt6DBusToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/qt6dbustools-config.cmake"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/qt6dbustools-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/Qt6DBusTools.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/Qt6DBusTools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/qt6dbustools.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/qt6dbustools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/Qt6DBusTools.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/Qt6DBusTools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/qt6dbustools.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/qt6dbustools.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -21577,27 +21842,27 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/Qt6DBusConfig.cmake"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/Qt6DBusConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/qt6dbus-config.cmake"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/qt6dbus-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/Qt6DBus.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/Qt6DBus.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/qt6dbus.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/qt6dbus.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/Qt6DBus.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/Qt6DBus.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/qt6dbus.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/qt6dbus.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -21699,27 +21964,27 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/Qt6GuiConfig.cmake"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/Qt6GuiConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/qt6gui-config.cmake"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/qt6gui-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/Qt6Gui.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/Qt6Gui.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/qt6gui.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/qt6gui.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/Qt6Gui.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/Qt6Gui.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/qt6gui.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/qt6gui.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -21946,27 +22211,27 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/Qt6WidgetsToolsConfig.cmake"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/Qt6WidgetsToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/qt6widgetstools-config.cmake"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/qt6widgetstools-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/Qt6WidgetsTools.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/Qt6WidgetsTools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/qt6widgetstools.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/qt6widgetstools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/Qt6WidgetsTools.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/Qt6WidgetsTools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/qt6widgetstools.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/qt6widgetstools.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -22164,27 +22429,27 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/Qt6WidgetsConfig.cmake"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/Qt6WidgetsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/qt6widgets-config.cmake"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/qt6widgets-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/Qt6Widgets.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/Qt6Widgets.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/qt6widgets.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/qt6widgets.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/Qt6Widgets.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/Qt6Widgets.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/qt6widgets.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/qt6widgets.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -22403,27 +22668,27 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/Qt6OpenGLConfig.cmake"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/Qt6OpenGLConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/qt6opengl-config.cmake"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/qt6opengl-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/Qt6OpenGL.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/Qt6OpenGL.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/qt6opengl.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/qt6opengl.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/Qt6OpenGL.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/Qt6OpenGL.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/qt6opengl.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/qt6opengl.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -22642,27 +22907,27 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/Qt6OpenGLWidgetsConfig.cmake"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/Qt6OpenGLWidgetsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/qt6openglwidgets-config.cmake"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/qt6openglwidgets-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/Qt6OpenGLWidgets.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/Qt6OpenGLWidgets.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/qt6openglwidgets.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/qt6openglwidgets.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/Qt6OpenGLWidgets.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/Qt6OpenGLWidgets.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/qt6openglwidgets.cps"
+        path: "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/qt6openglwidgets.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -22817,162 +23082,6 @@ events:
         - "/opt"
       CMAKE_MODULE_PATH:
         - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/lib/cmake/Geant4/Modules"
-        - "/usr/lib/cmake/Qt6"
-        - "/usr/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules"
-        - "/usr/lib/cmake/Qt6/3rdparty/kwin"
-  -
-    kind: "find_package-v1"
-    backtrace:
-      - "CMakeLists.txt:8 (find_package)"
-    name: "Geant4"
-    components:
-      -
-        name: "ui_all"
-        required: true
-        found: true
-      -
-        name: "vis_all"
-        required: true
-        found: true
-    configs:
-      -
-        filename: "Geant4.cps"
-        kind: "cps"
-      -
-        filename: "geant4.cps"
-        kind: "cps"
-      -
-        filename: "Geant4Config.cmake"
-        kind: "cmake"
-      -
-        filename: "geant4-config.cmake"
-        kind: "cmake"
-    version_request:
-      exact: false
-    settings:
-      required: "required_explicit"
-      quiet: false
-      global: false
-      policy_scope: true
-      bypass_provider: false
-      names:
-        - "Geant4"
-      path_suffixes:
-        - ""
-      paths:
-        CMAKE_FIND_USE_CMAKE_PATH: true
-        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-        CMAKE_FIND_USE_INSTALL_PREFIX: true
-        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
-        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
-        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
-        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
-    candidates:
-      -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/Geant4Config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/geant4-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/Geant4.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/lib/cps/geant4.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/Geant4.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/build/CMakeFiles/pkgRedirects/share/cps/geant4.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/home/ryan-diferensial/.local/Geant4Config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/ryan-diferensial/.local/geant4-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/ryan-diferensial/.local/lib/cps/Geant4.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/home/ryan-diferensial/.local/lib/cps/geant4.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/home/ryan-diferensial/.local/share/cps/Geant4.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/home/ryan-diferensial/.local/share/cps/geant4.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/home/ryan-diferensial/Software/geant4-v11.4.0-install/Geant4Config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/ryan-diferensial/Software/geant4-v11.4.0-install/geant4-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/ryan-diferensial/Software/geant4-v11.4.0-install/lib/cps/Geant4.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/home/ryan-diferensial/Software/geant4-v11.4.0-install/lib/cps/geant4.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/home/ryan-diferensial/Software/geant4-v11.4.0-install/share/cps/Geant4.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/home/ryan-diferensial/Software/geant4-v11.4.0-install/share/cps/geant4.cps"
-        mode: "cps"
-        reason: "no_exist"
-    found:
-      path: "/home/ryan-diferensial/Software/geant4-v11.4.0-install/lib/cmake/Geant4/Geant4Config.cmake"
-      mode: "config"
-      version: "11.4.0"
-    search_context:
-      ENV{PATH}:
-        - "/home/ryan-diferensial/.local/bin"
-        - "/home/ryan-diferensial/Software/geant4-v11.4.0-install/bin"
-        - "/home/ryan-diferensial/.local/bin"
-        - "/home/ryan-diferensial/.local/bin"
-        - "/home/ryan-diferensial/miniconda3/condabin"
-        - "/home/ryan-diferensial/.local/bin"
-        - "/usr/local/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/usr/local/sbin"
-        - "/usr/lib/jvm/default/bin"
-        - "/usr/bin/site_perl"
-        - "/usr/bin/vendor_perl"
-        - "/usr/bin/core_perl"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/usr"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
-      CMAKE_MODULE_PATH:
         - "/usr/lib/cmake/Qt6"
         - "/usr/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules"
         - "/usr/lib/cmake/Qt6/3rdparty/kwin"

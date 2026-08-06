@@ -236,18 +236,15 @@ G4VPhysicalVolume* DetectorConstruction::ConstructWorld()
 
     // =====================
     // DEFECT / VOID (ACTIVATED FOR CRACK SIMULATION)
-    // Bentuk: garis horizontal (kotak pipih)
-    // Panjang X = 40 cm (melintang penuh di dinding pipa)
-    // Panjang Y = 40 cm (melintang penuh di dinding pipa)
-    // Tebal  Z = 0.5 cm (setengah tebal = 0.5 cm → total 1 cm)
+    // Bentuk: Garis vertikal (sejajar panjang pipa / axial crack)
     // =====================
     
     auto solidVoid =
         new G4Box(
             "VoidSolid",
-            20.0*cm,   // half-length Z
-            2.5*cm,    // half-length X (total tebal 2 cm, aman di dinding tebal 4 cm)
-            1.5*cm     // half-thickness Y
+            1.5*cm,             // <-- ATUR LEBAR RETAKAN DI SINI (Total lebar = 2 * nilai ini)
+            2.5*cm,             // Kedalaman/tebal retakan menembus dinding pipa (arah radial)
+            20.0*cm             // Panjang retakan (arah sejajar panjang pipa)
         );
 
     auto logicVoid =

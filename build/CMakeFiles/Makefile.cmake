@@ -7,7 +7,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/CMakeLists.txt"
+  "/home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/CMakeLists.txt"
   "CMakeFiles/4.4.2/CMakeCCompiler.cmake"
   "CMakeFiles/4.4.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.4.2/CMakeSystem.cmake"

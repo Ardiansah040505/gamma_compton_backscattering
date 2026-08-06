@@ -1,7 +1,7 @@
 CMakeFiles/crack.dir/src/ScanConfig.cc.o: \
- /home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/src/ScanConfig.cc \
+ /home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/src/ScanConfig.cc \
  /usr/include/stdc-predef.h \
- /home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/include/ScanConfig.hh \
+ /home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/include/ScanConfig.hh \
  /usr/include/c++/16/vector /usr/include/c++/16/bits/requires_hosted.h \
  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/os_defines.h \

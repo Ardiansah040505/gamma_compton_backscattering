@@ -1,7 +1,7 @@
 CMakeFiles/crack.dir/src/EventAction.cc.o: \
- /home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/src/EventAction.cc \
+ /home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/src/EventAction.cc \
  /usr/include/stdc-predef.h \
- /home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/include/EventAction.hh \
+ /home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/include/EventAction.hh \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4UserEventAction.hh \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/globals.hh \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4ios.hh \
@@ -210,7 +210,7 @@ CMakeFiles/crack.dir/src/EventAction.cc.o: \
  /usr/include/c++/16/bits/parse_numbers.h \
  /usr/include/c++/16/bits/std_mutex.h \
  /usr/include/c++/16/bits/unique_lock.h \
- /home/ryan-diferensial/Learning_code/gcb_horizon/gcb_hor3/gamma_compton_backscattering/include/RunAction.hh \
+ /home/ryan-diferensial/Learning_code/gcb_ver/gamma_compton_backscattering/include/RunAction.hh \
  /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4/G4UserRunAction.hh \
  /usr/include/c++/16/fstream \
  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/basic_file.h \
