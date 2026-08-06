@@ -241,13 +241,13 @@ G4VPhysicalVolume* DetectorConstruction::ConstructWorld()
     // Panjang Y = 40 cm (melintang penuh di dinding pipa)
     // Tebal  Z = 0.5 cm (setengah tebal = 0.5 cm → total 1 cm)
     // =====================
-    /*
+    
     auto solidVoid =
         new G4Box(
             "VoidSolid",
-            20.0*cm,   // half-length X
-            1.0*cm,    // half-length Y (total tebal 2 cm, aman di dinding tebal 4 cm)
-            1.5*cm     // half-thickness Z
+            20.0*cm,   // half-length Z
+            2.5*cm,    // half-length X (total tebal 2 cm, aman di dinding tebal 4 cm)
+            1.5*cm     // half-thickness Y
         );
 
     auto logicVoid =
@@ -259,7 +259,7 @@ G4VPhysicalVolume* DetectorConstruction::ConstructWorld()
 
     G4ThreeVector defectPos(
         0,
-        -22*cm,        // Diposisikan di dinding bawah (yang menghadap detektor)
+        22*cm,        // Diposisikan di dinding bawah (yang menghadap detektor)
         0
     );
 
@@ -283,7 +283,7 @@ G4VPhysicalVolume* DetectorConstruction::ConstructWorld()
     logicVoid->SetVisAttributes(
         voidVis
     );
-    */
+    
 
     // =====================
     // NaI DETECTOR
