@@ -4,10 +4,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-def main():
-    csv_path = "/data/mahasiswa/ardian/gcb_project/gcb_hor/hasil_sementara/crack_normal_combined_relative_diff_1cm.csv"
-    output_img = "/data/mahasiswa/ardian/gcb_project/gcb_hor/hasil_sementara/fwhm_1cm_result.png"
-    
+def hitung_fwhm(csv_path, output_img, label_name):
     # 1. Load data
     df = pd.read_csv(csv_path)
     
@@ -38,31 +35,23 @@ def main():
     
     half_max = baseline + (peak_val - baseline) / 2.0
     
-    # Interpolasi Linear Sederhana untuk mencari titik potong di kiri dan kanan puncak
-    # Bagian kiri puncak (dari awal slice hingga peak_idx)
+    # Interpolasi Linear
     left_y = y_slice[:peak_idx+1]
     left_prof = profile_slice[:peak_idx+1]
     
-    # Bagian kanan puncak (dari peak_idx hingga akhir slice)
     right_y = y_slice[peak_idx:]
     right_prof = profile_slice[peak_idx:]
     
-    # Cari interpolasi linear untuk mencari di mana profile memotong half_max
-    # Karena np.interp membutuhkan koordinat x (dalam hal ini profil nilai) terurut naik,
-    # kita harus mengurutkannya terlebih dahulu sebelum melakukan interpolasi.
-    
-    # Sisi Kiri Puncak (nilai profil turun dari baseline ke peak_val)
     sort_left = np.argsort(left_prof)
     y1 = np.interp(half_max, left_prof[sort_left], left_y[sort_left])
     
-    # Sisi Kanan Puncak (nilai profil naik dari peak_val ke baseline)
     sort_right = np.argsort(right_prof)
     y2 = np.interp(half_max, right_prof[sort_right], right_y[sort_right])
     
     fwhm = abs(y2 - y1)
     
     print("="*50)
-    print(" ANALISIS FWHM DATA KERETAKAN 1 CM ".center(50, "="))
+    print(f" ANALISIS FWHM DATA KERETAKAN {label_name} ".center(50, "="))
     print(f"Posisi Retakan Terdeteksi: X = {target_x} cm, Y = {peak_y} cm")
     print(f"Nilai Drop Maksimum       : {peak_val:.1f} counts")
     print(f"Nilai Baseline            : {baseline:.1f} counts")
@@ -82,7 +71,7 @@ def main():
     plt.fill_between(y_slice, profile_slice, baseline, where=(y_slice >= y1) & (y_slice <= y2), 
                      color='orange', alpha=0.2, label='Area FWHM')
                           
-    plt.title("Analisis Lebar Retakan Menggunakan FWHM (Data 1 cm)", fontsize=13, fontweight='bold')
+    plt.title(f"Analisis Lebar Retakan Menggunakan FWHM (Data {label_name})", fontsize=13, fontweight='bold')
     plt.xlabel("Y (cm) - Posisi Melintang Retakan")
     plt.ylabel("Cacah ROI Detektor (Counts)")
     plt.xlim(-10, 10)
@@ -93,4 +82,6 @@ def main():
     print(f"Visualisasi FWHM berhasil disimpan ke: {output_img}")
 
 if __name__ == "__main__":
-    main()
+    csv_0_9 = "/data/mahasiswa/ardian/gcb_project/gcb_hor/hasil_sementara/crack_normal_combined_relative_diff_0_9cm.csv"
+    img_0_9 = "/data/mahasiswa/ardian/gcb_project/gcb_hor/hasil_sementara/fwhm_0_9cm_result.png"
+    hitung_fwhm(csv_0_9, img_0_9, "0.9 CM")
