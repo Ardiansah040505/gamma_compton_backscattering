@@ -242,7 +242,7 @@ G4VPhysicalVolume* DetectorConstruction::ConstructWorld()
     auto solidVoid =
         new G4Box(
             "VoidSolid",
-            1.5*cm,             // <-- ATUR LEBAR RETAKAN DI SINI (Total lebar = 2 * nilai ini)
+            0.85*cm,             // <-- ATUR LEBAR RETAKAN DI SINI (Total lebar = 2 * nilai ini)
             2.5*cm,             // Kedalaman/tebal retakan menembus dinding pipa (arah radial)
             20.0*cm             // Panjang retakan (arah sejajar panjang pipa)
         );
