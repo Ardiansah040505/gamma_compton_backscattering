@@ -5,6 +5,7 @@
 #include "globals.hh"
 
 #include <map>
+#include <vector>
 #include <fstream>
 #include <utility>
 
@@ -34,6 +35,11 @@ public:
         int flux
     );
 
+    void AddSpectrum(
+        int detectorID,
+        double edep
+    );
+
 private:
 
     // ======================================
@@ -46,19 +52,23 @@ private:
         long flux = 0;
     };
 
-    // ======================================
-    // KEY:
-    // (pointIndex, detectorID)
-    // ======================================
+    // KEY: (pointIndex, detectorID)
     std::map<
         std::pair<int,int>,
         DetectorData
     > fResults;
 
+    // KEY: (pointIndex, detectorID) -> std::vector<long> (1000 bins)
+    std::map<
+        std::pair<int,int>,
+        std::vector<long>
+    > fSpectra;
+
     // ======================================
-    // OUTPUT FILE
+    // OUTPUT FILES
     // ======================================
     std::ofstream fOutFile;
+    std::ofstream fSpectrumFile;
 };
 
 #endif

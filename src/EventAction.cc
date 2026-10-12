@@ -89,5 +89,13 @@ void EventAction::EndOfEventAction(
             edep,
             flux
         );
+
+        if(edep > 0.0)
+        {
+            runAction->AddSpectrum(
+                detectorID,
+                edep
+            );
+        }
     }
 }

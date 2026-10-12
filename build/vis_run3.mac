@@ -23,12 +23,12 @@
 /gps/ene/type Mono
 /gps/ene/mono 662 keV
 
-# Batasi pancaran ke arah +Z (sudut kerucut 15 derajat)
+# Isotropik penuh ke segala arah (bola 4*pi)
 /gps/ang/type iso
 /gps/ang/mintheta 0 deg
-/gps/ang/maxtheta 15 deg
-/gps/ang/rot1 -1 0 0
-/gps/ang/rot2 0 1 0
+/gps/ang/maxtheta 180 deg
+/gps/ang/minphi 0 deg
+/gps/ang/maxphi 360 deg
 
 # ======================================
 # OPTIONAL (From run3.mac)
@@ -58,5 +58,7 @@
 # Hits
 /vis/scene/add/hits
 
-# Auto-run 50 events to show trajectories instantly
-/run/beamOn 50
+# Akumulasikan semua jejak lintasan agar terlihat menyebar bersamaan
+/vis/scene/endOfEventAction accumulate
+
+/run/beamOn 300

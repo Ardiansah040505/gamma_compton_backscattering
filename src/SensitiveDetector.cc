@@ -68,18 +68,6 @@ G4bool SensitiveDetector::ProcessHits(
         ->GetKineticEnergy();
 
     // ===============================
-    // ROI ENERGY WINDOW
-    // Cs-137 Backscatter Region
-    // ===============================
-    G4double Emin = 0.18 * MeV;
-
-    G4double Emax = 0.23 * MeV;
-
-    // hanya hit dalam ROI
-    if(energy < Emin || energy > Emax)
-        return false;
-
-    // ===============================
     // AMBIL EVENT ACTION
     // ===============================
     auto eventAction =
@@ -87,13 +75,13 @@ G4bool SensitiveDetector::ProcessHits(
             G4EventManager::GetEventManager()
             ->GetUserEventAction());
 
-    // ===============================
-    // TAMBAH ROI COUNT
-    // ===============================
-    eventAction->AddHit(
-        detectorID,
-        edep
-    );
+    if(eventAction)
+    {
+        eventAction->AddHit(
+            detectorID,
+            edep
+        );
+    }
 
     return true;
 }
