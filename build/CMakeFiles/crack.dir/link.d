@@ -32,6 +32,28 @@ crack: \
   /home/ryan-diferensial/Software/geant4-v11.4.0-install/lib/libG4event.so \
   /home/ryan-diferensial/Software/geant4-v11.4.0-install/lib/libG4tracking.so \
   /home/ryan-diferensial/Software/geant4-v11.4.0-install/lib/libG4parmodels.so \
+  /usr/lib/root/libCore.so \
+  /usr/lib/root/libImt.so \
+  /usr/lib/root/libRIO.so \
+  /usr/lib/root/libNet.so \
+  /usr/lib/root/libHist.so \
+  /usr/lib/root/libGraf.so \
+  /usr/lib/root/libGraf3d.so \
+  /usr/lib/root/libGpad.so \
+  /usr/lib/root/libROOTVecOps.so \
+  /usr/lib/root/libTree.so \
+  /usr/lib/root/libTreePlayer.so \
+  /usr/lib/root/libRint.so \
+  /usr/lib/root/libPostscript.so \
+  /usr/lib/root/libMatrix.so \
+  /usr/lib/root/libPhysics.so \
+  /usr/lib/root/libMathCore.so \
+  /usr/lib/root/libThread.so \
+  /usr/lib/root/libROOTNTuple.so \
+  /usr/lib/root/libROOTNTupleUtil.so \
+  /usr/lib/root/libMultiProc.so \
+  /usr/lib/root/libROOTDataFrame.so \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libdl.a \
   /usr/lib/libQt6Widgets.so.6.11.1 \
   /usr/lib/libQt6Gui.so.6.11.1 \
   /usr/lib/libGL.so \
@@ -66,6 +88,7 @@ crack: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/libatomic_asneeded.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/libatomic_asneeded.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/libatomic.so \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libpthread.a \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libc.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libc.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libc.so \
@@ -90,6 +113,27 @@ crack: \
   /usr/lib/libXt.so.6 \
   /usr/lib/libQt6OpenGLWidgets.so.6 \
   /usr/lib/libQt6OpenGL.so.6 \
+  /usr/lib32/libpcre2-8.so.0 \
+  /usr/lib/libpcre2-8.so.0 \
+  /usr/lib32/libz.so.1 \
+  /usr/lib/libz.so.1 \
+  /usr/lib32/liblzma.so.5 \
+  /usr/lib/liblzma.so.5 \
+  /usr/lib/libxxhash.so.0 \
+  /usr/lib/liblz4.so.1 \
+  /usr/lib32/libzstd.so.1 \
+  /usr/lib/libzstd.so.1 \
+  /usr/lib/ld-linux-x86-64.so.2 \
+  /usr/lib/libtbb.so.12 \
+  /usr/lib/liburing.so.2 \
+  /usr/lib32/libssl.so.3 \
+  /usr/lib/libssl.so.3 \
+  /usr/lib32/libcrypto.so.3 \
+  /usr/lib/libcrypto.so.3 \
+  /usr/lib32/libfreetype.so.6 \
+  /usr/lib/libfreetype.so.6 \
+  /usr/lib32/libsqlite3.so.0 \
+  /usr/lib/libsqlite3.so.0 \
   /usr/lib/libEGL.so.1 \
   /usr/lib/libfontconfig.so.1 \
   /usr/lib/libglib-2.0.so.0 \
@@ -100,31 +144,26 @@ crack: \
   /usr/lib/libpng16.so.16 \
   /usr/lib/libharfbuzz.so.0 \
   /usr/lib/libmd4c.so.0 \
-  /usr/lib/libfreetype.so.6 \
-  /usr/lib/libz.so.1 \
   /usr/lib32/libGLdispatch.so.0 \
   /usr/lib/libGLdispatch.so.0 \
-  /usr/lib/liburing.so.2 \
   /usr/lib/libicui18n.so.78 \
   /usr/lib/libicuuc.so.78 \
   /usr/lib/libsystemd.so.0 \
   /usr/lib/libdouble-conversion.so.3 \
   /usr/lib/libb2.so.1 \
   /usr/lib/libpcre2-16.so.0 \
-  /usr/lib/libzstd.so.1 \
-  /usr/lib/ld-linux-x86-64.so.2 \
   /usr/lib32/libuuid.so.1 \
   /usr/lib/libuuid.so.1 \
   /usr/lib32/libxcb.so.1 \
   /usr/lib/libxcb.so.1 \
-  /usr/lib32/libpcre2-8.so.0 \
-  /usr/lib/libpcre2-8.so.0 \
-  /usr/lib/libdbus-1.so.3 \
-  /usr/lib/libgraphite2.so.3 \
-  /usr/lib32/libbz2.so.1.0 \
-  /usr/lib/libbz2.so.1.0 \
+  /usr/lib32/libbrotlienc.so.1 \
+  /usr/lib/libbrotlienc.so.1 \
   /usr/lib32/libbrotlidec.so.1 \
   /usr/lib/libbrotlidec.so.1 \
+  /usr/lib32/libbz2.so.1.0 \
+  /usr/lib/libbz2.so.1.0 \
+  /usr/lib/libdbus-1.so.3 \
+  /usr/lib/libgraphite2.so.3 \
   /usr/lib32/libicudata.so.78 \
   /usr/lib/libicudata.so.78 \
   /usr/lib32/libgomp.so.1 \
@@ -202,6 +241,50 @@ CMakeFiles/crack.dir/src/SensitiveDetector.cc.o:
 
 /home/ryan-diferensial/Software/geant4-v11.4.0-install/lib/libG4parmodels.so:
 
+/usr/lib/root/libCore.so:
+
+/usr/lib/root/libImt.so:
+
+/usr/lib/root/libRIO.so:
+
+/usr/lib/root/libNet.so:
+
+/usr/lib/root/libHist.so:
+
+/usr/lib/root/libGraf.so:
+
+/usr/lib/root/libGraf3d.so:
+
+/usr/lib/root/libGpad.so:
+
+/usr/lib/root/libROOTVecOps.so:
+
+/usr/lib/root/libTree.so:
+
+/usr/lib/root/libTreePlayer.so:
+
+/usr/lib/root/libRint.so:
+
+/usr/lib/root/libPostscript.so:
+
+/usr/lib/root/libMatrix.so:
+
+/usr/lib/root/libPhysics.so:
+
+/usr/lib/root/libMathCore.so:
+
+/usr/lib/root/libThread.so:
+
+/usr/lib/root/libROOTNTuple.so:
+
+/usr/lib/root/libROOTNTupleUtil.so:
+
+/usr/lib/root/libMultiProc.so:
+
+/usr/lib/root/libROOTDataFrame.so:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libdl.a:
+
 /usr/lib/libQt6Widgets.so.6.11.1:
 
 /usr/lib/libQt6Gui.so.6.11.1:
@@ -270,6 +353,8 @@ CMakeFiles/crack.dir/src/SensitiveDetector.cc.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/libatomic.so:
 
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libpthread.a:
+
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libc.so:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libc.so:
@@ -318,6 +403,48 @@ CMakeFiles/crack.dir/src/SensitiveDetector.cc.o:
 
 /usr/lib/libQt6OpenGL.so.6:
 
+/usr/lib32/libpcre2-8.so.0:
+
+/usr/lib/libpcre2-8.so.0:
+
+/usr/lib32/libz.so.1:
+
+/usr/lib/libz.so.1:
+
+/usr/lib32/liblzma.so.5:
+
+/usr/lib/liblzma.so.5:
+
+/usr/lib/libxxhash.so.0:
+
+/usr/lib/liblz4.so.1:
+
+/usr/lib32/libzstd.so.1:
+
+/usr/lib/libzstd.so.1:
+
+/usr/lib/ld-linux-x86-64.so.2:
+
+/usr/lib/libtbb.so.12:
+
+/usr/lib/liburing.so.2:
+
+/usr/lib32/libssl.so.3:
+
+/usr/lib/libssl.so.3:
+
+/usr/lib32/libcrypto.so.3:
+
+/usr/lib/libcrypto.so.3:
+
+/usr/lib32/libfreetype.so.6:
+
+/usr/lib/libfreetype.so.6:
+
+/usr/lib32/libsqlite3.so.0:
+
+/usr/lib/libsqlite3.so.0:
+
 /usr/lib/libEGL.so.1:
 
 /usr/lib/libfontconfig.so.1:
@@ -338,15 +465,9 @@ CMakeFiles/crack.dir/src/SensitiveDetector.cc.o:
 
 /usr/lib/libmd4c.so.0:
 
-/usr/lib/libfreetype.so.6:
-
-/usr/lib/libz.so.1:
-
 /usr/lib32/libGLdispatch.so.0:
 
 /usr/lib/libGLdispatch.so.0:
-
-/usr/lib/liburing.so.2:
 
 /usr/lib/libicui18n.so.78:
 
@@ -360,10 +481,6 @@ CMakeFiles/crack.dir/src/SensitiveDetector.cc.o:
 
 /usr/lib/libpcre2-16.so.0:
 
-/usr/lib/libzstd.so.1:
-
-/usr/lib/ld-linux-x86-64.so.2:
-
 /usr/lib32/libuuid.so.1:
 
 /usr/lib/libuuid.so.1:
@@ -372,21 +489,21 @@ CMakeFiles/crack.dir/src/SensitiveDetector.cc.o:
 
 /usr/lib/libxcb.so.1:
 
-/usr/lib32/libpcre2-8.so.0:
+/usr/lib32/libbrotlienc.so.1:
 
-/usr/lib/libpcre2-8.so.0:
+/usr/lib/libbrotlienc.so.1:
 
-/usr/lib/libdbus-1.so.3:
+/usr/lib32/libbrotlidec.so.1:
 
-/usr/lib/libgraphite2.so.3:
+/usr/lib/libbrotlidec.so.1:
 
 /usr/lib32/libbz2.so.1.0:
 
 /usr/lib/libbz2.so.1.0:
 
-/usr/lib32/libbrotlidec.so.1:
+/usr/lib/libdbus-1.so.3:
 
-/usr/lib/libbrotlidec.so.1:
+/usr/lib/libgraphite2.so.3:
 
 /usr/lib32/libicudata.so.78:
 

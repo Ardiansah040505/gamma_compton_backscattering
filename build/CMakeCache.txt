@@ -390,6 +390,18 @@ Qt6Widgets_DIR:PATH=/usr/lib/cmake/Qt6Widgets
 //The directory containing a CMake configuration file for Qt6.
 Qt6_DIR:PATH=/usr/lib/cmake/Qt6
 
+//The directory containing a CMake configuration file for ROOT.
+ROOT_DIR:PATH=/usr/lib/cmake/ROOT
+
+//Path to a program.
+ROOT_GMAKE_PROGRAM:FILEPATH=ROOT_GMAKE_PROGRAM-NOTFOUND
+
+//Path to a file.
+VDT_INCLUDE_DIR:PATH=VDT_INCLUDE_DIR-NOTFOUND
+
+//Path to a library.
+VDT_LIBRARY:FILEPATH=VDT_LIBRARY-NOTFOUND
+
 //Path to a program.
 Vulkan_GLSLANG_VALIDATOR_EXECUTABLE:FILEPATH=/usr/bin/glslangValidator
 
@@ -2014,6 +2026,10 @@ QT_FEATURE_xmlstreamreader:INTERNAL=ON
 QT_FEATURE_xmlstreamwriter:INTERNAL=ON
 //Qt feature: zstd (from target Qt6::Core)
 QT_FEATURE_zstd:INTERNAL=ON
+//ADVANCED property for variable: VDT_INCLUDE_DIR
+VDT_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: VDT_LIBRARY
+VDT_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Vulkan_GLSLANG_VALIDATOR_EXECUTABLE
 Vulkan_GLSLANG_VALIDATOR_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Vulkan_GLSLC_EXECUTABLE

@@ -6,5 +6,5 @@ CXX_DEFINES = -DG4LIB_BUILD_DLL -DG4UI_USE_QT -DG4VIS_USE_OPENGLQT -DG4VIS_USE_O
 
 CXX_INCLUDES = -I/home/ryan-diferensial/Learning_code/gcb_ver/multidetector_vertical/gamma_compton_backscattering/include -isystem /home/ryan-diferensial/Software/geant4-v11.4.0-install/include/Geant4 -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets
 
-CXX_FLAGS = -std=gnu++17 -mno-direct-extern-access
+CXX_FLAGS = -std=gnu++20 -mno-direct-extern-access
 

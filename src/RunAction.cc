@@ -4,9 +4,13 @@
 #include "ScanConfig.hh"
 #include "G4SystemOfUnits.hh"
 
+#include <TFile.h>
+#include <TH1D.h>
 #include <sstream>
 
 RunAction::RunAction()
+    : fRootFiles(kNumDetectors, nullptr),
+      fHistCurrent(kNumDetectors, nullptr)
 {}
 
 RunAction::~RunAction()
@@ -15,9 +19,14 @@ RunAction::~RunAction()
     {
         fOutFile.close();
     }
-    if(fSpectrumFile.is_open())
+    for(int det = 0; det < kNumDetectors; det++)
     {
-        fSpectrumFile.close();
+        if(fRootFiles[det] && fRootFiles[det]->IsOpen())
+        {
+            fRootFiles[det]->Close();
+            delete fRootFiles[det];
+            fRootFiles[det] = nullptr;
+        }
     }
 }
 
@@ -27,10 +36,10 @@ void RunAction::BeginOfRunAction(
 {
     fResults.clear();
 
+    // Summary CSV file
     if(!fOutFile.is_open())
     {
         std::stringstream fname;
-
         fname << "scan_results_"
               << gStartPoint
               << "_"
@@ -45,24 +54,39 @@ void RunAction::BeginOfRunAction(
             << "det0_flux,det1_flux,det2_flux,det3_flux,det4_flux,det5_flux\n";
     }
 
-    if(!fSpectrumFile.is_open())
+    // Open one ROOT file per detector if not yet open
+    for(int det = 0; det < kNumDetectors; det++)
     {
-        std::stringstream sfname;
-
-        sfname << "spectrum_"
-               << gStartPoint
-               << "_"
-               << gEndPoint
-               << ".csv";
-
-        fSpectrumFile.open(sfname.str());
-
-        fSpectrumFile << "x,y,detectorID";
-        for(int bin = 0; bin < 1000; bin++)
+        if(!fRootFiles[det])
         {
-            fSpectrumFile << ",bin" << bin;
+            std::stringstream rfname;
+            rfname << "spectrum_det" << det
+                   << "_" << gStartPoint
+                   << "_" << gEndPoint
+                   << ".root";
+
+            fRootFiles[det] = new TFile(rfname.str().c_str(), "RECREATE");
         }
-        fSpectrumFile << "\n";
+    }
+
+    // Create a TH1D for each detector for the current scan point
+    int pointIndex = gCurrentPoint;
+    double px = 0.0, py = 0.0;
+    if(pointIndex >= 0 && pointIndex < (int)scanPoints.size())
+    {
+        px = scanPoints[pointIndex].x;
+        py = scanPoints[pointIndex].y;
+    }
+
+    for(int det = 0; det < kNumDetectors; det++)
+    {
+        fRootFiles[det]->cd();
+        std::stringstream hname, htitle;
+        hname << "h_scan_" << pointIndex;
+        htitle << "Detector " << det << " - Scan Point " << pointIndex
+               << " (x=" << px << " mm, y=" << py << " mm);Energy (keV);Counts";
+
+        fHistCurrent[det] = new TH1D(hname.str().c_str(), htitle.str().c_str(), 1000, 0.0, 1000.0);
     }
 
     G4cout << "====================================\n";
@@ -99,21 +123,10 @@ void RunAction::AddSpectrum(
     int detectorID,
     double edep)
 {
-    int pointIndex = gCurrentPoint;
-
-    if(pointIndex >= (int)scanPoints.size())
-        return;
-
-    int bin = static_cast<int>(edep / (1.0 * keV));
-
-    if(bin >= 0 && bin < 1000)
+    if(detectorID >= 0 && detectorID < kNumDetectors && fHistCurrent[detectorID])
     {
-        auto key = std::make_pair(pointIndex, detectorID);
-        if(fSpectra.find(key) == fSpectra.end())
-        {
-            fSpectra[key].assign(1000, 0);
-        }
-        fSpectra[key][bin]++;
+        double edep_keV = edep / keV;
+        fHistCurrent[detectorID]->Fill(edep_keV);
     }
 }
 
@@ -121,7 +134,7 @@ void RunAction::AddSpectrum(
 void RunAction::EndOfRunAction(
     const G4Run*)
 {
-    const int nDetectors = 6;
+    const int nDetectors = kNumDetectors;
     const long EVENTS_PER_POINT = 100000;
 
     int pointIndex = gCurrentPoint;
@@ -131,6 +144,7 @@ void RunAction::EndOfRunAction(
         ScanPoint p =
             scanPoints[pointIndex];
 
+        // 1. Write summary to CSV
         fOutFile
             << p.x << ","
             << p.y << ","
@@ -153,40 +167,35 @@ void RunAction::EndOfRunAction(
         fOutFile << "\n";
         fOutFile.flush();
 
-        for(int detectorID = 0; detectorID < nDetectors; detectorID++)
+        // 2. Write histograms to respective ROOT files
+        for(int det = 0; det < nDetectors; det++)
         {
-            auto key = std::make_pair(pointIndex, detectorID);
-
-            fSpectrumFile << p.x << "," << p.y << "," << detectorID;
-
-            if(fSpectra.count(key))
+            if(fRootFiles[det] && fHistCurrent[det])
             {
-                const auto& bins = fSpectra[key];
-                for(int bin = 0; bin < 1000; bin++)
-                {
-                    fSpectrumFile << "," << bins[bin];
-                }
+                fRootFiles[det]->cd();
+                fHistCurrent[det]->Write();
+                delete fHistCurrent[det];
+                fHistCurrent[det] = nullptr;
             }
-            else
-            {
-                for(int bin = 0; bin < 1000; bin++)
-                {
-                    fSpectrumFile << ",0";
-                }
-            }
-            fSpectrumFile << "\n";
         }
-        fSpectrumFile.flush();
-        fSpectra.clear();
     }
 
     if(gCurrentPoint == gEndPoint)
     {
         fOutFile.close();
-        fSpectrumFile.close();
+
+        for(int det = 0; det < nDetectors; det++)
+        {
+            if(fRootFiles[det] && fRootFiles[det]->IsOpen())
+            {
+                fRootFiles[det]->Close();
+                delete fRootFiles[det];
+                fRootFiles[det] = nullptr;
+            }
+        }
 
         G4cout << "====================================\n";
-        G4cout << "CSV SAVED\n";
+        G4cout << "CSV AND ROOT SPECTRA FILES SAVED\n";
         G4cout << "====================================\n";
     }
 }

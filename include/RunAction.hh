@@ -10,6 +10,8 @@
 #include <utility>
 
 class G4Run;
+class TFile;
+class TH1D;
 
 class RunAction : public G4UserRunAction
 {
@@ -58,17 +60,15 @@ private:
         DetectorData
     > fResults;
 
-    // KEY: (pointIndex, detectorID) -> std::vector<long> (1000 bins)
-    std::map<
-        std::pair<int,int>,
-        std::vector<long>
-    > fSpectra;
+    // Current point energy deposits: detectorID -> TH1D*
+    static const int kNumDetectors = 6;
+    std::vector<TFile*> fRootFiles;
+    std::vector<TH1D*> fHistCurrent;
 
     // ======================================
     // OUTPUT FILES
     // ======================================
     std::ofstream fOutFile;
-    std::ofstream fSpectrumFile;
 };
 
 #endif
