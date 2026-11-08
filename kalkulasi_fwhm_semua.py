@@ -43,21 +43,28 @@ def hitung_fwhm_text(csv_path):
     
     half_max = baseline + (peak_val - baseline) / 2.0
     
-    # Interpolasi Linear
-    left_y = y_slice[:peak_idx+1]
-    left_prof = profile_slice[:peak_idx+1]
-    
-    right_y = y_slice[peak_idx:]
-    right_prof = profile_slice[peak_idx:]
-    
-    # Sort for interpolation
-    sort_left = np.argsort(left_prof)
-    y1 = np.interp(half_max, left_prof[sort_left], left_y[sort_left])
-    
-    sort_right = np.argsort(right_prof)
-    y2 = np.interp(half_max, right_prof[sort_right], right_y[sort_right])
-    
-    fwhm = abs(y2 - y1)
+    # Interpolasi Linear pada flank puncak
+    y1 = np.nan
+    for i in range(peak_idx - 1, -1, -1):
+        if (profile_slice[i] >= half_max and profile_slice[i+1] <= half_max) or \
+           (profile_slice[i] <= half_max and profile_slice[i+1] >= half_max):
+            y_a, y_b = y_slice[i], y_slice[i+1]
+            p_a, p_b = profile_slice[i], profile_slice[i+1]
+            if p_b != p_a:
+                y1 = y_a + (half_max - p_a) * (y_b - y_a) / (p_b - p_a)
+                break
+                
+    y2 = np.nan
+    for i in range(peak_idx, len(y_slice) - 1):
+        if (profile_slice[i] <= half_max and profile_slice[i+1] >= half_max) or \
+           (profile_slice[i] >= half_max and profile_slice[i+1] <= half_max):
+            y_a, y_b = y_slice[i], y_slice[i+1]
+            p_a, p_b = profile_slice[i], profile_slice[i+1]
+            if p_b != p_a:
+                y2 = y_a + (half_max - p_a) * (y_b - y_a) / (p_b - p_a)
+                break
+                
+    fwhm = abs(y2 - y1) if (not np.isnan(y1) and not np.isnan(y2)) else np.nan
     
     return {
         "target_x": target_x,
